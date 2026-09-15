@@ -1,0 +1,67 @@
+[
+  {
+    "slug": "building-environment-ieq",
+    "name": "Building Environment and IEQ",
+    "code": "A"
+  },
+  {
+    "slug": "hvac-building-services",
+    "name": "HVAC and Building Services",
+    "code": "B"
+  },
+  {
+    "slug": "building-energy-zeb",
+    "name": "Building Energy and ZEB",
+    "code": "C"
+  },
+  {
+    "slug": "bms-bacs-automation",
+    "name": "BMS, BAS, BACS and Building Automation",
+    "code": "D"
+  },
+  {
+    "slug": "bim-semantic-information",
+    "name": "BIM and Semantic Information",
+    "code": "E"
+  },
+  {
+    "slug": "digital-twin",
+    "name": "Digital Twin",
+    "code": "F"
+  },
+  {
+    "slug": "sensors-iot-data-integration",
+    "name": "Sensors, IoT and Data Integration",
+    "code": "G"
+  },
+  {
+    "slug": "fdd-maintenance",
+    "name": "Fault Detection, Diagnostics and Maintenance",
+    "code": "H"
+  },
+  {
+    "slug": "ai-machine-learning",
+    "name": "AI and Machine Learning for Buildings",
+    "code": "I"
+  },
+  {
+    "slug": "retrieval-query-llm-agent",
+    "name": "Retrieval, Query, LLM and Agent",
+    "code": "J"
+  },
+  {
+    "slug": "occupancy-human-building",
+    "name": "Occupancy and Human-Building Interaction",
+    "code": "K"
+  },
+  {
+    "slug": "reviews-frameworks-standards",
+    "name": "Reviews, Frameworks and Standards",
+    "code": "L"
+  },
+  {
+    "slug": "uncategorized",
+    "name": "Uncategorized",
+    "code": null
+  }
+]

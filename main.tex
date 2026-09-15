@@ -1,0 +1,58 @@
+\documentclass[a4paper,11pt]{jsarticle}
+\input{macro_jsarticle}
+\title{Paper Reading Notes\\[1em]\large Building Services and Information}
+\author{}
+\date{}
+\begin{document}
+\begin{titlepage}
+\maketitle
+\thispagestyle{empty}
+\begin{center}
+Building Science / Building Information\\
+Screening and Literature Library
+\end{center}
+\vfill
+\noindent Paper ID: permanent library identifier (P001, P002, \ldots).\\
+BibTeX key: bibliography identifier.\\
+Citation number: assigned in citation order; independent of Paper ID.
+\end{titlepage}
+\tableofcontents
+\clearpage
+\input{sections/building-environment-ieq}
+\clearpage
+\input{sections/hvac-building-services}
+\clearpage
+\input{sections/building-energy-zeb}
+\clearpage
+\input{sections/bms-bacs-automation}
+\clearpage
+\input{sections/bim-semantic-information}
+\clearpage
+\input{sections/digital-twin}
+\clearpage
+\input{sections/sensors-iot-data-integration}
+\clearpage
+\input{sections/fdd-maintenance}
+\clearpage
+\input{sections/ai-machine-learning}
+\clearpage
+\input{sections/retrieval-query-llm-agent}
+\clearpage
+\input{sections/occupancy-human-building}
+\clearpage
+\input{sections/reviews-frameworks-standards}
+\clearpage
+\input{sections/uncategorized}
+\clearpage
+\input{metadata/library_state.tex}
+% unsrt assigns reference numbers in citation order, not author order.
+\bibliographystyle{unsrt}
+% Empty libraries must not invoke BibTeX with zero citations.
+\ifdefined\LibraryHasPapers
+  \bibliography{references}
+\else
+  \section*{References}
+  \addcontentsline{toc}{section}{References}
+  No references registered.
+\fi
+\end{document}

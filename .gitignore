@@ -1,0 +1,13 @@
+main.pdf
+*.aux
+*.bbl
+*.blg
+*.dvi
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.toc
+_site/
+.tmp/
+.library.lock

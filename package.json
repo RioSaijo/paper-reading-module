@@ -1,0 +1,11 @@
+{
+  "name": "paper-reading-module",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test tests/*.test.mjs",
+    "validate": "node scripts/library.mjs validate",
+    "build:pdf": "node scripts/build.mjs",
+    "pages": "node scripts/pages.mjs"
+  }
+}

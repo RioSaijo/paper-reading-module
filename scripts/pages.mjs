@@ -1,0 +1,12 @@
+import fs from 'node:fs';
+import crypto from 'node:crypto';
+const pdf=fs.readFileSync('paper-reading-notes.pdf');
+if(!pdf.subarray(0,5).equals(Buffer.from('%PDF-')))throw new Error('Invalid PDF');
+const version=crypto.createHash('sha256').update(pdf).digest('hex').slice(0,12);
+const name='paper-reading-notes-'+version+'.pdf';
+fs.mkdirSync('_site',{recursive:true});
+fs.writeFileSync('_site/paper-reading-notes.pdf',pdf);
+fs.writeFileSync('_site/'+name,pdf);
+fs.writeFileSync('_site/.nojekyll','');
+fs.writeFileSync('_site/index.html','<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate"><meta http-equiv="refresh" content="0; url='+name+'"><title>Paper Reading Notes</title></head><body><a href="'+name+'">最新版PDFを開く</a></body></html>');
+console.log(name);
