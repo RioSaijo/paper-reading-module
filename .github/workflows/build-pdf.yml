@@ -38,7 +38,7 @@ jobs:
       - name: Install Japanese LaTeX and PDF inspection tools
         run: |
           sudo apt-get update
-          sudo apt-get install -y latexmk texlive-lang-japanese texlive-latex-extra poppler-utils
+          sudo apt-get install -y latexmk texlive-lang-japanese texlive-latex-extra fonts-ipaexfont poppler-utils
       - run: npm test
       - run: npm run validate
       - name: Compile Japanese LaTeX
@@ -49,6 +49,7 @@ jobs:
             exit 1
           fi
           cp main.pdf paper-reading-notes.pdf
+          git rev-parse HEAD > .pdf-source.sha
       - uses: actions/upload-artifact@v6
         with:
           name: paper-reading-notes
@@ -63,7 +64,7 @@ jobs:
           fi
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add paper-reading-notes.pdf
+          git add paper-reading-notes.pdf .pdf-source.sha
           if git diff --cached --quiet; then exit 0; fi
           git commit -m "chore: regenerate reading notes"
           git push origin HEAD:main

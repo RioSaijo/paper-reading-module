@@ -5,7 +5,7 @@ Building Services and Information research paper library.
 [Open the latest Paper Reading Notes](https://RioSaijo.github.io/paper-reading-module/)  
 [Stable PDF](https://RioSaijo.github.io/paper-reading-module/paper-reading-notes.pdf)
 
-公開状態: 初回GitHub作成・Actions実行・Pages公開の確認待ち。上記は公開予定URLです。
+GitHub ActionsによるPDF生成とGitHub Pages公開を確認済みです。
 
 ## Purpose
 建築設備・建築環境・建築情報の文献を短く読み、分類・蓄積し、精読対象を選ぶライブラリです。

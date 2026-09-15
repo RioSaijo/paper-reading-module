@@ -20,8 +20,8 @@ export function duplicates(p,papers){
   q=>title(p.title)&&title(p.title)===title(q.title),
   q=>title(p.title)===title(q.title)&&p.authors?.[0]===q.authors?.[0]&&p.year===q.year
  ];
- for(const check of checks){const found=papers.filter(check);if(found.length)return found;}
- return [];
+ // Keep priority ordering, but do not hide conflicting matches at lower priorities.
+ return [...new Set(checks.flatMap(check=>papers.filter(check)))];
 }
 export function tex(s){return String(s??'要検討').replace(/[\\{}%&#_$~^]/g,c=>({'\\':'\\textbackslash{}','{':'\\{','}':'\\}','%':'\\%','&':'\\&','#':'\\#','_':'\\_','$':'\\$','~':'\\textasciitilde{}','^':'\\textasciicircum{}'}[c]));}
 const aliases={'building management system':'BMS','building management systems':'BMS','bms':'BMS','bim':'BIM','building information modeling':'BIM','building information modelling':'BIM','iot':'IoT','internet of things':'IoT','hvac':'HVAC','digital twin':'Digital Twin','llm':'LLM','large language model':'LLM','large language models':'LLM'};
@@ -70,6 +70,7 @@ function prepare(root,input,existing,id){
  assert(['article','misc','inproceedings','techreport'].includes(p.bibliography_type),'Invalid bibliography type');
  assert(cats.includes(p.primary_category)&&p.secondary_categories.every(c=>cats.includes(c)&&c!==p.primary_category),'Invalid category');
  assert(statuses.includes(p.review_status),'Invalid review status');
+ assert(p.review_status==='registered'||p.full_text_checked===true,'Screening requires full-text verification');
  assert(p.keywords.length<=8&&(p.keywords.length>=3||p.keyword_exception),'Use 3-8 keywords, or explain keyword_exception');
  const b=p.bibliography||{};
  assert(b.title===p.title,'Bibliographic title must match index');
@@ -81,13 +82,18 @@ function prepare(root,input,existing,id){
  return p;
 }
 function transaction(root,fn){
+ root=path.resolve(root);
  const lock=path.join(root,'.library.lock');const fd=fs.openSync(lock,'wx');
  const paths=['papers','sections','metadata','review_queue','references.bib'];
  const backup=new Map();
  const collect=p=>{const absolute=path.join(root,p);if(fs.statSync(absolute).isDirectory())for(const n of fs.readdirSync(absolute))collect(p+'/'+n);else backup.set(p,fs.readFileSync(absolute));};
- paths.forEach(collect);
+ try{paths.forEach(collect);}catch(e){fs.closeSync(fd);fs.unlinkSync(lock);throw e;}
  try{return fn();}catch(e){
-  for(const p of paths)fs.rmSync(path.join(root,p),{recursive:true,force:true});
+  for(const p of paths){
+   const target=path.resolve(root,p);
+   assert(target.startsWith(root+path.sep),'Rollback target outside library');
+   fs.rmSync(target,{recursive:true,force:true});
+  }
   for(const [p,b]of backup)write(root,p,b);
   throw e;
  }finally{fs.closeSync(fd);fs.unlinkSync(lock);}
@@ -128,6 +134,7 @@ export function handoff(root,id,request={}){
   const q={schema_version:'1.0',source_module:'paper-reading-module',target_module:'paper-review-module'};
   for(const k of ['paper_id','title','authors','doi','bibtex_key','source_url','local_pdf','primary_category','secondary_categories','keywords','screening_review'])q[k]=p[k];
   q.review_request={mode:'deep_review',focus:request.focus||[],user_questions:request.user_questions||[]};
+  assert(Array.isArray(q.review_request.focus)&&Array.isArray(q.review_request.user_questions),'Focus and questions must be arrays');
   assert([...q.review_request.focus,...q.review_request.user_questions].every(s=>typeof s==='string'),'Focus and questions must be strings');
   json(root,'review_queue/'+id+'.json',q);
   const queue=read(root,queuePath);queue.papers=queue.papers.filter(q=>q.paper_id!==id);
@@ -137,6 +144,7 @@ export function handoff(root,id,request={}){
  });
 }
 export function status(root,id,value){
+ validate(root);
  assert(statuses.includes(value),'Invalid status');
  assert(value!=='queued_for_review','Use handoff to create queue');
  return transaction(root,()=>{

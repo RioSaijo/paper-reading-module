@@ -20,7 +20,7 @@ function fixture(){
 function dossier(n=1){
  const title='Synthetic fixture '+n,author='Test Author';
  return {title,authors:[author],year:null,doi:null,arxiv_id:null,bibtex_key:n===1?'ZTest':'ATest'+n,
-  source_url:null,primary_category:'Uncategorized',keywords:['BMS','BIM','IoT'],review_status:'screened',
+  source_url:null,primary_category:'Uncategorized',keywords:['BMS','BIM','IoT'],review_status:'screened',full_text_checked:true,
   bibliography:{title,author},evidence:{bibliography:{title:{source:'synthetic test'},author:{source:'synthetic test'}}}};
 }
 test('empty fixture is strict and actual library is valid',()=>{
@@ -50,6 +50,28 @@ test('evidence rejection rolls back and preserves next ID',()=>{
   assert.throws(()=>register(root,bad),/evidence/);
   assert.equal(validate(root).next_paper_id,'P001');
   assert.deepEqual(fs.readdirSync(path.join(root,'papers')),['_template.tex']);
+ }finally{fs.rmSync(root,{recursive:true});}
+});
+test('conflicting DOI and title matches cannot overwrite either paper',()=>{
+ const root=fixture();try{
+  const first=dossier();first.doi='10.0000/test-one';first.bibliography.doi=first.doi;
+  first.evidence.bibliography.doi={source:'synthetic test'};
+  register(root,first);register(root,dossier(2));
+  const conflict={...first,title:dossier(2).title,bibliography:{...first.bibliography,title:dossier(2).title}};
+  assert.throws(()=>register(root,conflict),/Ambiguous duplicate/);
+  assert.equal(validate(root).papers,2);
+  assert.equal(read(root,'metadata/paper_index.json').next_paper_id,3);
+ }finally{fs.rmSync(root,{recursive:true});}
+});
+test('abstract-only records cannot be marked screened and handoff requires arrays',()=>{
+ const root=fixture();try{
+  const p=dossier();p.full_text_checked=false;
+  assert.throws(()=>register(root,p),/full-text/);
+  p.review_status='registered';register(root,p);
+  assert.throws(()=>status(root,'P001','screened'),/full-text/);
+  register(root,dossier());
+  assert.throws(()=>handoff(root,'P001',{focus:'methodology'}),/arrays/);
+  assert.equal(read(root,'review_queue/paper_review_queue.json').papers.length,0);
  }finally{fs.rmSync(root,{recursive:true});}
 });
 test('counter is honored even when earlier IDs were deleted',()=>{
