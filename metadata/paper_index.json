@@ -1,5 +1,89 @@
 {
   "schema_version": "1.0",
-  "next_paper_id": 1,
-  "papers": []
+  "next_paper_id": 2,
+  "papers": [
+    {
+      "title": "Spatial-temporal CO2 concentration prediction in education facilities with dynamic layouts using BIM and multi-modal graph neural networks",
+      "authors": [
+        "Hao Liu",
+        "Kam-Ming Mark Tam",
+        "Cong Huang",
+        "Chun Yin Lai",
+        "Eric Schuldenfrei"
+      ],
+      "year": 2026,
+      "doi": "10.1016/j.buildenv.2026.114528",
+      "arxiv_id": null,
+      "bibtex_key": "Liu:2026DynamicCO2",
+      "source_url": "https://www.sciencedirect.com/science/article/pii/S0360132326003343",
+      "local_pdf": null,
+      "primary_category": "Building Environment and IEQ",
+      "secondary_categories": [
+        "AI and Machine Learning for Buildings",
+        "BIM and Semantic Information"
+      ],
+      "keywords": [
+        "Spatial-temporal prediction",
+        "CO2 concentration",
+        "Education facility",
+        "Space reconfigurability",
+        "BIM",
+        "Graph neural networks",
+        "Multi-modal deep learning"
+      ],
+      "review_status": "screened",
+      "full_text_checked": true,
+      "bibliography_type": "article",
+      "bibliography": {
+        "title": "Spatial-temporal CO2 concentration prediction in education facilities with dynamic layouts using BIM and multi-modal graph neural networks",
+        "author": "Hao Liu and Kam-Ming Mark Tam and Cong Huang and Chun Yin Lai and Eric Schuldenfrei",
+        "journal": "Building and Environment",
+        "year": "2026",
+        "volume": "297",
+        "pages": "114528",
+        "doi": "10.1016/j.buildenv.2026.114528",
+        "url": "https://www.sciencedirect.com/science/article/pii/S0360132326003343"
+      },
+      "screening_review": {
+        "main_claim": "BIM由来の時変レイアウトとVoronoiベースのCO2センサ隣接グラフをmulti-modal deep learningで統合し, 2時間先予測でMAE 11.25 ppmを達成し, 比較対象中で次点のTGCNの15.10 ppmより約25%低いMAEを示した.",
+        "novelty": "静的レイアウトを前提とする既往のGNN型CO2予測に対し, BIMから時変の間仕切り構成をテンソル化し, センサグラフ文脈と空間構成文脈を二枝のMMDLで統合した点に新規性がある.",
+        "positioning": "教育施設のIAQ予測を主目的としつつ, BIM幾何情報を予測モデルの入力文脈として利用するため, Building Environment and IEQを主分類, AI and Machine Learning for BuildingsおよびBIM and Semantic Informationを副分類として位置付ける."
+      },
+      "evidence": {
+        "bibliography": {
+          "title": {"source": "https://www.sciencedirect.com/science/article/pii/S0360132326003343"},
+          "author": {"source": "https://www.sciencedirect.com/science/article/pii/S0360132326003343"},
+          "journal": {"source": "https://www.sciencedirect.com/science/article/pii/S0360132326003343"},
+          "year": {"source": "https://www.sciencedirect.com/science/article/pii/S0360132326003343"},
+          "volume": {"source": "https://www.sciencedirect.com/science/article/pii/S0360132326003343"},
+          "pages": {"source": "https://www.sciencedirect.com/science/article/pii/S0360132326003343"},
+          "doi": {"source": "https://www.sciencedirect.com/science/article/pii/S0360132326003343"},
+          "url": {"source": "https://www.sciencedirect.com/science/article/pii/S0360132326003343"}
+        },
+        "review": {
+          "main_claim": {
+            "source": "user-provided PDF: 1-s2.0-S0360132326003343-main.pdf",
+            "locator": "p. 13, Table 2 and Results and discussion",
+            "kind": "author_claim"
+          },
+          "novelty": {
+            "source": "user-provided PDF: 1-s2.0-S0360132326003343-main.pdf",
+            "locator": "pp. 16-17, Conclusions and stated contributions",
+            "kind": "author_claim"
+          },
+          "positioning": {
+            "source": "user-provided PDF: 1-s2.0-S0360132326003343-main.pdf",
+            "locator": "pp. 1-3, Abstract/Literature review; pp. 16-17, Conclusions",
+            "kind": "interpretation"
+          }
+        },
+        "classification": {
+          "source": "user-provided PDF: 1-s2.0-S0360132326003343-main.pdf",
+          "rationale": "Primary objective is indoor CO2/IAQ prediction in education facilities; GNN/MMDL is the predictive methodology and BIM-derived dynamic geometry is a secondary information-model input."
+        }
+      },
+      "paper_id": "P001",
+      "paper_file": "papers/P001.tex"
+    }
+  ]
 }
