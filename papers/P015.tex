@@ -1,0 +1,12 @@
+\subsection{P015 --- Deep reinforcement learning control for co-optimizing energy consumption, thermal comfort, and indoor air quality in an office building}
+\label{paper:P015}
+\textbf{Authors:} Fangzhou Guo, Sang woo Ham, Donghun Kim, Hyeun Jun Moon\par
+\textbf{Major Category:} HVAC and Building Services\par
+\textbf{Secondary Category:} AI and Machine Learning for Buildings, Building Environment and IEQ, Building Energy and ZEB\par
+\textbf{Keywords:} Deep reinforcement learning, HVAC control, Energy, Thermal comfort, CO2, PM2.5, DDPG\par
+\paragraph{主な主張}
+DDPG-based DRLでcentral HVACのchilled-water temperature, damper, fan, air purifierを制御し, energy, thermal comfort, CO2, PM2.5を同時最適化した. hybrid simulator上でrule-based control比21.4\%のenergy savingを報告した一方, MPCはDRLより18.6\%低いenergy useを示した. \cite{Guo:2025DRLHVACIAQ}
+\paragraph{新規性}
+複数のHVAC actuatorをcontinuous actionとして扱い, energy, comfort, CO2, PM2.5間のtrade-offを一つのDRL supervisory controllerで扱うとともに, calibrated hybrid simulatorをtraining environmentに用いた点に特徴がある.
+\paragraph{位置付け}
+central HVAC supervisory controlが中核であるためHVAC and Building Servicesを主分類とし, DRL, IAQ, energy optimizationを副分類とする.
