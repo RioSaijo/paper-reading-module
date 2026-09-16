@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "next_paper_id": 2,
+  "next_paper_id": 3,
   "papers": [
     {
       "title": "Spatial-temporal CO2 concentration prediction in education facilities with dynamic layouts using BIM and multi-modal graph neural networks",
@@ -84,6 +84,92 @@
       },
       "paper_id": "P001",
       "paper_file": "papers/P001.tex"
+    },
+    {
+      "title": "Graph-based spatial–temporal prediction and feature interaction analysis of CO2 and occupant in large indoor space",
+      "authors": [
+        "Cong Huang",
+        "Helen H.L. Kwok",
+        "Kwok Ho Poon",
+        "Zhaoji Wu",
+        "Fangli Hou",
+        "Jun Ma",
+        "Jack C.P. Cheng"
+      ],
+      "year": 2025,
+      "doi": "10.1016/j.buildenv.2025.112963",
+      "arxiv_id": null,
+      "bibtex_key": "Huang:2025GraphCO2Occupant",
+      "source_url": "https://www.sciencedirect.com/science/article/pii/S0360132325004457",
+      "local_pdf": null,
+      "primary_category": "Building Environment and IEQ",
+      "secondary_categories": [
+        "AI and Machine Learning for Buildings",
+        "Occupancy and Human-Building Interaction",
+        "Sensors, IoT and Data Integration"
+      ],
+      "keywords": [
+        "Graph neural network",
+        "Spatial-temporal prediction",
+        "Spatial-temporal feature interactions",
+        "Indoor Air Quality",
+        "Indoor occupant",
+        "Dynamic graph learning",
+        "Occupant-in-loop"
+      ],
+      "review_status": "screened",
+      "full_text_checked": true,
+      "bibliography_type": "article",
+      "bibliography": {
+        "title": "Graph-based spatial–temporal prediction and feature interaction analysis of CO2 and occupant in large indoor space",
+        "author": "Cong Huang and Helen H.L. Kwok and Kwok Ho Poon and Zhaoji Wu and Fangli Hou and Jun Ma and Jack C.P. Cheng",
+        "journal": "Building and Environment",
+        "year": "2025",
+        "volume": "280",
+        "pages": "112963",
+        "doi": "10.1016/j.buildenv.2025.112963",
+        "url": "https://www.sciencedirect.com/science/article/pii/S0360132325004457"
+      },
+      "screening_review": {
+        "main_claim": "提案AST-GCGRUは, 6 hおよび12 hのmulti-step predictionでgraph-level R2 0.898および0.812を示し, GCGRUの0.860および0.699を上回った. 12 hではoccupant node R2 0.59, CO2 node R2 0.73で, GCGRUの0.32, 0.58より高かった.",
+        "novelty": "距離ベースの固定graphではなく, partial correlationで初期化したgraphをST-Attで学習中に更新し, time-lag nodesにより30 min CO2 sensorと6 min occupant sensorの異なる時間解像度を保持したまま, CO2とoccupancyを同一graphで同時予測・interaction analysisする構成を提示した.",
+        "positioning": "大空間におけるIAQとoccupancyの同時予測・相互作用分析を主目的とするため, Building Environment and IEQを主分類とし, AI and Machine Learning for Buildings, Occupancy and Human-Building Interaction, Sensors, IoT and Data Integrationを副分類として位置付ける."
+      },
+      "evidence": {
+        "bibliography": {
+          "title": {"source": "https://www.sciencedirect.com/science/article/pii/S0360132325004457"},
+          "author": {"source": "https://www.sciencedirect.com/science/article/pii/S0360132325004457"},
+          "journal": {"source": "https://www.sciencedirect.com/science/article/pii/S0360132325004457"},
+          "year": {"source": "https://www.sciencedirect.com/science/article/pii/S0360132325004457"},
+          "volume": {"source": "https://www.sciencedirect.com/science/article/pii/S0360132325004457"},
+          "pages": {"source": "https://www.sciencedirect.com/science/article/pii/S0360132325004457"},
+          "doi": {"source": "https://www.sciencedirect.com/science/article/pii/S0360132325004457"},
+          "url": {"source": "https://www.sciencedirect.com/science/article/pii/S0360132325004457"}
+        },
+        "review": {
+          "main_claim": {
+            "source": "user-provided PDF: 1-s2.0-S0360132325004457-main.pdf",
+            "locator": "p. 13, Table 5, Model performance on multi-step predictions",
+            "kind": "author_claim"
+          },
+          "novelty": {
+            "source": "user-provided PDF: 1-s2.0-S0360132325004457-main.pdf",
+            "locator": "pp. 4-7, stated contributions and methodology; p. 18, Conclusions",
+            "kind": "author_claim"
+          },
+          "positioning": {
+            "source": "user-provided PDF: 1-s2.0-S0360132325004457-main.pdf",
+            "locator": "pp. 1-4, Abstract/Introduction/research gaps; p. 18, Conclusions",
+            "kind": "interpretation"
+          }
+        },
+        "classification": {
+          "source": "user-provided PDF: 1-s2.0-S0360132325004457-main.pdf",
+          "rationale": "Primary objective and evaluation concern indoor CO2/IAQ and occupant dynamics in a large indoor space; AST-GCGRU is the learning methodology, while occupancy interaction and heterogeneous IoT sensing are secondary contributions."
+        }
+      },
+      "paper_id": "P002",
+      "paper_file": "papers/P002.tex"
     }
   ]
 }
