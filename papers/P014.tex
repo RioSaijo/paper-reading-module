@@ -5,8 +5,8 @@
 \textbf{Secondary Category:} HVAC and Building Services, AI and Machine Learning for Buildings\par
 \textbf{Keywords:} CO2, PM2.5, Ventilation, Predictive control, VAV, Indoor air quality, Co-simulation\par
 \paragraph{主な主張}
-occupancy-based system-level DCVと, DNNによるCO2/PM2.5 one-step predictionを用いたzone-level controlを組み合わせたVAV ventilation strategyを提案した. EnergyPlus-CONTAM-Python co-simulationで, CO2は100\%, PM2.5は97.33\%の時間で上限値以下を維持した. \cite{Choi:2025CO2PM25Ventilation}
+CO2/PM2.5予測を用いるVAV ventilation controlを提案し, co-simulationで両汚染物質の制御性能を評価した. \cite{Choi:2025CO2PM25Ventilation}
 \paragraph{新規性}
-CO2とPM2.5の予測値と上限値のerror rateからcontrol priorityを動的に切替え, 複雑なoptimization functionへの依存を抑えたmulti-pollutant ventilation controlを構成した点に特徴がある.
+CO2とPM2.5の予測errorに応じcontrol priorityを動的に切替えた.
 \paragraph{位置付け}
-CO2とPM2.5を同時に扱うIAQ controlが主要目的であるためBuilding Environment and IEQを主分類とし, ventilation/HVACとpredictionを副分類とする.
+multi-pollutant IAQ predictive ventilation control研究として位置付ける.

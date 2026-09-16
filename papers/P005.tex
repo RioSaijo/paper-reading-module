@@ -5,8 +5,8 @@
 \textbf{Secondary Category:} AI and Machine Learning for Buildings, Occupancy and Human-Building Interaction, Sensors, IoT and Data Integration\par
 \textbf{Keywords:} CO2 prediction, Physics-informed neural network, Occupancy, HVAC operation, IoT, Indoor air quality\par
 \paragraph{主な主張}
-occupant count, AHU operating status, outdoor-air damper opening, outdoor air quality等を入力し, CO2 mass balance equationをlossに組み込んだPINNを評価した. 9th floor dataで10-min予測RMSE 4.04 ppm, 60-min recursive予測RMSE 17.16 ppmを報告した. \cite{Kim:2026CO2PINN}
+occupancyとHVAC/IoT dataにCO2 mass-balance制約を加えたPINNでoffice CO2を予測した. \cite{Kim:2026CO2PINN}
 \paragraph{新規性}
-CO2 mass balance equationをlearning objectiveへ直接組み込み, 実測occupancyとHVAC operational dataを同時利用することで, data-driven predictionへ物理制約を付加した点に特徴がある.
+data-driven CO2 predictionへmass-balance equationをphysics-informed lossとして導入した.
 \paragraph{位置付け}
-office CO2 predictionとIAQが主要評価対象であるためBuilding Environment and IEQを主分類とし, PINN, occupancy, IoT/HVAC data利用を副分類で表現する.
+CO2 predictionを中心とするIEQ×PINN研究として位置付ける.
