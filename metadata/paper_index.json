@@ -1,1 +1,2475 @@
-{"schema_version":"1.0","next_paper_id":28,"papers":[{"title":"Spatial-temporal CO2 concentration prediction in education facilities with dynamic layouts using BIM and multi-modal graph neural networks","authors":["Hao Liu","Kam-Ming Mark Tam","Cong Huang","Chun Yin Lai","Eric Schuldenfrei"],"year":2026,"doi":"10.1016/j.buildenv.2026.114528","arxiv_id":null,"bibtex_key":"Liu:2026DynamicCO2","source_url":null,"primary_category":"Building Environment and IEQ","secondary_categories":["AI and Machine Learning for Buildings","BIM and Semantic Information"],"keywords":["Spatial-temporal prediction","CO2 concentration","Education facility","Space reconfigurability","BIM","Graph neural networks","Multi-modal deep learning"],"review_status":"screened","full_text_checked":true,"bibliography_type":"article","bibliography":{"title":"Spatial-temporal CO2 concentration prediction in education facilities with dynamic layouts using BIM and multi-modal graph neural networks","author":"Hao Liu and Kam-Ming Mark Tam and Cong Huang and Chun Yin Lai and Eric Schuldenfrei","journal":"Building and Environment","year":"2026","volume":"297","pages":"114528","doi":"10.1016/j.buildenv.2026.114528"},"screening_review":{"main_claim":"BIM由来の時変レイアウトとVoronoiベースのCO2センサ隣接グラフをmulti-modal deep learningで統合し, 2時間先予測でMAE 11.25 ppmを達成し, 比較対象中で次点のTGCNの15.10 ppmより約25%低いMAEを示した.","novelty":"静的レイアウトを前提とする既往のGNN型CO2予測に対し, BIMから時変の間仕切り構成をテンソル化し, センサグラフ文脈と空間構成文脈を二枝のMMDLで統合した点に新規性がある.","positioning":"教育施設のIAQ予測を主目的としつつ, BIM幾何情報を予測モデルの入力文脈として利用するため, Building Environment and IEQを主分類, AI and Machine Learning for BuildingsおよびBIM and Semantic Informationを副分類として位置付ける."},"evidence":{"bibliography":{"title":{"source":"10.1016/j.buildenv.2026.114528"},"author":{"source":"10.1016/j.buildenv.2026.114528"},"journal":{"source":"10.1016/j.buildenv.2026.114528"},"year":{"source":"10.1016/j.buildenv.2026.114528"},"volume":{"source":"10.1016/j.buildenv.2026.114528"},"pages":{"source":"10.1016/j.buildenv.2026.114528"},"doi":{"source":"10.1016/j.buildenv.2026.114528"}},"review":{"main_claim":{"source":"10.1016/j.buildenv.2026.114528","locator":"Abstract/Results","kind":"author_claim"},"novelty":{"source":"10.1016/j.buildenv.2026.114528","locator":"Methods/Conclusions","kind":"author_claim"},"positioning":{"source":"10.1016/j.buildenv.2026.114528","locator":"Abstract/Conclusions","kind":"interpretation"}},"classification":{"source":"10.1016/j.buildenv.2026.114528","rationale":"Building Environment and IEQ"}},"paper_id":"P001","paper_file":"papers/P001.tex"},{"title":"Graph-based spatial–temporal prediction and feature interaction analysis of CO2 and occupant in large indoor space","authors":["Cong Huang","Helen H.L. Kwok","Kwok Ho Poon","Zhaoji Wu","Fangli Hou","Jun Ma","Jack C.P. Cheng"],"year":2025,"doi":"10.1016/j.buildenv.2025.112963","arxiv_id":null,"bibtex_key":"Huang:2025GraphCO2Occupant","source_url":null,"primary_category":"Building Environment and IEQ","secondary_categories":["AI and Machine Learning for Buildings","Occupancy and Human-Building Interaction","Sensors, IoT and Data Integration"],"keywords":["Graph neural network","Spatial-temporal prediction","Spatial-temporal feature interactions","Indoor Air Quality","Indoor occupant","Dynamic graph learning","Occupant-in-loop"],"review_status":"screened","full_text_checked":true,"bibliography_type":"article","bibliography":{"title":"Graph-based spatial–temporal prediction and feature interaction analysis of CO2 and occupant in large indoor space","author":"Cong Huang and Helen H.L. Kwok and Kwok Ho Poon and Zhaoji Wu and Fangli Hou and Jun Ma and Jack C.P. Cheng","journal":"Building and Environment","year":"2025","volume":"280","pages":"112963","doi":"10.1016/j.buildenv.2025.112963"},"screening_review":{"main_claim":"提案AST-GCGRUは, 6 hおよび12 hのmulti-step predictionでgraph-level R2 0.898および0.812を示し, GCGRUの0.860および0.699を上回った. 12 hではoccupant node R2 0.59, CO2 node R2 0.73で, GCGRUの0.32, 0.58より高かった.","novelty":"距離ベースの固定graphではなく, partial correlationで初期化したgraphをST-Attで学習中に更新し, time-lag nodesにより30 min CO2 sensorと6 min occupant sensorの異なる時間解像度を保持したまま, CO2とoccupancyを同一graphで同時予測・interaction analysisする構成を提示した.","positioning":"大空間におけるIAQとoccupancyの同時予測・相互作用分析を主目的とするため, Building Environment and IEQを主分類とし, AI and Machine Learning for Buildings, Occupancy and Human-Building Interaction, Sensors, IoT and Data Integrationを副分類として位置付ける."},"evidence":{"bibliography":{"title":{"source":"10.1016/j.buildenv.2025.112963"},"author":{"source":"10.1016/j.buildenv.2025.112963"},"journal":{"source":"10.1016/j.buildenv.2025.112963"},"year":{"source":"10.1016/j.buildenv.2025.112963"},"volume":{"source":"10.1016/j.buildenv.2025.112963"},"pages":{"source":"10.1016/j.buildenv.2025.112963"},"doi":{"source":"10.1016/j.buildenv.2025.112963"}},"review":{"main_claim":{"source":"10.1016/j.buildenv.2025.112963","locator":"Abstract/Results","kind":"author_claim"},"novelty":{"source":"10.1016/j.buildenv.2025.112963","locator":"Methods/Conclusions","kind":"author_claim"},"positioning":{"source":"10.1016/j.buildenv.2025.112963","locator":"Abstract/Conclusions","kind":"interpretation"}},"classification":{"source":"10.1016/j.buildenv.2025.112963","rationale":"Building Environment and IEQ"}},"paper_id":"P002","paper_file":"papers/P002.tex"},{"title":"Digital twin applications for indoor environmental quality in healthy building research: a systematic review of indicators, methods and computational paradigms","authors":["Alessandro D'Amico","Edoardo Currà","Philomena M. Bluyssen"],"year":2026,"doi":"10.1016/j.buildenv.2026.115014","arxiv_id":null,"bibtex_key":"DAmico:2026DTIEQ","source_url":null,"primary_category":"Reviews, Frameworks and Standards","secondary_categories":["Digital Twin","Building Environment and IEQ","BIM and Semantic Information"],"keywords":["Digital Twin","Indoor environmental quality","Healthy buildings","BIM","IoT","Systematic review"],"review_status":"screened","full_text_checked":true,"bibliography_type":"article","bibliography":{"title":"Digital twin applications for indoor environmental quality in healthy building research: a systematic review of indicators, methods and computational paradigms","author":"Alessandro D'Amico and Edoardo Currà and Philomena M. Bluyssen","journal":"Building and Environment","year":"2026","volume":"304","pages":"115014","doi":"10.1016/j.buildenv.2026.115014"},"screening_review":{"main_claim":"62件のDT×IEQ研究をsystematic reviewし, building semanticsとoccupant-related dataの統合不足を整理した.","novelty":"DT×IEQを指標, 方法, computational paradigmの観点から横断整理した.","positioning":"DT×IEQの研究ギャップを整理するsystematic reviewとして位置付ける."},"evidence":{"bibliography":{"title":{"source":"10.1016/j.buildenv.2026.115014"},"author":{"source":"10.1016/j.buildenv.2026.115014"},"journal":{"source":"10.1016/j.buildenv.2026.115014"},"year":{"source":"10.1016/j.buildenv.2026.115014"},"volume":{"source":"10.1016/j.buildenv.2026.115014"},"pages":{"source":"10.1016/j.buildenv.2026.115014"},"doi":{"source":"10.1016/j.buildenv.2026.115014"}},"review":{"main_claim":{"source":"10.1016/j.buildenv.2026.115014","locator":"Abstract/Results","kind":"author_claim"},"novelty":{"source":"10.1016/j.buildenv.2026.115014","locator":"Methods/Conclusions","kind":"author_claim"},"positioning":{"source":"10.1016/j.buildenv.2026.115014","locator":"Abstract/Conclusions","kind":"interpretation"}},"classification":{"source":"10.1016/j.buildenv.2026.115014","rationale":"Reviews, Frameworks and Standards"}},"paper_id":"P003","paper_file":"papers/P003.tex"},{"title":"How to measure and control indoor air quality based on intelligent digital twin platforms: A case study in China","authors":["Yuchong Qian","Jiawei Leng","Kai Zhou","Yuxuan Liu"],"year":2024,"doi":"10.1016/j.buildenv.2024.111349","arxiv_id":null,"bibtex_key":"Qian:2024IaqDT","source_url":null,"primary_category":"Digital Twin","secondary_categories":["Building Environment and IEQ","BIM and Semantic Information","Sensors, IoT and Data Integration"],"keywords":["Digital Twin","Indoor air quality","BIM","IoT","Machine learning","Monitoring and control"],"review_status":"screened","full_text_checked":true,"bibliography_type":"article","bibliography":{"title":"How to measure and control indoor air quality based on intelligent digital twin platforms: A case study in China","author":"Yuchong Qian and Jiawei Leng and Kai Zhou and Yuxuan Liu","journal":"Building and Environment","year":"2024","volume":"253","pages":"111349","doi":"10.1016/j.buildenv.2024.111349"},"screening_review":{"main_claim":"IoT, BIM, machine learningを統合したIAQ用digital twin platformを構築し, monitoring, prediction, visualization, controlを実装した.","novelty":"IAQのSense-Integrate-Retrieve-Analyze-Feedbackを単一DT platformへ統合した.","positioning":"BIM-IoT-ML統合によるIAQ Digital Twin platform研究として位置付ける."},"evidence":{"bibliography":{"title":{"source":"10.1016/j.buildenv.2024.111349"},"author":{"source":"10.1016/j.buildenv.2024.111349"},"journal":{"source":"10.1016/j.buildenv.2024.111349"},"year":{"source":"10.1016/j.buildenv.2024.111349"},"volume":{"source":"10.1016/j.buildenv.2024.111349"},"pages":{"source":"10.1016/j.buildenv.2024.111349"},"doi":{"source":"10.1016/j.buildenv.2024.111349"}},"review":{"main_claim":{"source":"10.1016/j.buildenv.2024.111349","locator":"Abstract/Results","kind":"author_claim"},"novelty":{"source":"10.1016/j.buildenv.2024.111349","locator":"Methods/Conclusions","kind":"author_claim"},"positioning":{"source":"10.1016/j.buildenv.2024.111349","locator":"Abstract/Conclusions","kind":"interpretation"}},"classification":{"source":"10.1016/j.buildenv.2024.111349","rationale":"Digital Twin"}},"paper_id":"P004","paper_file":"papers/P004.tex"},{"title":"CO2 concentration prediction in office spaces using physics-informed neural network based on number of occupants and IoT sensor data","authors":["Jehyun Kim","Gihoon Kim","Jong-Il Bang","Anseop Choi","Minki Sung"],"year":2026,"doi":"10.1016/j.buildenv.2025.114035","arxiv_id":null,"bibtex_key":"Kim:2026CO2PINN","source_url":null,"primary_category":"Building Environment and IEQ","secondary_categories":["AI and Machine Learning for Buildings","Occupancy and Human-Building Interaction","Sensors, IoT and Data Integration"],"keywords":["CO2 prediction","Physics-informed neural network","Occupancy","HVAC operation","IoT","Indoor air quality"],"review_status":"screened","full_text_checked":true,"bibliography_type":"article","bibliography":{"title":"CO2 concentration prediction in office spaces using physics-informed neural network based on number of occupants and IoT sensor data","author":"Jehyun Kim and Gihoon Kim and Jong-Il Bang and Anseop Choi and Minki Sung","journal":"Building and Environment","year":"2026","volume":"288","pages":"114035","doi":"10.1016/j.buildenv.2025.114035"},"screening_review":{"main_claim":"occupancyとHVAC/IoT dataにCO2 mass-balance制約を加えたPINNでoffice CO2を予測した.","novelty":"data-driven CO2 predictionへmass-balance equationをphysics-informed lossとして導入した.","positioning":"CO2 predictionを中心とするIEQ×PINN研究として位置付ける."},"evidence":{"bibliography":{"title":{"source":"10.1016/j.buildenv.2025.114035"},"author":{"source":"10.1016/j.buildenv.2025.114035"},"journal":{"source":"10.1016/j.buildenv.2025.114035"},"year":{"source":"10.1016/j.buildenv.2025.114035"},"volume":{"source":"10.1016/j.buildenv.2025.114035"},"pages":{"source":"10.1016/j.buildenv.2025.114035"},"doi":{"source":"10.1016/j.buildenv.2025.114035"}},"review":{"main_claim":{"source":"10.1016/j.buildenv.2025.114035","locator":"Abstract/Results","kind":"author_claim"},"novelty":{"source":"10.1016/j.buildenv.2025.114035","locator":"Methods/Conclusions","kind":"author_claim"},"positioning":{"source":"10.1016/j.buildenv.2025.114035","locator":"Abstract/Conclusions","kind":"interpretation"}},"classification":{"source":"10.1016/j.buildenv.2025.114035","rationale":"Building Environment and IEQ"}},"paper_id":"P005","paper_file":"papers/P005.tex"},{"title":"Understanding the effect of outdoor pollution episodes and HVAC type on indoor air quality","authors":["Tristalee Mangin","Zachary Barrett","Zachary Palmer","Dillon Tang","Sean Nielson","Darrah Sleeth","Kerry Kelly"],"year":2025,"doi":"10.1016/j.buildenv.2025.112978","arxiv_id":null,"bibtex_key":"Mangin:2025OutdoorPM25","source_url":null,"primary_category":"Building Environment and IEQ","secondary_categories":["HVAC and Building Services","Sensors, IoT and Data Integration"],"keywords":["PM2.5","HVAC","Infiltration","Wildfire smoke","Indoor air quality","Low-cost sensors"],"review_status":"screened","full_text_checked":true,"bibliography_type":"article","bibliography":{"title":"Understanding the effect of outdoor pollution episodes and HVAC type on indoor air quality","author":"Tristalee Mangin and Zachary Barrett and Zachary Palmer and Dillon Tang and Sean Nielson and Darrah Sleeth and Kerry Kelly","journal":"Building and Environment","year":"2025","volume":"278","pages":"112978","doi":"10.1016/j.buildenv.2025.112978"},"screening_review":{"main_claim":"18か月, 21台のPM2.5 sensorでoutdoor pollution episodeとHVAC typeによる室内PM2.5 infiltration差を評価した.","novelty":"inversion, dust, wildfire smokeをHVAC type別にlong-term比較した.","positioning":"outdoor-to-indoor PM2.5 infiltrationとHVAC影響の実測研究として位置付ける."},"evidence":{"bibliography":{"title":{"source":"10.1016/j.buildenv.2025.112978"},"author":{"source":"10.1016/j.buildenv.2025.112978"},"journal":{"source":"10.1016/j.buildenv.2025.112978"},"year":{"source":"10.1016/j.buildenv.2025.112978"},"volume":{"source":"10.1016/j.buildenv.2025.112978"},"pages":{"source":"10.1016/j.buildenv.2025.112978"},"doi":{"source":"10.1016/j.buildenv.2025.112978"}},"review":{"main_claim":{"source":"10.1016/j.buildenv.2025.112978","locator":"Abstract/Results","kind":"author_claim"},"novelty":{"source":"10.1016/j.buildenv.2025.112978","locator":"Methods/Conclusions","kind":"author_claim"},"positioning":{"source":"10.1016/j.buildenv.2025.112978","locator":"Abstract/Conclusions","kind":"interpretation"}},"classification":{"source":"10.1016/j.buildenv.2025.112978","rationale":"Building Environment and IEQ"}},"paper_id":"P006","paper_file":"papers/P006.tex"},{"title":"A BIM-enabled digital twin framework for real-time indoor environment monitoring and visualization by integrating autonomous robotics, LiDAR-based 3D mobile mapping, IoT sensing, and indoor positioning technologies","authors":["Xi Hu","Rayan H. Assaad"],"year":2024,"doi":"10.1016/j.jobe.2024.108901","arxiv_id":null,"bibtex_key":"Hu:2024BIMDigitalTwin","source_url":null,"primary_category":"Digital Twin","secondary_categories":["Building Environment and IEQ","BIM and Semantic Information","Sensors, IoT and Data Integration"],"keywords":["Digital Twin","BIM","IoT","Indoor environmental monitoring","Indoor positioning","Robotics","LiDAR"],"review_status":"screened","full_text_checked":true,"bibliography_type":"article","bibliography":{"title":"A BIM-enabled digital twin framework for real-time indoor environment monitoring and visualization by integrating autonomous robotics, LiDAR-based 3D mobile mapping, IoT sensing, and indoor positioning technologies","author":"Xi Hu and Rayan H. Assaad","journal":"Journal of Building Engineering","year":"2024","volume":"86","pages":"108901","doi":"10.1016/j.jobe.2024.108901"},"screening_review":{"main_claim":"BIM, IoT, robotics, LiDAR, UWB positioningを統合し, real-time indoor environment monitoringをDT上で可視化した.","novelty":"mobile robotic sensingとindoor positioningをBIM-enabled DTへ統合した.","positioning":"BIM-enabled spatial Digital TwinによるIEQ monitoring研究として位置付ける."},"evidence":{"bibliography":{"title":{"source":"10.1016/j.jobe.2024.108901"},"author":{"source":"10.1016/j.jobe.2024.108901"},"journal":{"source":"10.1016/j.jobe.2024.108901"},"year":{"source":"10.1016/j.jobe.2024.108901"},"volume":{"source":"10.1016/j.jobe.2024.108901"},"pages":{"source":"10.1016/j.jobe.2024.108901"},"doi":{"source":"10.1016/j.jobe.2024.108901"}},"review":{"main_claim":{"source":"10.1016/j.jobe.2024.108901","locator":"Abstract/Results","kind":"author_claim"},"novelty":{"source":"10.1016/j.jobe.2024.108901","locator":"Methods/Conclusions","kind":"author_claim"},"positioning":{"source":"10.1016/j.jobe.2024.108901","locator":"Abstract/Conclusions","kind":"interpretation"}},"classification":{"source":"10.1016/j.jobe.2024.108901","rationale":"Digital Twin"}},"paper_id":"P007","paper_file":"papers/P007.tex"},{"title":"Digital twin-enabled smart facility management: A bibliometric review","authors":["Obaidullah Hakimi","Hexu Liu","Osama Abudayyeh"],"year":2024,"doi":"10.1007/s42524-023-0254-4","arxiv_id":null,"bibtex_key":"Hakimi:2024DTSmartFM","source_url":null,"primary_category":"Reviews, Frameworks and Standards","secondary_categories":["Digital Twin","BIM and Semantic Information","Fault Detection, Diagnostics and Maintenance"],"keywords":["Digital Twin","Facility management","BIM","Semantic interoperability","Predictive maintenance","Autonomous control"],"review_status":"screened","full_text_checked":true,"bibliography_type":"article","bibliography":{"title":"Digital twin-enabled smart facility management: A bibliometric review","author":"Obaidullah Hakimi and Hexu Liu and Osama Abudayyeh","journal":"Frontiers of Engineering Management","year":"2024","volume":"11","number":"1","pages":"32--49","doi":"10.1007/s42524-023-0254-4"},"screening_review":{"main_claim":"248件をbibliometric reviewし, DT-enabled FMの主要潮流とsemantic interoperability, predictive maintenance等の将来課題を整理した.","novelty":"DT-enabled FM研究の構造とfuture needsをbibliometricに体系化した.","positioning":"Digital Twin×facility managementのbibliometric reviewとして位置付ける."},"evidence":{"bibliography":{"title":{"source":"10.1007/s42524-023-0254-4"},"author":{"source":"10.1007/s42524-023-0254-4"},"journal":{"source":"10.1007/s42524-023-0254-4"},"year":{"source":"10.1007/s42524-023-0254-4"},"volume":{"source":"10.1007/s42524-023-0254-4"},"number":{"source":"10.1007/s42524-023-0254-4"},"pages":{"source":"10.1007/s42524-023-0254-4"},"doi":{"source":"10.1007/s42524-023-0254-4"}},"review":{"main_claim":{"source":"10.1007/s42524-023-0254-4","locator":"Abstract/Results","kind":"author_claim"},"novelty":{"source":"10.1007/s42524-023-0254-4","locator":"Methods/Conclusions","kind":"author_claim"},"positioning":{"source":"10.1007/s42524-023-0254-4","locator":"Abstract/Conclusions","kind":"interpretation"}},"classification":{"source":"10.1007/s42524-023-0254-4","rationale":"Reviews, Frameworks and Standards"}},"paper_id":"P008","paper_file":"papers/P008.tex"},{"title":"A systematic comparison and evaluation of building ontologies for deploying data-driven analytics in smart buildings","authors":["Zhangcheng Qiang","Stuart Hands","Kerry Taylor","Subbu Sethuvenkatraman","Daniel Hugo","Pouya Ghiasnezhad Omran","Madhawa Perera","Armin Haller"],"year":2023,"doi":"10.1016/j.enbuild.2023.113054","arxiv_id":null,"bibtex_key":"Qiang:2023BuildingOntologies","source_url":null,"primary_category":"BIM and Semantic Information","secondary_categories":["Reviews, Frameworks and Standards","Sensors, IoT and Data Integration"],"keywords":["Building ontology","Data interoperability","Brick Schema","RealEstateCore","Project Haystack","Digital Buildings","Ontology evaluation"],"review_status":"screened","full_text_checked":true,"bibliography_type":"article","bibliography":{"title":"A systematic comparison and evaluation of building ontologies for deploying data-driven analytics in smart buildings","author":"Zhangcheng Qiang and Stuart Hands and Kerry Taylor and Subbu Sethuvenkatraman and Daniel Hugo and Pouya Ghiasnezhad Omran and Madhawa Perera and Armin Haller","journal":"Energy and Buildings","year":"2023","volume":"292","pages":"113054","doi":"10.1016/j.enbuild.2023.113054"},"screening_review":{"main_claim":"Brick, RealEstateCore, Project Haystack, Digital Buildingsの4 ontologyをTBox/ABox両面で比較し, alignmentの必要性を示した.","novelty":"axiomatic qualityと実建物dataによるcompleteness/expressivenessを同一frameworkで評価した.","positioning":"smart-building ontology interoperabilityの比較評価研究として位置付ける."},"evidence":{"bibliography":{"title":{"source":"10.1016/j.enbuild.2023.113054"},"author":{"source":"10.1016/j.enbuild.2023.113054"},"journal":{"source":"10.1016/j.enbuild.2023.113054"},"year":{"source":"10.1016/j.enbuild.2023.113054"},"volume":{"source":"10.1016/j.enbuild.2023.113054"},"pages":{"source":"10.1016/j.enbuild.2023.113054"},"doi":{"source":"10.1016/j.enbuild.2023.113054"}},"review":{"main_claim":{"source":"10.1016/j.enbuild.2023.113054","locator":"Abstract/Results","kind":"author_claim"},"novelty":{"source":"10.1016/j.enbuild.2023.113054","locator":"Methods/Conclusions","kind":"author_claim"},"positioning":{"source":"10.1016/j.enbuild.2023.113054","locator":"Abstract/Conclusions","kind":"interpretation"}},"classification":{"source":"10.1016/j.enbuild.2023.113054","rationale":"BIM and Semantic Information"}},"paper_id":"P009","paper_file":"papers/P009.tex"},{"title":"BIM-to-BRICK: Using graph modeling for IoT/BMS and spatial semantic data interoperability within digital data models of buildings","authors":["Filippo Vittori","Chuan Fu Tan","Anna Laura Pisello","Adrian Chong","Cristina Piselli","Clayton Miller"],"year":2025,"doi":"10.1016/j.enbuild.2025.116368","arxiv_id":null,"bibtex_key":"Vittori:2025BIMtoBRICK","source_url":null,"primary_category":"BIM and Semantic Information","secondary_categories":["BMS, BAS, BACS and Building Automation","Sensors, IoT and Data Integration","Digital Twin"],"keywords":["BIM","Brick Schema","BMS","IoT","Knowledge graph","Data interoperability","Digital Twin"],"review_status":"screened","full_text_checked":true,"bibliography_type":"article","bibliography":{"title":"BIM-to-BRICK: Using graph modeling for IoT/BMS and spatial semantic data interoperability within digital data models of buildings","author":"Filippo Vittori and Chuan Fu Tan and Anna Laura Pisello and Adrian Chong and Cristina Piselli and Clayton Miller","journal":"Energy and Buildings","year":"2025","volume":"348","pages":"116368","doi":"10.1016/j.enbuild.2025.116368"},"screening_review":{"main_claim":"BIM-to-BRICKによりBIM情報をBrick knowledge graphへ自動変換し, BIMとBMS/IoT dataのsemantic interoperabilityを実装した.","novelty":"BIM-to-Brick mappingをgraph modelingで自動化した.","positioning":"BIM-BMS/IoT間semantic interoperability研究として位置付ける."},"evidence":{"bibliography":{"title":{"source":"10.1016/j.enbuild.2025.116368"},"author":{"source":"10.1016/j.enbuild.2025.116368"},"journal":{"source":"10.1016/j.enbuild.2025.116368"},"year":{"source":"10.1016/j.enbuild.2025.116368"},"volume":{"source":"10.1016/j.enbuild.2025.116368"},"pages":{"source":"10.1016/j.enbuild.2025.116368"},"doi":{"source":"10.1016/j.enbuild.2025.116368"}},"review":{"main_claim":{"source":"10.1016/j.enbuild.2025.116368","locator":"Abstract/Results","kind":"author_claim"},"novelty":{"source":"10.1016/j.enbuild.2025.116368","locator":"Methods/Conclusions","kind":"author_claim"},"positioning":{"source":"10.1016/j.enbuild.2025.116368","locator":"Abstract/Conclusions","kind":"interpretation"}},"classification":{"source":"10.1016/j.enbuild.2025.116368","rationale":"BIM and Semantic Information"}},"paper_id":"P010","paper_file":"papers/P010.tex"},{"title":"Integrating the Brick Schema and Control Description Language for automation and controls in BIM","authors":["Esben Visby Fjerbæk","Kevin Michael Smith","Christian Anker Hviid"],"year":2026,"doi":"10.1016/j.autcon.2026.106849","arxiv_id":null,"bibtex_key":"Fjerbaek:2026BrickCDL","source_url":null,"primary_category":"BMS, BAS, BACS and Building Automation","secondary_categories":["BIM and Semantic Information","HVAC and Building Services"],"keywords":["BACS","Brick Schema","Control Description Language","BIM","HVAC controls","Interoperability"],"review_status":"screened","full_text_checked":true,"bibliography_type":"article","bibliography":{"title":"Integrating the Brick Schema and Control Description Language for automation and controls in BIM","author":"Esben Visby Fjerbæk and Kevin Michael Smith and Christian Anker Hviid","journal":"Automation in Construction","year":"2026","volume":"184","pages":"106849","doi":"10.1016/j.autcon.2026.106849"},"screening_review":{"main_claim":"Brick SchemaとCDLを統合し, BIM由来HVAC equipmentとcontrol logicをmachine-readable knowledge graphで接続した.","novelty":"BACS contextとcontrol sequenceをBrick+CDLで一体表現した.","positioning":"BACS/HVAC control semanticsとBIM interoperability研究として位置付ける."},"evidence":{"bibliography":{"title":{"source":"10.1016/j.autcon.2026.106849"},"author":{"source":"10.1016/j.autcon.2026.106849"},"journal":{"source":"10.1016/j.autcon.2026.106849"},"year":{"source":"10.1016/j.autcon.2026.106849"},"volume":{"source":"10.1016/j.autcon.2026.106849"},"pages":{"source":"10.1016/j.autcon.2026.106849"},"doi":{"source":"10.1016/j.autcon.2026.106849"}},"review":{"main_claim":{"source":"10.1016/j.autcon.2026.106849","locator":"Abstract/Results","kind":"author_claim"},"novelty":{"source":"10.1016/j.autcon.2026.106849","locator":"Methods/Conclusions","kind":"author_claim"},"positioning":{"source":"10.1016/j.autcon.2026.106849","locator":"Abstract/Conclusions","kind":"interpretation"}},"classification":{"source":"10.1016/j.autcon.2026.106849","rationale":"BMS, BAS, BACS and Building Automation"}},"paper_id":"P011","paper_file":"papers/P011.tex"},{"title":"An ontology-aided, natural language-based approach for multi-constraint BIM model querying","authors":["Mengtian Yin","Llewellyn Tang","Chris Webster","Shen Xu","Xiongyi Li","Huaquan Ying"],"year":2023,"doi":"10.1016/j.jobe.2023.107066","arxiv_id":null,"bibtex_key":"Yin:2023OntologyBIMQuery","source_url":null,"primary_category":"Retrieval, Query, LLM and Agent","secondary_categories":["BIM and Semantic Information"],"keywords":["Natural language query","BIM retrieval","Ontology","Semantic parser","SPARQL","IFC","Multi-constraint query"],"review_status":"screened","full_text_checked":true,"bibliography_type":"article","bibliography":{"title":"An ontology-aided, natural language-based approach for multi-constraint BIM model querying","author":"Mengtian Yin and Llewellyn Tang and Chris Webster and Shen Xu and Xiongyi Li and Huaquan Ying","journal":"Journal of Building Engineering","year":"2023","volume":"76","pages":"107066","doi":"10.1016/j.jobe.2023.107066"},"screening_review":{"main_claim":"ontology-aided semantic parserでmulti-constraint natural language queryをIFC-compliant SPARQLへ変換し, 225 NLQsで91.11%のoverall accuracyを報告した.","novelty":"複合NL queryをontologyを介してstructured BIM queryへ変換した.","positioning":"自然言語によるBIM retrieval/query研究として位置付ける."},"evidence":{"bibliography":{"title":{"source":"10.1016/j.jobe.2023.107066"},"author":{"source":"10.1016/j.jobe.2023.107066"},"journal":{"source":"10.1016/j.jobe.2023.107066"},"year":{"source":"10.1016/j.jobe.2023.107066"},"volume":{"source":"10.1016/j.jobe.2023.107066"},"pages":{"source":"10.1016/j.jobe.2023.107066"},"doi":{"source":"10.1016/j.jobe.2023.107066"}},"review":{"main_claim":{"source":"10.1016/j.jobe.2023.107066","locator":"Abstract/Results","kind":"author_claim"},"novelty":{"source":"10.1016/j.jobe.2023.107066","locator":"Methods/Conclusions","kind":"author_claim"},"positioning":{"source":"10.1016/j.jobe.2023.107066","locator":"Abstract/Conclusions","kind":"interpretation"}},"classification":{"source":"10.1016/j.jobe.2023.107066","rationale":"Retrieval, Query, LLM and Agent"}},"paper_id":"P012","paper_file":"papers/P012.tex"},{"title":"Smart metering data enhancement in sustainable buildings via knowledge graph-guided graph neural networks","authors":["Fang He","Jiaqi Fan","Yang Deng","Xiaoyang Zhang","Ka Tai Lau","Dan Wang"],"year":2025,"doi":"10.1016/j.knosys.2025.114016","arxiv_id":null,"bibtex_key":"He:2025BuildKnow","source_url":null,"primary_category":"Sensors, IoT and Data Integration","secondary_categories":["AI and Machine Learning for Buildings","BIM and Semantic Information"],"keywords":["Smart metering","Building knowledge graph","Graph neural network","Data enhancement","Knowledge embedding","Brick Schema"],"review_status":"screened","full_text_checked":true,"bibliography_type":"article","bibliography":{"title":"Smart metering data enhancement in sustainable buildings via knowledge graph-guided graph neural networks","author":"Fang He and Jiaqi Fan and Yang Deng and Xiaoyang Zhang and Ka Tai Lau and Dan Wang","journal":"Knowledge-Based Systems","year":"2025","volume":"325","pages":"114016","doi":"10.1016/j.knosys.2025.114016"},"screening_review":{"main_claim":"building knowledge graphとGNNを融合したBuildKnowによりsmart-meter data enhancementを行い, 3実建物で評価した.","novelty":"knowledge graph由来のmeter dependenceをGNNの学習priorとして利用した.","positioning":"smart-meter data qualityとknowledge-guided GNN研究として位置付ける."},"evidence":{"bibliography":{"title":{"source":"10.1016/j.knosys.2025.114016"},"author":{"source":"10.1016/j.knosys.2025.114016"},"journal":{"source":"10.1016/j.knosys.2025.114016"},"year":{"source":"10.1016/j.knosys.2025.114016"},"volume":{"source":"10.1016/j.knosys.2025.114016"},"pages":{"source":"10.1016/j.knosys.2025.114016"},"doi":{"source":"10.1016/j.knosys.2025.114016"}},"review":{"main_claim":{"source":"10.1016/j.knosys.2025.114016","locator":"Abstract/Results","kind":"author_claim"},"novelty":{"source":"10.1016/j.knosys.2025.114016","locator":"Methods/Conclusions","kind":"author_claim"},"positioning":{"source":"10.1016/j.knosys.2025.114016","locator":"Abstract/Conclusions","kind":"interpretation"}},"classification":{"source":"10.1016/j.knosys.2025.114016","rationale":"Sensors, IoT and Data Integration"}},"paper_id":"P013","paper_file":"papers/P013.tex"},{"title":"CO2- and PM2.5-Focused Optimal Ventilation Strategy Based on Predictive Control","authors":["Young Jae Choi","Eun Ji Choi","Jae Yoon Byun","Hyeun Jun Moon","Min Ki Sung","Jin Woo Moon"],"year":2025,"doi":"10.1155/ina/6652442","arxiv_id":null,"bibtex_key":"Choi:2025CO2PM25Ventilation","source_url":null,"primary_category":"Building Environment and IEQ","secondary_categories":["HVAC and Building Services","AI and Machine Learning for Buildings"],"keywords":["CO2","PM2.5","Ventilation","Predictive control","VAV","Indoor air quality","Co-simulation"],"review_status":"screened","full_text_checked":true,"bibliography_type":"article","bibliography":{"title":"CO2- and PM2.5-Focused Optimal Ventilation Strategy Based on Predictive Control","author":"Young Jae Choi and Eun Ji Choi and Jae Yoon Byun and Hyeun Jun Moon and Min Ki Sung and Jin Woo Moon","journal":"Indoor Air","year":"2025","volume":"2025","number":"1","pages":"6652442","doi":"10.1155/ina/6652442"},"screening_review":{"main_claim":"CO2/PM2.5予測を用いるVAV ventilation controlを提案し, co-simulationで両汚染物質の制御性能を評価した.","novelty":"CO2とPM2.5の予測errorに応じcontrol priorityを動的に切替えた.","positioning":"multi-pollutant IAQ predictive ventilation control研究として位置付ける."},"evidence":{"bibliography":{"title":{"source":"10.1155/ina/6652442"},"author":{"source":"10.1155/ina/6652442"},"journal":{"source":"10.1155/ina/6652442"},"year":{"source":"10.1155/ina/6652442"},"volume":{"source":"10.1155/ina/6652442"},"number":{"source":"10.1155/ina/6652442"},"pages":{"source":"10.1155/ina/6652442"},"doi":{"source":"10.1155/ina/6652442"}},"review":{"main_claim":{"source":"10.1155/ina/6652442","locator":"Abstract/Results","kind":"author_claim"},"novelty":{"source":"10.1155/ina/6652442","locator":"Methods/Conclusions","kind":"author_claim"},"positioning":{"source":"10.1155/ina/6652442","locator":"Abstract/Conclusions","kind":"interpretation"}},"classification":{"source":"10.1155/ina/6652442","rationale":"Building Environment and IEQ"}},"paper_id":"P014","paper_file":"papers/P014.tex"},{"title":"Deep reinforcement learning control for co-optimizing energy consumption, thermal comfort, and indoor air quality in an office building","authors":["Fangzhou Guo","Sang woo Ham","Donghun Kim","Hyeun Jun Moon"],"year":2025,"doi":"10.1016/j.apenergy.2024.124467","arxiv_id":null,"bibtex_key":"Guo:2025DRLHVACIAQ","source_url":null,"primary_category":"HVAC and Building Services","secondary_categories":["AI and Machine Learning for Buildings","Building Environment and IEQ","Building Energy and ZEB"],"keywords":["Deep reinforcement learning","HVAC control","Energy","Thermal comfort","CO2","PM2.5","DDPG"],"review_status":"screened","full_text_checked":true,"bibliography_type":"article","bibliography":{"title":"Deep reinforcement learning control for co-optimizing energy consumption, thermal comfort, and indoor air quality in an office building","author":"Fangzhou Guo and Sang woo Ham and Donghun Kim and Hyeun Jun Moon","journal":"Applied Energy","year":"2025","volume":"377","pages":"124467","doi":"10.1016/j.apenergy.2024.124467"},"screening_review":{"main_claim":"DDPG-based DRLでHVACを制御し, energy, thermal comfort, CO2, PM2.5を同時最適化した.","novelty":"複数HVAC actuatorとIEQ-energy trade-offを単一DRL supervisory controllerで扱った.","positioning":"HVAC supervisory controlにおけるDRL-based multi-objective optimization研究として位置付ける."},"evidence":{"bibliography":{"title":{"source":"10.1016/j.apenergy.2024.124467"},"author":{"source":"10.1016/j.apenergy.2024.124467"},"journal":{"source":"10.1016/j.apenergy.2024.124467"},"year":{"source":"10.1016/j.apenergy.2024.124467"},"volume":{"source":"10.1016/j.apenergy.2024.124467"},"pages":{"source":"10.1016/j.apenergy.2024.124467"},"doi":{"source":"10.1016/j.apenergy.2024.124467"}},"review":{"main_claim":{"source":"10.1016/j.apenergy.2024.124467","locator":"Abstract/Results","kind":"author_claim"},"novelty":{"source":"10.1016/j.apenergy.2024.124467","locator":"Methods/Conclusions","kind":"author_claim"},"positioning":{"source":"10.1016/j.apenergy.2024.124467","locator":"Abstract/Conclusions","kind":"interpretation"}},"classification":{"source":"10.1016/j.apenergy.2024.124467","rationale":"HVAC and Building Services"}},"paper_id":"P015","paper_file":"papers/P015.tex"},{"title":"Brick: Metadata schema for portable smart building applications","authors":["Bharathan Balaji","Arka Bhattacharya","Gabriel Fierro","Jingkun Gao","Joshua Gluck","Dezhi Hong","Aslak Johansen","Jason Koh","Joern Ploennigs","Yuvraj Agarwal","Mario Bergés","David Culler","Rajesh K. Gupta","Mikkel Baun Kjærgaard","Mani Srivastava","Kamin Whitehouse"],"year":2018,"doi":"10.1016/j.apenergy.2018.02.091","arxiv_id":null,"bibtex_key":"Balaji:2018Brick","source_url":null,"primary_category":"BIM and Semantic Information","secondary_categories":["BMS, BAS, BACS and Building Automation","Sensors, IoT and Data Integration"],"keywords":["Brick Schema","Building metadata","Semantic model","RDF","SPARQL","Portable applications"],"review_status":"registered","full_text_checked":false,"bibliography_type":"article","bibliography":{"title":"Brick: Metadata schema for portable smart building applications","author":"Bharathan Balaji and Arka Bhattacharya and Gabriel Fierro and Jingkun Gao and Joshua Gluck and Dezhi Hong and Aslak Johansen and Jason Koh and Joern Ploennigs and Yuvraj Agarwal and Mario Bergés and David Culler and Rajesh K. Gupta and Mikkel Baun Kjærgaard and Mani Srivastava and Kamin Whitehouse","journal":"Applied Energy","year":2018,"volume":"226","pages":"1273--1292","doi":"10.1016/j.apenergy.2018.02.091"},"screening_review":{"main_claim":"要検討","novelty":"要検討","positioning":"要検討"},"evidence":{"bibliography":{"title":{"source":"https://doi.org/10.1016/j.apenergy.2018.02.091"},"author":{"source":"https://doi.org/10.1016/j.apenergy.2018.02.091"},"journal":{"source":"https://doi.org/10.1016/j.apenergy.2018.02.091"},"year":{"source":"https://doi.org/10.1016/j.apenergy.2018.02.091"},"volume":{"source":"https://doi.org/10.1016/j.apenergy.2018.02.091"},"pages":{"source":"https://doi.org/10.1016/j.apenergy.2018.02.091"},"doi":{"source":"https://doi.org/10.1016/j.apenergy.2018.02.091"}},"review":{},"classification":{"source":"https://doi.org/10.1016/j.apenergy.2018.02.091","rationale":"The paper's primary contribution is a semantic metadata schema for representing building infrastructure and enabling portable smart-building applications."}},"paper_id":"P016","paper_file":"papers/P016.tex"},{"title":"BOT: The Building Topology Ontology of the W3C Linked Building Data Group","authors":["Mads Holten Rasmussen","Maxime Lefrançois","Georg Ferdinand Schneider","Pieter Pauwels"],"year":2021,"doi":"10.3233/SW-200385","arxiv_id":null,"bibtex_key":"Rasmussen:2021BOT","source_url":null,"primary_category":"BIM and Semantic Information","secondary_categories":["Reviews, Frameworks and Standards"],"keywords":["BOT","Building topology ontology","Linked Building Data","Ontology","Semantic Web","RDF"],"review_status":"registered","full_text_checked":false,"bibliography_type":"article","bibliography":{"title":"BOT: The Building Topology Ontology of the W3C Linked Building Data Group","author":"Mads Holten Rasmussen and Maxime Lefrançois and Georg Ferdinand Schneider and Pieter Pauwels","journal":"Semantic Web","year":2021,"volume":"12","number":"1","pages":"143--161","doi":"10.3233/SW-200385"},"screening_review":{"main_claim":"要検討","novelty":"要検討","positioning":"要検討"},"evidence":{"bibliography":{"title":{"source":"https://doi.org/10.3233/SW-200385"},"author":{"source":"https://doi.org/10.3233/SW-200385"},"journal":{"source":"https://doi.org/10.3233/SW-200385"},"year":{"source":"https://doi.org/10.3233/SW-200385"},"volume":{"source":"https://doi.org/10.3233/SW-200385"},"number":{"source":"https://doi.org/10.3233/SW-200385"},"pages":{"source":"https://doi.org/10.3233/SW-200385"},"doi":{"source":"https://doi.org/10.3233/SW-200385"}},"review":{},"classification":{"source":"https://doi.org/10.3233/SW-200385","rationale":"The paper defines a building-topology ontology for Linked Building Data and therefore primarily concerns semantic representation of building information."}},"paper_id":"P017","paper_file":"papers/P017.tex"},{"title":"Semantic model-based large-scale deployment of AI-driven building management applications","authors":["Kan Xu","Zhe Chen","Fu Xiao","Jing Zhang","Hanbei Zhang","Tianyou Ma"],"year":2024,"doi":"10.1016/j.autcon.2024.105579","arxiv_id":null,"bibtex_key":"Xu:2024SemanticAI","source_url":null,"primary_category":"BIM and Semantic Information","secondary_categories":["AI and Machine Learning for Buildings","BMS, BAS, BACS and Building Automation"],"keywords":["Semantic model","Brick Schema","AI applications","Building management","Data interoperability","Large-scale deployment"],"review_status":"registered","full_text_checked":false,"bibliography_type":"article","bibliography":{"title":"Semantic model-based large-scale deployment of AI-driven building management applications","author":"Kan Xu and Zhe Chen and Fu Xiao and Jing Zhang and Hanbei Zhang and Tianyou Ma","journal":"Automation in Construction","year":2024,"volume":"165","pages":"105579","doi":"10.1016/j.autcon.2024.105579"},"screening_review":{"main_claim":"要検討","novelty":"要検討","positioning":"要検討"},"evidence":{"bibliography":{"title":{"source":"https://doi.org/10.1016/j.autcon.2024.105579"},"author":{"source":"https://doi.org/10.1016/j.autcon.2024.105579"},"journal":{"source":"https://doi.org/10.1016/j.autcon.2024.105579"},"year":{"source":"https://doi.org/10.1016/j.autcon.2024.105579"},"volume":{"source":"https://doi.org/10.1016/j.autcon.2024.105579"},"pages":{"source":"https://doi.org/10.1016/j.autcon.2024.105579"},"doi":{"source":"https://doi.org/10.1016/j.autcon.2024.105579"}},"review":{},"classification":{"source":"https://doi.org/10.1016/j.autcon.2024.105579","rationale":"The framework uses a semantic model to integrate heterogeneous building data and support deployment of AI-driven building-management applications."}},"paper_id":"P018","paper_file":"papers/P018.tex"},{"title":"A framework for integrating BIM, building automation systems, and IoT: an application in design and operation using open standards","authors":["Shu Tang","Dennis R. Shelden","Xinghua Gao","Cheng Zhang","Jianli Hao","Fangyu Guo","Haoyu Zhang"],"year":2025,"doi":"10.1016/j.jobe.2025.114092","arxiv_id":null,"bibtex_key":"Tang:2025BIMBASIoT","source_url":null,"primary_category":"BIM and Semantic Information","secondary_categories":["BMS, BAS, BACS and Building Automation","Sensors, IoT and Data Integration"],"keywords":["BIM","BAS","IoT","BOT","Brick Schema","Semantic Web","Open standards"],"review_status":"registered","full_text_checked":false,"bibliography_type":"article","bibliography":{"title":"A framework for integrating BIM, building automation systems, and IoT: an application in design and operation using open standards","author":"Shu Tang and Dennis R. Shelden and Xinghua Gao and Cheng Zhang and Jianli Hao and Fangyu Guo and Haoyu Zhang","journal":"Journal of Building Engineering","year":2025,"volume":"113","pages":"114092","doi":"10.1016/j.jobe.2025.114092"},"screening_review":{"main_claim":"要検討","novelty":"要検討","positioning":"要検討"},"evidence":{"bibliography":{"title":{"source":"https://doi.org/10.1016/j.jobe.2025.114092"},"author":{"source":"https://doi.org/10.1016/j.jobe.2025.114092"},"journal":{"source":"https://doi.org/10.1016/j.jobe.2025.114092"},"year":{"source":"https://doi.org/10.1016/j.jobe.2025.114092"},"volume":{"source":"https://doi.org/10.1016/j.jobe.2025.114092"},"pages":{"source":"https://doi.org/10.1016/j.jobe.2025.114092"},"doi":{"source":"https://doi.org/10.1016/j.jobe.2025.114092"}},"review":{},"classification":{"source":"https://doi.org/10.1016/j.jobe.2025.114092","rationale":"The study focuses on semantic and open-standard integration across BIM, building automation systems, and IoT."}},"paper_id":"P019","paper_file":"papers/P019.tex"},{"title":"Ontology-driven energy management in smart buildings: A comprehensive review of methodologies, tools, and challenges","authors":["Adamantios Bampoulas","Kaiwalya Raj","Anandhi Parthiban","Mohammad Saffari","Eleni Mangina"],"year":2026,"doi":"10.1016/j.enbuild.2025.116817","arxiv_id":null,"bibtex_key":"Bampoulas:2026OntologyEnergyReview","source_url":null,"primary_category":"Reviews, Frameworks and Standards","secondary_categories":["BIM and Semantic Information","Building Energy and ZEB"],"keywords":["Ontology","Building energy systems","Semantic interoperability","Knowledge representation","Brick","SAREF","Digital Twin"],"review_status":"registered","full_text_checked":false,"bibliography_type":"article","bibliography":{"title":"Ontology-driven energy management in smart buildings: A comprehensive review of methodologies, tools, and challenges","author":"Adamantios Bampoulas and Kaiwalya Raj and Anandhi Parthiban and Mohammad Saffari and Eleni Mangina","journal":"Energy and Buildings","year":2026,"volume":"352","pages":"116817","doi":"10.1016/j.enbuild.2025.116817"},"screening_review":{"main_claim":"要検討","novelty":"要検討","positioning":"要検討"},"evidence":{"bibliography":{"title":{"source":"https://doi.org/10.1016/j.enbuild.2025.116817"},"author":{"source":"https://doi.org/10.1016/j.enbuild.2025.116817"},"journal":{"source":"https://doi.org/10.1016/j.enbuild.2025.116817"},"year":{"source":"https://doi.org/10.1016/j.enbuild.2025.116817"},"volume":{"source":"https://doi.org/10.1016/j.enbuild.2025.116817"},"pages":{"source":"https://doi.org/10.1016/j.enbuild.2025.116817"},"doi":{"source":"https://doi.org/10.1016/j.enbuild.2025.116817"}},"review":{},"classification":{"source":"https://doi.org/10.1016/j.enbuild.2025.116817","rationale":"This is a comprehensive review of ontology-driven methodologies and tools for building energy management."}},"paper_id":"P020","paper_file":"papers/P020.tex"},{"title":"Metadata schema for virtual building models in digital twins: VB schema implemented in GPT-based applications","authors":["Jeyoon Lee","Sungmin Yoon"],"year":2025,"doi":"10.1016/j.enbuild.2024.115039","arxiv_id":null,"bibtex_key":"Lee:2025VBSchema","source_url":null,"primary_category":"BIM and Semantic Information","secondary_categories":["Digital Twin","Retrieval, Query, LLM and Agent"],"keywords":["VB schema","Virtual building models","Digital Twin","Ontology","Brick Schema","GPT","HVAC"],"review_status":"registered","full_text_checked":false,"bibliography_type":"article","bibliography":{"title":"Metadata schema for virtual building models in digital twins: VB schema implemented in GPT-based applications","author":"Jeyoon Lee and Sungmin Yoon","journal":"Energy and Buildings","year":2025,"volume":"327","pages":"115039","doi":"10.1016/j.enbuild.2024.115039"},"screening_review":{"main_claim":"要検討","novelty":"要検討","positioning":"要検討"},"evidence":{"bibliography":{"title":{"source":"https://doi.org/10.1016/j.enbuild.2024.115039"},"author":{"source":"https://doi.org/10.1016/j.enbuild.2024.115039"},"journal":{"source":"https://doi.org/10.1016/j.enbuild.2024.115039"},"year":{"source":"https://doi.org/10.1016/j.enbuild.2024.115039"},"volume":{"source":"https://doi.org/10.1016/j.enbuild.2024.115039"},"pages":{"source":"https://doi.org/10.1016/j.enbuild.2024.115039"},"doi":{"source":"https://doi.org/10.1016/j.enbuild.2024.115039"}},"review":{},"classification":{"source":"https://doi.org/10.1016/j.enbuild.2024.115039","rationale":"The main contribution is a metadata schema for virtual building models, extending semantic representation in digital-twin environments."}},"paper_id":"P021","paper_file":"papers/P021.tex"},{"title":"Ontology-enabled AI agent-driven intelligent digital twins for building operations and maintenance","authors":["Sungmin Yoon","Jihwan Song","Jiteng Li"],"year":2025,"doi":"10.1016/j.jobe.2025.112802","arxiv_id":null,"bibtex_key":"Yoon:2025OntologyAIDT","source_url":null,"primary_category":"Digital Twin","secondary_categories":["Retrieval, Query, LLM and Agent","BIM and Semantic Information","Fault Detection, Diagnostics and Maintenance"],"keywords":["Digital Twin","AI agent","Ontology","Building operations","Maintenance","OpenAI API","LangChain"],"review_status":"registered","full_text_checked":false,"bibliography_type":"article","bibliography":{"title":"Ontology-enabled AI agent-driven intelligent digital twins for building operations and maintenance","author":"Sungmin Yoon and Jihwan Song and Jiteng Li","journal":"Journal of Building Engineering","year":2025,"volume":"108","pages":"112802","doi":"10.1016/j.jobe.2025.112802"},"screening_review":{"main_claim":"要検討","novelty":"要検討","positioning":"要検討"},"evidence":{"bibliography":{"title":{"source":"https://doi.org/10.1016/j.jobe.2025.112802"},"author":{"source":"https://doi.org/10.1016/j.jobe.2025.112802"},"journal":{"source":"https://doi.org/10.1016/j.jobe.2025.112802"},"year":{"source":"https://doi.org/10.1016/j.jobe.2025.112802"},"volume":{"source":"https://doi.org/10.1016/j.jobe.2025.112802"},"pages":{"source":"https://doi.org/10.1016/j.jobe.2025.112802"},"doi":{"source":"https://doi.org/10.1016/j.jobe.2025.112802"}},"review":{},"classification":{"source":"https://doi.org/10.1016/j.jobe.2025.112802","rationale":"The study proposes an ontology-enabled AI-agent architecture explicitly framed as an intelligent digital twin for building O&M."}},"paper_id":"P022","paper_file":"papers/P022.tex"},{"title":"Metadata schema for virtual sensors in digital twin-enabled building systems using Brick schema","authors":["Syed Mostasim Hasnain Saif","Jeyoon Lee","Peng Wang","Sungmin Yoon"],"year":2026,"doi":"10.1016/j.jobe.2026.115650","arxiv_id":null,"bibtex_key":"Saif:2026VirtualSensorBrick","source_url":null,"primary_category":"BIM and Semantic Information","secondary_categories":["Digital Twin","Sensors, IoT and Data Integration"],"keywords":["Virtual sensors","Brick Schema","Metadata schema","Digital Twin","Ontology","Building systems"],"review_status":"registered","full_text_checked":false,"bibliography_type":"article","bibliography":{"title":"Metadata schema for virtual sensors in digital twin-enabled building systems using Brick schema","author":"Syed Mostasim Hasnain Saif and Jeyoon Lee and Peng Wang and Sungmin Yoon","journal":"Journal of Building Engineering","year":2026,"volume":"121","pages":"115650","doi":"10.1016/j.jobe.2026.115650"},"screening_review":{"main_claim":"要検討","novelty":"要検討","positioning":"要検討"},"evidence":{"bibliography":{"title":{"source":"https://doi.org/10.1016/j.jobe.2026.115650"},"author":{"source":"https://doi.org/10.1016/j.jobe.2026.115650"},"journal":{"source":"https://doi.org/10.1016/j.jobe.2026.115650"},"year":{"source":"https://doi.org/10.1016/j.jobe.2026.115650"},"volume":{"source":"https://doi.org/10.1016/j.jobe.2026.115650"},"pages":{"source":"https://doi.org/10.1016/j.jobe.2026.115650"},"doi":{"source":"https://doi.org/10.1016/j.jobe.2026.115650"}},"review":{},"classification":{"source":"https://doi.org/10.1016/j.jobe.2026.115650","rationale":"The paper extends Brick with classes, relationships, and properties for virtual sensors in digital-twin-enabled building systems."}},"paper_id":"P023","paper_file":"papers/P023.tex"},{"title":"Commercial building indoor environmental quality models: A critical review","authors":["Soheil Roumi","Fan Zhang","Rodney A. Stewart","Mattheos Santamouris"],"year":2022,"doi":"10.1016/j.enbuild.2022.112033","arxiv_id":null,"bibtex_key":"Roumi:2022IEQModelsReview","source_url":null,"primary_category":"Reviews, Frameworks and Standards","secondary_categories":["Building Environment and IEQ"],"keywords":["Indoor environmental quality","IEQ models","Commercial buildings","Critical review","Thermal comfort","Indoor air quality"],"review_status":"registered","full_text_checked":false,"bibliography_type":"article","bibliography":{"title":"Commercial building indoor environmental quality models: A critical review","author":"Soheil Roumi and Fan Zhang and Rodney A. Stewart and Mattheos Santamouris","journal":"Energy and Buildings","year":2022,"volume":"263","pages":"112033","doi":"10.1016/j.enbuild.2022.112033"},"screening_review":{"main_claim":"要検討","novelty":"要検討","positioning":"要検討"},"evidence":{"bibliography":{"title":{"source":"https://doi.org/10.1016/j.enbuild.2022.112033"},"author":{"source":"https://doi.org/10.1016/j.enbuild.2022.112033"},"journal":{"source":"https://doi.org/10.1016/j.enbuild.2022.112033"},"year":{"source":"https://doi.org/10.1016/j.enbuild.2022.112033"},"volume":{"source":"https://doi.org/10.1016/j.enbuild.2022.112033"},"pages":{"source":"https://doi.org/10.1016/j.enbuild.2022.112033"},"doi":{"source":"https://doi.org/10.1016/j.enbuild.2022.112033"}},"review":{},"classification":{"source":"https://doi.org/10.1016/j.enbuild.2022.112033","rationale":"This is a critical review of IEQ models in commercial buildings and their analytical and evaluation approaches."}},"paper_id":"P024","paper_file":"papers/P024.tex"},{"title":"Machine Learning and Deep Learning Methods for Enhancing Building Energy Efficiency and Indoor Environmental Quality - A Review","authors":["Paige Wenbin Tien","Shuangyu Wei","Jo Darkwa","Christopher Wood","John Kaiser Calautit"],"year":2022,"doi":"10.1016/j.egyai.2022.100198","arxiv_id":null,"bibtex_key":"Tien:2022MLDLEnergyIEQReview","source_url":null,"primary_category":"Reviews, Frameworks and Standards","secondary_categories":["AI and Machine Learning for Buildings","Building Environment and IEQ","Building Energy and ZEB"],"keywords":["Machine learning","Deep learning","Building energy efficiency","Indoor environmental quality","Thermal comfort","Indoor air quality"],"review_status":"registered","full_text_checked":false,"bibliography_type":"article","bibliography":{"title":"Machine Learning and Deep Learning Methods for Enhancing Building Energy Efficiency and Indoor Environmental Quality - A Review","author":"Paige Wenbin Tien and Shuangyu Wei and Jo Darkwa and Christopher Wood and John Kaiser Calautit","journal":"Energy and AI","year":2022,"volume":"10","pages":"100198","doi":"10.1016/j.egyai.2022.100198"},"screening_review":{"main_claim":"要検討","novelty":"要検討","positioning":"要検討"},"evidence":{"bibliography":{"title":{"source":"https://doi.org/10.1016/j.egyai.2022.100198"},"author":{"source":"https://doi.org/10.1016/j.egyai.2022.100198"},"journal":{"source":"https://doi.org/10.1016/j.egyai.2022.100198"},"year":{"source":"https://doi.org/10.1016/j.egyai.2022.100198"},"volume":{"source":"https://doi.org/10.1016/j.egyai.2022.100198"},"pages":{"source":"https://doi.org/10.1016/j.egyai.2022.100198"},"doi":{"source":"https://doi.org/10.1016/j.egyai.2022.100198"}},"review":{},"classification":{"source":"https://doi.org/10.1016/j.egyai.2022.100198","rationale":"This review synthesizes machine-learning and deep-learning applications for building energy efficiency and IEQ."}},"paper_id":"P025","paper_file":"papers/P025.tex"},{"title":"Modeling indoor thermal comfort in buildings using digital twin and machine learning","authors":["Ziad ElArwady","Ahmed Kandil","Mohanad Afiffy","Mohamed Marzouk"],"year":2024,"doi":"10.1016/j.dibe.2024.100480","arxiv_id":null,"bibtex_key":"ElArwady:2024ThermalComfortDT","source_url":null,"primary_category":"Digital Twin","secondary_categories":["Building Environment and IEQ","AI and Machine Learning for Buildings","BIM and Semantic Information"],"keywords":["Digital Twin","Thermal comfort","Machine learning","BIM","IoT","Indoor environment"],"review_status":"registered","full_text_checked":false,"bibliography_type":"article","bibliography":{"title":"Modeling indoor thermal comfort in buildings using digital twin and machine learning","author":"Ziad ElArwady and Ahmed Kandil and Mohanad Afiffy and Mohamed Marzouk","journal":"Developments in the Built Environment","year":2024,"volume":"19","pages":"100480","doi":"10.1016/j.dibe.2024.100480"},"screening_review":{"main_claim":"要検討","novelty":"要検討","positioning":"要検討"},"evidence":{"bibliography":{"title":{"source":"https://doi.org/10.1016/j.dibe.2024.100480"},"author":{"source":"https://doi.org/10.1016/j.dibe.2024.100480"},"journal":{"source":"https://doi.org/10.1016/j.dibe.2024.100480"},"year":{"source":"https://doi.org/10.1016/j.dibe.2024.100480"},"volume":{"source":"https://doi.org/10.1016/j.dibe.2024.100480"},"pages":{"source":"https://doi.org/10.1016/j.dibe.2024.100480"},"doi":{"source":"https://doi.org/10.1016/j.dibe.2024.100480"}},"review":{},"classification":{"source":"https://doi.org/10.1016/j.dibe.2024.100480","rationale":"The study develops a digital-twin platform integrating BIM, IoT, and machine learning for indoor thermal-comfort modeling."}},"paper_id":"P026","paper_file":"papers/P026.tex"},{"title":"Developing an integrative framework for digital twin applications in the building construction industry: A systematic literature review","authors":["Wuyan Long","Zhikang Bao","Ke Chen","S. Thomas Ng","Ibrahim Yahaya Wuni"],"year":2024,"doi":"10.1016/j.aei.2023.102346","arxiv_id":null,"bibtex_key":"Long:2024DTConstructionReview","source_url":null,"primary_category":"Reviews, Frameworks and Standards","secondary_categories":["Digital Twin"],"keywords":["Digital Twin","Building construction","Systematic literature review","Integrative framework","Construction","Operation and maintenance"],"review_status":"registered","full_text_checked":false,"bibliography_type":"article","bibliography":{"title":"Developing an integrative framework for digital twin applications in the building construction industry: A systematic literature review","author":"Wuyan Long and Zhikang Bao and Ke Chen and S. Thomas Ng and Ibrahim Yahaya Wuni","journal":"Advanced Engineering Informatics","year":2024,"volume":"59","pages":"102346","doi":"10.1016/j.aei.2023.102346"},"screening_review":{"main_claim":"要検討","novelty":"要検討","positioning":"要検討"},"evidence":{"bibliography":{"title":{"source":"https://doi.org/10.1016/j.aei.2023.102346"},"author":{"source":"https://doi.org/10.1016/j.aei.2023.102346"},"journal":{"source":"https://doi.org/10.1016/j.aei.2023.102346"},"year":{"source":"https://doi.org/10.1016/j.aei.2023.102346"},"volume":{"source":"https://doi.org/10.1016/j.aei.2023.102346"},"pages":{"source":"https://doi.org/10.1016/j.aei.2023.102346"},"doi":{"source":"https://doi.org/10.1016/j.aei.2023.102346"}},"review":{},"classification":{"source":"https://doi.org/10.1016/j.aei.2023.102346","rationale":"This systematic literature review develops an integrative framework for digital-twin applications in the building construction industry."}},"paper_id":"P027","paper_file":"papers/P027.tex"}]}
+{
+  "schema_version": "1.0",
+  "next_paper_id": 29,
+  "papers": [
+    {
+      "title": "Spatial-temporal CO2 concentration prediction in education facilities with dynamic layouts using BIM and multi-modal graph neural networks",
+      "authors": [
+        "Hao Liu",
+        "Kam-Ming Mark Tam",
+        "Cong Huang",
+        "Chun Yin Lai",
+        "Eric Schuldenfrei"
+      ],
+      "year": 2026,
+      "doi": "10.1016/j.buildenv.2026.114528",
+      "arxiv_id": null,
+      "bibtex_key": "Liu:2026DynamicCO2",
+      "source_url": null,
+      "primary_category": "Building Environment and IEQ",
+      "secondary_categories": [
+        "AI and Machine Learning for Buildings",
+        "BIM and Semantic Information"
+      ],
+      "keywords": [
+        "Spatial-temporal prediction",
+        "CO2 concentration",
+        "Education facility",
+        "Space reconfigurability",
+        "BIM",
+        "Graph neural networks",
+        "Multi-modal deep learning"
+      ],
+      "review_status": "screened",
+      "full_text_checked": true,
+      "bibliography_type": "article",
+      "bibliography": {
+        "title": "Spatial-temporal CO2 concentration prediction in education facilities with dynamic layouts using BIM and multi-modal graph neural networks",
+        "author": "Hao Liu and Kam-Ming Mark Tam and Cong Huang and Chun Yin Lai and Eric Schuldenfrei",
+        "journal": "Building and Environment",
+        "year": "2026",
+        "volume": "297",
+        "pages": "114528",
+        "doi": "10.1016/j.buildenv.2026.114528"
+      },
+      "screening_review": {
+        "main_claim": "BIM由来の時変レイアウトとVoronoiベースのCO2センサ隣接グラフをmulti-modal deep learningで統合し, 2時間先予測でMAE 11.25 ppmを達成し, 比較対象中で次点のTGCNの15.10 ppmより約25%低いMAEを示した.",
+        "novelty": "静的レイアウトを前提とする既往のGNN型CO2予測に対し, BIMから時変の間仕切り構成をテンソル化し, センサグラフ文脈と空間構成文脈を二枝のMMDLで統合した点に新規性がある.",
+        "positioning": "教育施設のIAQ予測を主目的としつつ, BIM幾何情報を予測モデルの入力文脈として利用するため, Building Environment and IEQを主分類, AI and Machine Learning for BuildingsおよびBIM and Semantic Informationを副分類として位置付ける."
+      },
+      "evidence": {
+        "bibliography": {
+          "title": {
+            "source": "10.1016/j.buildenv.2026.114528"
+          },
+          "author": {
+            "source": "10.1016/j.buildenv.2026.114528"
+          },
+          "journal": {
+            "source": "10.1016/j.buildenv.2026.114528"
+          },
+          "year": {
+            "source": "10.1016/j.buildenv.2026.114528"
+          },
+          "volume": {
+            "source": "10.1016/j.buildenv.2026.114528"
+          },
+          "pages": {
+            "source": "10.1016/j.buildenv.2026.114528"
+          },
+          "doi": {
+            "source": "10.1016/j.buildenv.2026.114528"
+          }
+        },
+        "review": {
+          "main_claim": {
+            "source": "10.1016/j.buildenv.2026.114528",
+            "locator": "Abstract/Results",
+            "kind": "author_claim"
+          },
+          "novelty": {
+            "source": "10.1016/j.buildenv.2026.114528",
+            "locator": "Methods/Conclusions",
+            "kind": "author_claim"
+          },
+          "positioning": {
+            "source": "10.1016/j.buildenv.2026.114528",
+            "locator": "Abstract/Conclusions",
+            "kind": "interpretation"
+          }
+        },
+        "classification": {
+          "source": "10.1016/j.buildenv.2026.114528",
+          "rationale": "Building Environment and IEQ"
+        }
+      },
+      "paper_id": "P001",
+      "paper_file": "papers/P001.tex"
+    },
+    {
+      "title": "Graph-based spatial–temporal prediction and feature interaction analysis of CO2 and occupant in large indoor space",
+      "authors": [
+        "Cong Huang",
+        "Helen H.L. Kwok",
+        "Kwok Ho Poon",
+        "Zhaoji Wu",
+        "Fangli Hou",
+        "Jun Ma",
+        "Jack C.P. Cheng"
+      ],
+      "year": 2025,
+      "doi": "10.1016/j.buildenv.2025.112963",
+      "arxiv_id": null,
+      "bibtex_key": "Huang:2025GraphCO2Occupant",
+      "source_url": null,
+      "primary_category": "Building Environment and IEQ",
+      "secondary_categories": [
+        "AI and Machine Learning for Buildings",
+        "Occupancy and Human-Building Interaction",
+        "Sensors, IoT and Data Integration"
+      ],
+      "keywords": [
+        "Graph neural network",
+        "Spatial-temporal prediction",
+        "Spatial-temporal feature interactions",
+        "Indoor Air Quality",
+        "Indoor occupant",
+        "Dynamic graph learning",
+        "Occupant-in-loop"
+      ],
+      "review_status": "screened",
+      "full_text_checked": true,
+      "bibliography_type": "article",
+      "bibliography": {
+        "title": "Graph-based spatial–temporal prediction and feature interaction analysis of CO2 and occupant in large indoor space",
+        "author": "Cong Huang and Helen H.L. Kwok and Kwok Ho Poon and Zhaoji Wu and Fangli Hou and Jun Ma and Jack C.P. Cheng",
+        "journal": "Building and Environment",
+        "year": "2025",
+        "volume": "280",
+        "pages": "112963",
+        "doi": "10.1016/j.buildenv.2025.112963"
+      },
+      "screening_review": {
+        "main_claim": "提案AST-GCGRUは, 6 hおよび12 hのmulti-step predictionでgraph-level R2 0.898および0.812を示し, GCGRUの0.860および0.699を上回った. 12 hではoccupant node R2 0.59, CO2 node R2 0.73で, GCGRUの0.32, 0.58より高かった.",
+        "novelty": "距離ベースの固定graphではなく, partial correlationで初期化したgraphをST-Attで学習中に更新し, time-lag nodesにより30 min CO2 sensorと6 min occupant sensorの異なる時間解像度を保持したまま, CO2とoccupancyを同一graphで同時予測・interaction analysisする構成を提示した.",
+        "positioning": "大空間におけるIAQとoccupancyの同時予測・相互作用分析を主目的とするため, Building Environment and IEQを主分類とし, AI and Machine Learning for Buildings, Occupancy and Human-Building Interaction, Sensors, IoT and Data Integrationを副分類として位置付ける."
+      },
+      "evidence": {
+        "bibliography": {
+          "title": {
+            "source": "10.1016/j.buildenv.2025.112963"
+          },
+          "author": {
+            "source": "10.1016/j.buildenv.2025.112963"
+          },
+          "journal": {
+            "source": "10.1016/j.buildenv.2025.112963"
+          },
+          "year": {
+            "source": "10.1016/j.buildenv.2025.112963"
+          },
+          "volume": {
+            "source": "10.1016/j.buildenv.2025.112963"
+          },
+          "pages": {
+            "source": "10.1016/j.buildenv.2025.112963"
+          },
+          "doi": {
+            "source": "10.1016/j.buildenv.2025.112963"
+          }
+        },
+        "review": {
+          "main_claim": {
+            "source": "10.1016/j.buildenv.2025.112963",
+            "locator": "Abstract/Results",
+            "kind": "author_claim"
+          },
+          "novelty": {
+            "source": "10.1016/j.buildenv.2025.112963",
+            "locator": "Methods/Conclusions",
+            "kind": "author_claim"
+          },
+          "positioning": {
+            "source": "10.1016/j.buildenv.2025.112963",
+            "locator": "Abstract/Conclusions",
+            "kind": "interpretation"
+          }
+        },
+        "classification": {
+          "source": "10.1016/j.buildenv.2025.112963",
+          "rationale": "Building Environment and IEQ"
+        }
+      },
+      "paper_id": "P002",
+      "paper_file": "papers/P002.tex"
+    },
+    {
+      "title": "Digital twin applications for indoor environmental quality in healthy building research: a systematic review of indicators, methods and computational paradigms",
+      "authors": [
+        "Alessandro D'Amico",
+        "Edoardo Currà",
+        "Philomena M. Bluyssen"
+      ],
+      "year": 2026,
+      "doi": "10.1016/j.buildenv.2026.115014",
+      "arxiv_id": null,
+      "bibtex_key": "DAmico:2026DTIEQ",
+      "source_url": null,
+      "primary_category": "Reviews, Frameworks and Standards",
+      "secondary_categories": [
+        "Digital Twin",
+        "Building Environment and IEQ",
+        "BIM and Semantic Information"
+      ],
+      "keywords": [
+        "Digital Twin",
+        "Indoor environmental quality",
+        "Healthy buildings",
+        "BIM",
+        "IoT",
+        "Systematic review"
+      ],
+      "review_status": "screened",
+      "full_text_checked": true,
+      "bibliography_type": "article",
+      "bibliography": {
+        "title": "Digital twin applications for indoor environmental quality in healthy building research: a systematic review of indicators, methods and computational paradigms",
+        "author": "Alessandro D'Amico and Edoardo Currà and Philomena M. Bluyssen",
+        "journal": "Building and Environment",
+        "year": "2026",
+        "volume": "304",
+        "pages": "115014",
+        "doi": "10.1016/j.buildenv.2026.115014"
+      },
+      "screening_review": {
+        "main_claim": "62件のDT×IEQ研究をsystematic reviewし, building semanticsとoccupant-related dataの統合不足を整理した.",
+        "novelty": "DT×IEQを指標, 方法, computational paradigmの観点から横断整理した.",
+        "positioning": "DT×IEQの研究ギャップを整理するsystematic reviewとして位置付ける."
+      },
+      "evidence": {
+        "bibliography": {
+          "title": {
+            "source": "10.1016/j.buildenv.2026.115014"
+          },
+          "author": {
+            "source": "10.1016/j.buildenv.2026.115014"
+          },
+          "journal": {
+            "source": "10.1016/j.buildenv.2026.115014"
+          },
+          "year": {
+            "source": "10.1016/j.buildenv.2026.115014"
+          },
+          "volume": {
+            "source": "10.1016/j.buildenv.2026.115014"
+          },
+          "pages": {
+            "source": "10.1016/j.buildenv.2026.115014"
+          },
+          "doi": {
+            "source": "10.1016/j.buildenv.2026.115014"
+          }
+        },
+        "review": {
+          "main_claim": {
+            "source": "10.1016/j.buildenv.2026.115014",
+            "locator": "Abstract/Results",
+            "kind": "author_claim"
+          },
+          "novelty": {
+            "source": "10.1016/j.buildenv.2026.115014",
+            "locator": "Methods/Conclusions",
+            "kind": "author_claim"
+          },
+          "positioning": {
+            "source": "10.1016/j.buildenv.2026.115014",
+            "locator": "Abstract/Conclusions",
+            "kind": "interpretation"
+          }
+        },
+        "classification": {
+          "source": "10.1016/j.buildenv.2026.115014",
+          "rationale": "Reviews, Frameworks and Standards"
+        }
+      },
+      "paper_id": "P003",
+      "paper_file": "papers/P003.tex"
+    },
+    {
+      "title": "How to measure and control indoor air quality based on intelligent digital twin platforms: A case study in China",
+      "authors": [
+        "Yuchong Qian",
+        "Jiawei Leng",
+        "Kai Zhou",
+        "Yuxuan Liu"
+      ],
+      "year": 2024,
+      "doi": "10.1016/j.buildenv.2024.111349",
+      "arxiv_id": null,
+      "bibtex_key": "Qian:2024IaqDT",
+      "source_url": null,
+      "primary_category": "Digital Twin",
+      "secondary_categories": [
+        "Building Environment and IEQ",
+        "BIM and Semantic Information",
+        "Sensors, IoT and Data Integration"
+      ],
+      "keywords": [
+        "Digital Twin",
+        "Indoor air quality",
+        "BIM",
+        "IoT",
+        "Machine learning",
+        "Monitoring and control"
+      ],
+      "review_status": "screened",
+      "full_text_checked": true,
+      "bibliography_type": "article",
+      "bibliography": {
+        "title": "How to measure and control indoor air quality based on intelligent digital twin platforms: A case study in China",
+        "author": "Yuchong Qian and Jiawei Leng and Kai Zhou and Yuxuan Liu",
+        "journal": "Building and Environment",
+        "year": "2024",
+        "volume": "253",
+        "pages": "111349",
+        "doi": "10.1016/j.buildenv.2024.111349"
+      },
+      "screening_review": {
+        "main_claim": "IoT, BIM, machine learningを統合したIAQ用digital twin platformを構築し, monitoring, prediction, visualization, controlを実装した.",
+        "novelty": "IAQのSense-Integrate-Retrieve-Analyze-Feedbackを単一DT platformへ統合した.",
+        "positioning": "BIM-IoT-ML統合によるIAQ Digital Twin platform研究として位置付ける."
+      },
+      "evidence": {
+        "bibliography": {
+          "title": {
+            "source": "10.1016/j.buildenv.2024.111349"
+          },
+          "author": {
+            "source": "10.1016/j.buildenv.2024.111349"
+          },
+          "journal": {
+            "source": "10.1016/j.buildenv.2024.111349"
+          },
+          "year": {
+            "source": "10.1016/j.buildenv.2024.111349"
+          },
+          "volume": {
+            "source": "10.1016/j.buildenv.2024.111349"
+          },
+          "pages": {
+            "source": "10.1016/j.buildenv.2024.111349"
+          },
+          "doi": {
+            "source": "10.1016/j.buildenv.2024.111349"
+          }
+        },
+        "review": {
+          "main_claim": {
+            "source": "10.1016/j.buildenv.2024.111349",
+            "locator": "Abstract/Results",
+            "kind": "author_claim"
+          },
+          "novelty": {
+            "source": "10.1016/j.buildenv.2024.111349",
+            "locator": "Methods/Conclusions",
+            "kind": "author_claim"
+          },
+          "positioning": {
+            "source": "10.1016/j.buildenv.2024.111349",
+            "locator": "Abstract/Conclusions",
+            "kind": "interpretation"
+          }
+        },
+        "classification": {
+          "source": "10.1016/j.buildenv.2024.111349",
+          "rationale": "Digital Twin"
+        }
+      },
+      "paper_id": "P004",
+      "paper_file": "papers/P004.tex"
+    },
+    {
+      "title": "CO2 concentration prediction in office spaces using physics-informed neural network based on number of occupants and IoT sensor data",
+      "authors": [
+        "Jehyun Kim",
+        "Gihoon Kim",
+        "Jong-Il Bang",
+        "Anseop Choi",
+        "Minki Sung"
+      ],
+      "year": 2026,
+      "doi": "10.1016/j.buildenv.2025.114035",
+      "arxiv_id": null,
+      "bibtex_key": "Kim:2026CO2PINN",
+      "source_url": null,
+      "primary_category": "Building Environment and IEQ",
+      "secondary_categories": [
+        "AI and Machine Learning for Buildings",
+        "Occupancy and Human-Building Interaction",
+        "Sensors, IoT and Data Integration"
+      ],
+      "keywords": [
+        "CO2 prediction",
+        "Physics-informed neural network",
+        "Occupancy",
+        "HVAC operation",
+        "IoT",
+        "Indoor air quality"
+      ],
+      "review_status": "screened",
+      "full_text_checked": true,
+      "bibliography_type": "article",
+      "bibliography": {
+        "title": "CO2 concentration prediction in office spaces using physics-informed neural network based on number of occupants and IoT sensor data",
+        "author": "Jehyun Kim and Gihoon Kim and Jong-Il Bang and Anseop Choi and Minki Sung",
+        "journal": "Building and Environment",
+        "year": "2026",
+        "volume": "288",
+        "pages": "114035",
+        "doi": "10.1016/j.buildenv.2025.114035"
+      },
+      "screening_review": {
+        "main_claim": "occupancyとHVAC/IoT dataにCO2 mass-balance制約を加えたPINNでoffice CO2を予測した.",
+        "novelty": "data-driven CO2 predictionへmass-balance equationをphysics-informed lossとして導入した.",
+        "positioning": "CO2 predictionを中心とするIEQ×PINN研究として位置付ける."
+      },
+      "evidence": {
+        "bibliography": {
+          "title": {
+            "source": "10.1016/j.buildenv.2025.114035"
+          },
+          "author": {
+            "source": "10.1016/j.buildenv.2025.114035"
+          },
+          "journal": {
+            "source": "10.1016/j.buildenv.2025.114035"
+          },
+          "year": {
+            "source": "10.1016/j.buildenv.2025.114035"
+          },
+          "volume": {
+            "source": "10.1016/j.buildenv.2025.114035"
+          },
+          "pages": {
+            "source": "10.1016/j.buildenv.2025.114035"
+          },
+          "doi": {
+            "source": "10.1016/j.buildenv.2025.114035"
+          }
+        },
+        "review": {
+          "main_claim": {
+            "source": "10.1016/j.buildenv.2025.114035",
+            "locator": "Abstract/Results",
+            "kind": "author_claim"
+          },
+          "novelty": {
+            "source": "10.1016/j.buildenv.2025.114035",
+            "locator": "Methods/Conclusions",
+            "kind": "author_claim"
+          },
+          "positioning": {
+            "source": "10.1016/j.buildenv.2025.114035",
+            "locator": "Abstract/Conclusions",
+            "kind": "interpretation"
+          }
+        },
+        "classification": {
+          "source": "10.1016/j.buildenv.2025.114035",
+          "rationale": "Building Environment and IEQ"
+        }
+      },
+      "paper_id": "P005",
+      "paper_file": "papers/P005.tex"
+    },
+    {
+      "title": "Understanding the effect of outdoor pollution episodes and HVAC type on indoor air quality",
+      "authors": [
+        "Tristalee Mangin",
+        "Zachary Barrett",
+        "Zachary Palmer",
+        "Dillon Tang",
+        "Sean Nielson",
+        "Darrah Sleeth",
+        "Kerry Kelly"
+      ],
+      "year": 2025,
+      "doi": "10.1016/j.buildenv.2025.112978",
+      "arxiv_id": null,
+      "bibtex_key": "Mangin:2025OutdoorPM25",
+      "source_url": null,
+      "primary_category": "Building Environment and IEQ",
+      "secondary_categories": [
+        "HVAC and Building Services",
+        "Sensors, IoT and Data Integration"
+      ],
+      "keywords": [
+        "PM2.5",
+        "HVAC",
+        "Infiltration",
+        "Wildfire smoke",
+        "Indoor air quality",
+        "Low-cost sensors"
+      ],
+      "review_status": "screened",
+      "full_text_checked": true,
+      "bibliography_type": "article",
+      "bibliography": {
+        "title": "Understanding the effect of outdoor pollution episodes and HVAC type on indoor air quality",
+        "author": "Tristalee Mangin and Zachary Barrett and Zachary Palmer and Dillon Tang and Sean Nielson and Darrah Sleeth and Kerry Kelly",
+        "journal": "Building and Environment",
+        "year": "2025",
+        "volume": "278",
+        "pages": "112978",
+        "doi": "10.1016/j.buildenv.2025.112978"
+      },
+      "screening_review": {
+        "main_claim": "18か月, 21台のPM2.5 sensorでoutdoor pollution episodeとHVAC typeによる室内PM2.5 infiltration差を評価した.",
+        "novelty": "inversion, dust, wildfire smokeをHVAC type別にlong-term比較した.",
+        "positioning": "outdoor-to-indoor PM2.5 infiltrationとHVAC影響の実測研究として位置付ける."
+      },
+      "evidence": {
+        "bibliography": {
+          "title": {
+            "source": "10.1016/j.buildenv.2025.112978"
+          },
+          "author": {
+            "source": "10.1016/j.buildenv.2025.112978"
+          },
+          "journal": {
+            "source": "10.1016/j.buildenv.2025.112978"
+          },
+          "year": {
+            "source": "10.1016/j.buildenv.2025.112978"
+          },
+          "volume": {
+            "source": "10.1016/j.buildenv.2025.112978"
+          },
+          "pages": {
+            "source": "10.1016/j.buildenv.2025.112978"
+          },
+          "doi": {
+            "source": "10.1016/j.buildenv.2025.112978"
+          }
+        },
+        "review": {
+          "main_claim": {
+            "source": "10.1016/j.buildenv.2025.112978",
+            "locator": "Abstract/Results",
+            "kind": "author_claim"
+          },
+          "novelty": {
+            "source": "10.1016/j.buildenv.2025.112978",
+            "locator": "Methods/Conclusions",
+            "kind": "author_claim"
+          },
+          "positioning": {
+            "source": "10.1016/j.buildenv.2025.112978",
+            "locator": "Abstract/Conclusions",
+            "kind": "interpretation"
+          }
+        },
+        "classification": {
+          "source": "10.1016/j.buildenv.2025.112978",
+          "rationale": "Building Environment and IEQ"
+        }
+      },
+      "paper_id": "P006",
+      "paper_file": "papers/P006.tex"
+    },
+    {
+      "title": "A BIM-enabled digital twin framework for real-time indoor environment monitoring and visualization by integrating autonomous robotics, LiDAR-based 3D mobile mapping, IoT sensing, and indoor positioning technologies",
+      "authors": [
+        "Xi Hu",
+        "Rayan H. Assaad"
+      ],
+      "year": 2024,
+      "doi": "10.1016/j.jobe.2024.108901",
+      "arxiv_id": null,
+      "bibtex_key": "Hu:2024BIMDigitalTwin",
+      "source_url": null,
+      "primary_category": "Digital Twin",
+      "secondary_categories": [
+        "Building Environment and IEQ",
+        "BIM and Semantic Information",
+        "Sensors, IoT and Data Integration"
+      ],
+      "keywords": [
+        "Digital Twin",
+        "BIM",
+        "IoT",
+        "Indoor environmental monitoring",
+        "Indoor positioning",
+        "Robotics",
+        "LiDAR"
+      ],
+      "review_status": "screened",
+      "full_text_checked": true,
+      "bibliography_type": "article",
+      "bibliography": {
+        "title": "A BIM-enabled digital twin framework for real-time indoor environment monitoring and visualization by integrating autonomous robotics, LiDAR-based 3D mobile mapping, IoT sensing, and indoor positioning technologies",
+        "author": "Xi Hu and Rayan H. Assaad",
+        "journal": "Journal of Building Engineering",
+        "year": "2024",
+        "volume": "86",
+        "pages": "108901",
+        "doi": "10.1016/j.jobe.2024.108901"
+      },
+      "screening_review": {
+        "main_claim": "BIM, IoT, robotics, LiDAR, UWB positioningを統合し, real-time indoor environment monitoringをDT上で可視化した.",
+        "novelty": "mobile robotic sensingとindoor positioningをBIM-enabled DTへ統合した.",
+        "positioning": "BIM-enabled spatial Digital TwinによるIEQ monitoring研究として位置付ける."
+      },
+      "evidence": {
+        "bibliography": {
+          "title": {
+            "source": "10.1016/j.jobe.2024.108901"
+          },
+          "author": {
+            "source": "10.1016/j.jobe.2024.108901"
+          },
+          "journal": {
+            "source": "10.1016/j.jobe.2024.108901"
+          },
+          "year": {
+            "source": "10.1016/j.jobe.2024.108901"
+          },
+          "volume": {
+            "source": "10.1016/j.jobe.2024.108901"
+          },
+          "pages": {
+            "source": "10.1016/j.jobe.2024.108901"
+          },
+          "doi": {
+            "source": "10.1016/j.jobe.2024.108901"
+          }
+        },
+        "review": {
+          "main_claim": {
+            "source": "10.1016/j.jobe.2024.108901",
+            "locator": "Abstract/Results",
+            "kind": "author_claim"
+          },
+          "novelty": {
+            "source": "10.1016/j.jobe.2024.108901",
+            "locator": "Methods/Conclusions",
+            "kind": "author_claim"
+          },
+          "positioning": {
+            "source": "10.1016/j.jobe.2024.108901",
+            "locator": "Abstract/Conclusions",
+            "kind": "interpretation"
+          }
+        },
+        "classification": {
+          "source": "10.1016/j.jobe.2024.108901",
+          "rationale": "Digital Twin"
+        }
+      },
+      "paper_id": "P007",
+      "paper_file": "papers/P007.tex"
+    },
+    {
+      "title": "Digital twin-enabled smart facility management: A bibliometric review",
+      "authors": [
+        "Obaidullah Hakimi",
+        "Hexu Liu",
+        "Osama Abudayyeh"
+      ],
+      "year": 2024,
+      "doi": "10.1007/s42524-023-0254-4",
+      "arxiv_id": null,
+      "bibtex_key": "Hakimi:2024DTSmartFM",
+      "source_url": null,
+      "primary_category": "Reviews, Frameworks and Standards",
+      "secondary_categories": [
+        "Digital Twin",
+        "BIM and Semantic Information",
+        "Fault Detection, Diagnostics and Maintenance"
+      ],
+      "keywords": [
+        "Digital Twin",
+        "Facility management",
+        "BIM",
+        "Semantic interoperability",
+        "Predictive maintenance",
+        "Autonomous control"
+      ],
+      "review_status": "screened",
+      "full_text_checked": true,
+      "bibliography_type": "article",
+      "bibliography": {
+        "title": "Digital twin-enabled smart facility management: A bibliometric review",
+        "author": "Obaidullah Hakimi and Hexu Liu and Osama Abudayyeh",
+        "journal": "Frontiers of Engineering Management",
+        "year": "2024",
+        "volume": "11",
+        "number": "1",
+        "pages": "32--49",
+        "doi": "10.1007/s42524-023-0254-4"
+      },
+      "screening_review": {
+        "main_claim": "248件をbibliometric reviewし, DT-enabled FMの主要潮流とsemantic interoperability, predictive maintenance等の将来課題を整理した.",
+        "novelty": "DT-enabled FM研究の構造とfuture needsをbibliometricに体系化した.",
+        "positioning": "Digital Twin×facility managementのbibliometric reviewとして位置付ける."
+      },
+      "evidence": {
+        "bibliography": {
+          "title": {
+            "source": "10.1007/s42524-023-0254-4"
+          },
+          "author": {
+            "source": "10.1007/s42524-023-0254-4"
+          },
+          "journal": {
+            "source": "10.1007/s42524-023-0254-4"
+          },
+          "year": {
+            "source": "10.1007/s42524-023-0254-4"
+          },
+          "volume": {
+            "source": "10.1007/s42524-023-0254-4"
+          },
+          "number": {
+            "source": "10.1007/s42524-023-0254-4"
+          },
+          "pages": {
+            "source": "10.1007/s42524-023-0254-4"
+          },
+          "doi": {
+            "source": "10.1007/s42524-023-0254-4"
+          }
+        },
+        "review": {
+          "main_claim": {
+            "source": "10.1007/s42524-023-0254-4",
+            "locator": "Abstract/Results",
+            "kind": "author_claim"
+          },
+          "novelty": {
+            "source": "10.1007/s42524-023-0254-4",
+            "locator": "Methods/Conclusions",
+            "kind": "author_claim"
+          },
+          "positioning": {
+            "source": "10.1007/s42524-023-0254-4",
+            "locator": "Abstract/Conclusions",
+            "kind": "interpretation"
+          }
+        },
+        "classification": {
+          "source": "10.1007/s42524-023-0254-4",
+          "rationale": "Reviews, Frameworks and Standards"
+        }
+      },
+      "paper_id": "P008",
+      "paper_file": "papers/P008.tex"
+    },
+    {
+      "title": "A systematic comparison and evaluation of building ontologies for deploying data-driven analytics in smart buildings",
+      "authors": [
+        "Zhangcheng Qiang",
+        "Stuart Hands",
+        "Kerry Taylor",
+        "Subbu Sethuvenkatraman",
+        "Daniel Hugo",
+        "Pouya Ghiasnezhad Omran",
+        "Madhawa Perera",
+        "Armin Haller"
+      ],
+      "year": 2023,
+      "doi": "10.1016/j.enbuild.2023.113054",
+      "arxiv_id": null,
+      "bibtex_key": "Qiang:2023BuildingOntologies",
+      "source_url": null,
+      "primary_category": "BIM and Semantic Information",
+      "secondary_categories": [
+        "Reviews, Frameworks and Standards",
+        "Sensors, IoT and Data Integration"
+      ],
+      "keywords": [
+        "Building ontology",
+        "Data interoperability",
+        "Brick Schema",
+        "RealEstateCore",
+        "Project Haystack",
+        "Digital Buildings",
+        "Ontology evaluation"
+      ],
+      "review_status": "screened",
+      "full_text_checked": true,
+      "bibliography_type": "article",
+      "bibliography": {
+        "title": "A systematic comparison and evaluation of building ontologies for deploying data-driven analytics in smart buildings",
+        "author": "Zhangcheng Qiang and Stuart Hands and Kerry Taylor and Subbu Sethuvenkatraman and Daniel Hugo and Pouya Ghiasnezhad Omran and Madhawa Perera and Armin Haller",
+        "journal": "Energy and Buildings",
+        "year": "2023",
+        "volume": "292",
+        "pages": "113054",
+        "doi": "10.1016/j.enbuild.2023.113054"
+      },
+      "screening_review": {
+        "main_claim": "Brick, RealEstateCore, Project Haystack, Digital Buildingsの4 ontologyをTBox/ABox両面で比較し, alignmentの必要性を示した.",
+        "novelty": "axiomatic qualityと実建物dataによるcompleteness/expressivenessを同一frameworkで評価した.",
+        "positioning": "smart-building ontology interoperabilityの比較評価研究として位置付ける."
+      },
+      "evidence": {
+        "bibliography": {
+          "title": {
+            "source": "10.1016/j.enbuild.2023.113054"
+          },
+          "author": {
+            "source": "10.1016/j.enbuild.2023.113054"
+          },
+          "journal": {
+            "source": "10.1016/j.enbuild.2023.113054"
+          },
+          "year": {
+            "source": "10.1016/j.enbuild.2023.113054"
+          },
+          "volume": {
+            "source": "10.1016/j.enbuild.2023.113054"
+          },
+          "pages": {
+            "source": "10.1016/j.enbuild.2023.113054"
+          },
+          "doi": {
+            "source": "10.1016/j.enbuild.2023.113054"
+          }
+        },
+        "review": {
+          "main_claim": {
+            "source": "10.1016/j.enbuild.2023.113054",
+            "locator": "Abstract/Results",
+            "kind": "author_claim"
+          },
+          "novelty": {
+            "source": "10.1016/j.enbuild.2023.113054",
+            "locator": "Methods/Conclusions",
+            "kind": "author_claim"
+          },
+          "positioning": {
+            "source": "10.1016/j.enbuild.2023.113054",
+            "locator": "Abstract/Conclusions",
+            "kind": "interpretation"
+          }
+        },
+        "classification": {
+          "source": "10.1016/j.enbuild.2023.113054",
+          "rationale": "BIM and Semantic Information"
+        }
+      },
+      "paper_id": "P009",
+      "paper_file": "papers/P009.tex"
+    },
+    {
+      "title": "BIM-to-BRICK: Using graph modeling for IoT/BMS and spatial semantic data interoperability within digital data models of buildings",
+      "authors": [
+        "Filippo Vittori",
+        "Chuan Fu Tan",
+        "Anna Laura Pisello",
+        "Adrian Chong",
+        "Cristina Piselli",
+        "Clayton Miller"
+      ],
+      "year": 2025,
+      "doi": "10.1016/j.enbuild.2025.116368",
+      "arxiv_id": null,
+      "bibtex_key": "Vittori:2025BIMtoBRICK",
+      "source_url": null,
+      "primary_category": "BIM and Semantic Information",
+      "secondary_categories": [
+        "BMS, BAS, BACS and Building Automation",
+        "Sensors, IoT and Data Integration",
+        "Digital Twin"
+      ],
+      "keywords": [
+        "BIM",
+        "Brick Schema",
+        "BMS",
+        "IoT",
+        "Knowledge graph",
+        "Data interoperability",
+        "Digital Twin"
+      ],
+      "review_status": "screened",
+      "full_text_checked": true,
+      "bibliography_type": "article",
+      "bibliography": {
+        "title": "BIM-to-BRICK: Using graph modeling for IoT/BMS and spatial semantic data interoperability within digital data models of buildings",
+        "author": "Filippo Vittori and Chuan Fu Tan and Anna Laura Pisello and Adrian Chong and Cristina Piselli and Clayton Miller",
+        "journal": "Energy and Buildings",
+        "year": "2025",
+        "volume": "348",
+        "pages": "116368",
+        "doi": "10.1016/j.enbuild.2025.116368"
+      },
+      "screening_review": {
+        "main_claim": "BIM-to-BRICKによりBIM情報をBrick knowledge graphへ自動変換し, BIMとBMS/IoT dataのsemantic interoperabilityを実装した.",
+        "novelty": "BIM-to-Brick mappingをgraph modelingで自動化した.",
+        "positioning": "BIM-BMS/IoT間semantic interoperability研究として位置付ける."
+      },
+      "evidence": {
+        "bibliography": {
+          "title": {
+            "source": "10.1016/j.enbuild.2025.116368"
+          },
+          "author": {
+            "source": "10.1016/j.enbuild.2025.116368"
+          },
+          "journal": {
+            "source": "10.1016/j.enbuild.2025.116368"
+          },
+          "year": {
+            "source": "10.1016/j.enbuild.2025.116368"
+          },
+          "volume": {
+            "source": "10.1016/j.enbuild.2025.116368"
+          },
+          "pages": {
+            "source": "10.1016/j.enbuild.2025.116368"
+          },
+          "doi": {
+            "source": "10.1016/j.enbuild.2025.116368"
+          }
+        },
+        "review": {
+          "main_claim": {
+            "source": "10.1016/j.enbuild.2025.116368",
+            "locator": "Abstract/Results",
+            "kind": "author_claim"
+          },
+          "novelty": {
+            "source": "10.1016/j.enbuild.2025.116368",
+            "locator": "Methods/Conclusions",
+            "kind": "author_claim"
+          },
+          "positioning": {
+            "source": "10.1016/j.enbuild.2025.116368",
+            "locator": "Abstract/Conclusions",
+            "kind": "interpretation"
+          }
+        },
+        "classification": {
+          "source": "10.1016/j.enbuild.2025.116368",
+          "rationale": "BIM and Semantic Information"
+        }
+      },
+      "paper_id": "P010",
+      "paper_file": "papers/P010.tex"
+    },
+    {
+      "title": "Integrating the Brick Schema and Control Description Language for automation and controls in BIM",
+      "authors": [
+        "Esben Visby Fjerbæk",
+        "Kevin Michael Smith",
+        "Christian Anker Hviid"
+      ],
+      "year": 2026,
+      "doi": "10.1016/j.autcon.2026.106849",
+      "arxiv_id": null,
+      "bibtex_key": "Fjerbaek:2026BrickCDL",
+      "source_url": null,
+      "primary_category": "BMS, BAS, BACS and Building Automation",
+      "secondary_categories": [
+        "BIM and Semantic Information",
+        "HVAC and Building Services"
+      ],
+      "keywords": [
+        "BACS",
+        "Brick Schema",
+        "Control Description Language",
+        "BIM",
+        "HVAC controls",
+        "Interoperability"
+      ],
+      "review_status": "screened",
+      "full_text_checked": true,
+      "bibliography_type": "article",
+      "bibliography": {
+        "title": "Integrating the Brick Schema and Control Description Language for automation and controls in BIM",
+        "author": "Esben Visby Fjerbæk and Kevin Michael Smith and Christian Anker Hviid",
+        "journal": "Automation in Construction",
+        "year": "2026",
+        "volume": "184",
+        "pages": "106849",
+        "doi": "10.1016/j.autcon.2026.106849"
+      },
+      "screening_review": {
+        "main_claim": "Brick SchemaとCDLを統合し, BIM由来HVAC equipmentとcontrol logicをmachine-readable knowledge graphで接続した.",
+        "novelty": "BACS contextとcontrol sequenceをBrick+CDLで一体表現した.",
+        "positioning": "BACS/HVAC control semanticsとBIM interoperability研究として位置付ける."
+      },
+      "evidence": {
+        "bibliography": {
+          "title": {
+            "source": "10.1016/j.autcon.2026.106849"
+          },
+          "author": {
+            "source": "10.1016/j.autcon.2026.106849"
+          },
+          "journal": {
+            "source": "10.1016/j.autcon.2026.106849"
+          },
+          "year": {
+            "source": "10.1016/j.autcon.2026.106849"
+          },
+          "volume": {
+            "source": "10.1016/j.autcon.2026.106849"
+          },
+          "pages": {
+            "source": "10.1016/j.autcon.2026.106849"
+          },
+          "doi": {
+            "source": "10.1016/j.autcon.2026.106849"
+          }
+        },
+        "review": {
+          "main_claim": {
+            "source": "10.1016/j.autcon.2026.106849",
+            "locator": "Abstract/Results",
+            "kind": "author_claim"
+          },
+          "novelty": {
+            "source": "10.1016/j.autcon.2026.106849",
+            "locator": "Methods/Conclusions",
+            "kind": "author_claim"
+          },
+          "positioning": {
+            "source": "10.1016/j.autcon.2026.106849",
+            "locator": "Abstract/Conclusions",
+            "kind": "interpretation"
+          }
+        },
+        "classification": {
+          "source": "10.1016/j.autcon.2026.106849",
+          "rationale": "BMS, BAS, BACS and Building Automation"
+        }
+      },
+      "paper_id": "P011",
+      "paper_file": "papers/P011.tex"
+    },
+    {
+      "title": "An ontology-aided, natural language-based approach for multi-constraint BIM model querying",
+      "authors": [
+        "Mengtian Yin",
+        "Llewellyn Tang",
+        "Chris Webster",
+        "Shen Xu",
+        "Xiongyi Li",
+        "Huaquan Ying"
+      ],
+      "year": 2023,
+      "doi": "10.1016/j.jobe.2023.107066",
+      "arxiv_id": null,
+      "bibtex_key": "Yin:2023OntologyBIMQuery",
+      "source_url": null,
+      "primary_category": "Retrieval, Query, LLM and Agent",
+      "secondary_categories": [
+        "BIM and Semantic Information"
+      ],
+      "keywords": [
+        "Natural language query",
+        "BIM retrieval",
+        "Ontology",
+        "Semantic parser",
+        "SPARQL",
+        "IFC",
+        "Multi-constraint query"
+      ],
+      "review_status": "screened",
+      "full_text_checked": true,
+      "bibliography_type": "article",
+      "bibliography": {
+        "title": "An ontology-aided, natural language-based approach for multi-constraint BIM model querying",
+        "author": "Mengtian Yin and Llewellyn Tang and Chris Webster and Shen Xu and Xiongyi Li and Huaquan Ying",
+        "journal": "Journal of Building Engineering",
+        "year": "2023",
+        "volume": "76",
+        "pages": "107066",
+        "doi": "10.1016/j.jobe.2023.107066"
+      },
+      "screening_review": {
+        "main_claim": "ontology-aided semantic parserでmulti-constraint natural language queryをIFC-compliant SPARQLへ変換し, 225 NLQsで91.11%のoverall accuracyを報告した.",
+        "novelty": "複合NL queryをontologyを介してstructured BIM queryへ変換した.",
+        "positioning": "自然言語によるBIM retrieval/query研究として位置付ける."
+      },
+      "evidence": {
+        "bibliography": {
+          "title": {
+            "source": "10.1016/j.jobe.2023.107066"
+          },
+          "author": {
+            "source": "10.1016/j.jobe.2023.107066"
+          },
+          "journal": {
+            "source": "10.1016/j.jobe.2023.107066"
+          },
+          "year": {
+            "source": "10.1016/j.jobe.2023.107066"
+          },
+          "volume": {
+            "source": "10.1016/j.jobe.2023.107066"
+          },
+          "pages": {
+            "source": "10.1016/j.jobe.2023.107066"
+          },
+          "doi": {
+            "source": "10.1016/j.jobe.2023.107066"
+          }
+        },
+        "review": {
+          "main_claim": {
+            "source": "10.1016/j.jobe.2023.107066",
+            "locator": "Abstract/Results",
+            "kind": "author_claim"
+          },
+          "novelty": {
+            "source": "10.1016/j.jobe.2023.107066",
+            "locator": "Methods/Conclusions",
+            "kind": "author_claim"
+          },
+          "positioning": {
+            "source": "10.1016/j.jobe.2023.107066",
+            "locator": "Abstract/Conclusions",
+            "kind": "interpretation"
+          }
+        },
+        "classification": {
+          "source": "10.1016/j.jobe.2023.107066",
+          "rationale": "Retrieval, Query, LLM and Agent"
+        }
+      },
+      "paper_id": "P012",
+      "paper_file": "papers/P012.tex"
+    },
+    {
+      "title": "Smart metering data enhancement in sustainable buildings via knowledge graph-guided graph neural networks",
+      "authors": [
+        "Fang He",
+        "Jiaqi Fan",
+        "Yang Deng",
+        "Xiaoyang Zhang",
+        "Ka Tai Lau",
+        "Dan Wang"
+      ],
+      "year": 2025,
+      "doi": "10.1016/j.knosys.2025.114016",
+      "arxiv_id": null,
+      "bibtex_key": "He:2025BuildKnow",
+      "source_url": null,
+      "primary_category": "Sensors, IoT and Data Integration",
+      "secondary_categories": [
+        "AI and Machine Learning for Buildings",
+        "BIM and Semantic Information"
+      ],
+      "keywords": [
+        "Smart metering",
+        "Building knowledge graph",
+        "Graph neural network",
+        "Data enhancement",
+        "Knowledge embedding",
+        "Brick Schema"
+      ],
+      "review_status": "screened",
+      "full_text_checked": true,
+      "bibliography_type": "article",
+      "bibliography": {
+        "title": "Smart metering data enhancement in sustainable buildings via knowledge graph-guided graph neural networks",
+        "author": "Fang He and Jiaqi Fan and Yang Deng and Xiaoyang Zhang and Ka Tai Lau and Dan Wang",
+        "journal": "Knowledge-Based Systems",
+        "year": "2025",
+        "volume": "325",
+        "pages": "114016",
+        "doi": "10.1016/j.knosys.2025.114016"
+      },
+      "screening_review": {
+        "main_claim": "building knowledge graphとGNNを融合したBuildKnowによりsmart-meter data enhancementを行い, 3実建物で評価した.",
+        "novelty": "knowledge graph由来のmeter dependenceをGNNの学習priorとして利用した.",
+        "positioning": "smart-meter data qualityとknowledge-guided GNN研究として位置付ける."
+      },
+      "evidence": {
+        "bibliography": {
+          "title": {
+            "source": "10.1016/j.knosys.2025.114016"
+          },
+          "author": {
+            "source": "10.1016/j.knosys.2025.114016"
+          },
+          "journal": {
+            "source": "10.1016/j.knosys.2025.114016"
+          },
+          "year": {
+            "source": "10.1016/j.knosys.2025.114016"
+          },
+          "volume": {
+            "source": "10.1016/j.knosys.2025.114016"
+          },
+          "pages": {
+            "source": "10.1016/j.knosys.2025.114016"
+          },
+          "doi": {
+            "source": "10.1016/j.knosys.2025.114016"
+          }
+        },
+        "review": {
+          "main_claim": {
+            "source": "10.1016/j.knosys.2025.114016",
+            "locator": "Abstract/Results",
+            "kind": "author_claim"
+          },
+          "novelty": {
+            "source": "10.1016/j.knosys.2025.114016",
+            "locator": "Methods/Conclusions",
+            "kind": "author_claim"
+          },
+          "positioning": {
+            "source": "10.1016/j.knosys.2025.114016",
+            "locator": "Abstract/Conclusions",
+            "kind": "interpretation"
+          }
+        },
+        "classification": {
+          "source": "10.1016/j.knosys.2025.114016",
+          "rationale": "Sensors, IoT and Data Integration"
+        }
+      },
+      "paper_id": "P013",
+      "paper_file": "papers/P013.tex"
+    },
+    {
+      "title": "CO2- and PM2.5-Focused Optimal Ventilation Strategy Based on Predictive Control",
+      "authors": [
+        "Young Jae Choi",
+        "Eun Ji Choi",
+        "Jae Yoon Byun",
+        "Hyeun Jun Moon",
+        "Min Ki Sung",
+        "Jin Woo Moon"
+      ],
+      "year": 2025,
+      "doi": "10.1155/ina/6652442",
+      "arxiv_id": null,
+      "bibtex_key": "Choi:2025CO2PM25Ventilation",
+      "source_url": null,
+      "primary_category": "Building Environment and IEQ",
+      "secondary_categories": [
+        "HVAC and Building Services",
+        "AI and Machine Learning for Buildings"
+      ],
+      "keywords": [
+        "CO2",
+        "PM2.5",
+        "Ventilation",
+        "Predictive control",
+        "VAV",
+        "Indoor air quality",
+        "Co-simulation"
+      ],
+      "review_status": "screened",
+      "full_text_checked": true,
+      "bibliography_type": "article",
+      "bibliography": {
+        "title": "CO2- and PM2.5-Focused Optimal Ventilation Strategy Based on Predictive Control",
+        "author": "Young Jae Choi and Eun Ji Choi and Jae Yoon Byun and Hyeun Jun Moon and Min Ki Sung and Jin Woo Moon",
+        "journal": "Indoor Air",
+        "year": "2025",
+        "volume": "2025",
+        "number": "1",
+        "pages": "6652442",
+        "doi": "10.1155/ina/6652442"
+      },
+      "screening_review": {
+        "main_claim": "CO2/PM2.5予測を用いるVAV ventilation controlを提案し, co-simulationで両汚染物質の制御性能を評価した.",
+        "novelty": "CO2とPM2.5の予測errorに応じcontrol priorityを動的に切替えた.",
+        "positioning": "multi-pollutant IAQ predictive ventilation control研究として位置付ける."
+      },
+      "evidence": {
+        "bibliography": {
+          "title": {
+            "source": "10.1155/ina/6652442"
+          },
+          "author": {
+            "source": "10.1155/ina/6652442"
+          },
+          "journal": {
+            "source": "10.1155/ina/6652442"
+          },
+          "year": {
+            "source": "10.1155/ina/6652442"
+          },
+          "volume": {
+            "source": "10.1155/ina/6652442"
+          },
+          "number": {
+            "source": "10.1155/ina/6652442"
+          },
+          "pages": {
+            "source": "10.1155/ina/6652442"
+          },
+          "doi": {
+            "source": "10.1155/ina/6652442"
+          }
+        },
+        "review": {
+          "main_claim": {
+            "source": "10.1155/ina/6652442",
+            "locator": "Abstract/Results",
+            "kind": "author_claim"
+          },
+          "novelty": {
+            "source": "10.1155/ina/6652442",
+            "locator": "Methods/Conclusions",
+            "kind": "author_claim"
+          },
+          "positioning": {
+            "source": "10.1155/ina/6652442",
+            "locator": "Abstract/Conclusions",
+            "kind": "interpretation"
+          }
+        },
+        "classification": {
+          "source": "10.1155/ina/6652442",
+          "rationale": "Building Environment and IEQ"
+        }
+      },
+      "paper_id": "P014",
+      "paper_file": "papers/P014.tex"
+    },
+    {
+      "title": "Deep reinforcement learning control for co-optimizing energy consumption, thermal comfort, and indoor air quality in an office building",
+      "authors": [
+        "Fangzhou Guo",
+        "Sang woo Ham",
+        "Donghun Kim",
+        "Hyeun Jun Moon"
+      ],
+      "year": 2025,
+      "doi": "10.1016/j.apenergy.2024.124467",
+      "arxiv_id": null,
+      "bibtex_key": "Guo:2025DRLHVACIAQ",
+      "source_url": null,
+      "primary_category": "HVAC and Building Services",
+      "secondary_categories": [
+        "AI and Machine Learning for Buildings",
+        "Building Environment and IEQ",
+        "Building Energy and ZEB"
+      ],
+      "keywords": [
+        "Deep reinforcement learning",
+        "HVAC control",
+        "Energy",
+        "Thermal comfort",
+        "CO2",
+        "PM2.5",
+        "DDPG"
+      ],
+      "review_status": "screened",
+      "full_text_checked": true,
+      "bibliography_type": "article",
+      "bibliography": {
+        "title": "Deep reinforcement learning control for co-optimizing energy consumption, thermal comfort, and indoor air quality in an office building",
+        "author": "Fangzhou Guo and Sang woo Ham and Donghun Kim and Hyeun Jun Moon",
+        "journal": "Applied Energy",
+        "year": "2025",
+        "volume": "377",
+        "pages": "124467",
+        "doi": "10.1016/j.apenergy.2024.124467"
+      },
+      "screening_review": {
+        "main_claim": "DDPG-based DRLでHVACを制御し, energy, thermal comfort, CO2, PM2.5を同時最適化した.",
+        "novelty": "複数HVAC actuatorとIEQ-energy trade-offを単一DRL supervisory controllerで扱った.",
+        "positioning": "HVAC supervisory controlにおけるDRL-based multi-objective optimization研究として位置付ける."
+      },
+      "evidence": {
+        "bibliography": {
+          "title": {
+            "source": "10.1016/j.apenergy.2024.124467"
+          },
+          "author": {
+            "source": "10.1016/j.apenergy.2024.124467"
+          },
+          "journal": {
+            "source": "10.1016/j.apenergy.2024.124467"
+          },
+          "year": {
+            "source": "10.1016/j.apenergy.2024.124467"
+          },
+          "volume": {
+            "source": "10.1016/j.apenergy.2024.124467"
+          },
+          "pages": {
+            "source": "10.1016/j.apenergy.2024.124467"
+          },
+          "doi": {
+            "source": "10.1016/j.apenergy.2024.124467"
+          }
+        },
+        "review": {
+          "main_claim": {
+            "source": "10.1016/j.apenergy.2024.124467",
+            "locator": "Abstract/Results",
+            "kind": "author_claim"
+          },
+          "novelty": {
+            "source": "10.1016/j.apenergy.2024.124467",
+            "locator": "Methods/Conclusions",
+            "kind": "author_claim"
+          },
+          "positioning": {
+            "source": "10.1016/j.apenergy.2024.124467",
+            "locator": "Abstract/Conclusions",
+            "kind": "interpretation"
+          }
+        },
+        "classification": {
+          "source": "10.1016/j.apenergy.2024.124467",
+          "rationale": "HVAC and Building Services"
+        }
+      },
+      "paper_id": "P015",
+      "paper_file": "papers/P015.tex"
+    },
+    {
+      "title": "Brick: Metadata schema for portable smart building applications",
+      "authors": [
+        "Bharathan Balaji",
+        "Arka Bhattacharya",
+        "Gabriel Fierro",
+        "Jingkun Gao",
+        "Joshua Gluck",
+        "Dezhi Hong",
+        "Aslak Johansen",
+        "Jason Koh",
+        "Joern Ploennigs",
+        "Yuvraj Agarwal",
+        "Mario Bergés",
+        "David Culler",
+        "Rajesh K. Gupta",
+        "Mikkel Baun Kjærgaard",
+        "Mani Srivastava",
+        "Kamin Whitehouse"
+      ],
+      "year": 2018,
+      "doi": "10.1016/j.apenergy.2018.02.091",
+      "arxiv_id": null,
+      "bibtex_key": "Balaji:2018Brick",
+      "source_url": null,
+      "primary_category": "BIM and Semantic Information",
+      "secondary_categories": [
+        "BMS, BAS, BACS and Building Automation",
+        "Sensors, IoT and Data Integration"
+      ],
+      "keywords": [
+        "Brick Schema",
+        "Building metadata",
+        "Semantic model",
+        "RDF",
+        "SPARQL",
+        "Portable applications"
+      ],
+      "review_status": "registered",
+      "full_text_checked": false,
+      "bibliography_type": "article",
+      "bibliography": {
+        "title": "Brick: Metadata schema for portable smart building applications",
+        "author": "Bharathan Balaji and Arka Bhattacharya and Gabriel Fierro and Jingkun Gao and Joshua Gluck and Dezhi Hong and Aslak Johansen and Jason Koh and Joern Ploennigs and Yuvraj Agarwal and Mario Bergés and David Culler and Rajesh K. Gupta and Mikkel Baun Kjærgaard and Mani Srivastava and Kamin Whitehouse",
+        "journal": "Applied Energy",
+        "year": 2018,
+        "volume": "226",
+        "pages": "1273--1292",
+        "doi": "10.1016/j.apenergy.2018.02.091"
+      },
+      "screening_review": {
+        "main_claim": "要検討",
+        "novelty": "要検討",
+        "positioning": "要検討"
+      },
+      "evidence": {
+        "bibliography": {
+          "title": {
+            "source": "https://doi.org/10.1016/j.apenergy.2018.02.091"
+          },
+          "author": {
+            "source": "https://doi.org/10.1016/j.apenergy.2018.02.091"
+          },
+          "journal": {
+            "source": "https://doi.org/10.1016/j.apenergy.2018.02.091"
+          },
+          "year": {
+            "source": "https://doi.org/10.1016/j.apenergy.2018.02.091"
+          },
+          "volume": {
+            "source": "https://doi.org/10.1016/j.apenergy.2018.02.091"
+          },
+          "pages": {
+            "source": "https://doi.org/10.1016/j.apenergy.2018.02.091"
+          },
+          "doi": {
+            "source": "https://doi.org/10.1016/j.apenergy.2018.02.091"
+          }
+        },
+        "review": {},
+        "classification": {
+          "source": "https://doi.org/10.1016/j.apenergy.2018.02.091",
+          "rationale": "The paper's primary contribution is a semantic metadata schema for representing building infrastructure and enabling portable smart-building applications."
+        }
+      },
+      "paper_id": "P016",
+      "paper_file": "papers/P016.tex"
+    },
+    {
+      "title": "BOT: The Building Topology Ontology of the W3C Linked Building Data Group",
+      "authors": [
+        "Mads Holten Rasmussen",
+        "Maxime Lefrançois",
+        "Georg Ferdinand Schneider",
+        "Pieter Pauwels"
+      ],
+      "year": 2021,
+      "doi": "10.3233/SW-200385",
+      "arxiv_id": null,
+      "bibtex_key": "Rasmussen:2021BOT",
+      "source_url": null,
+      "primary_category": "BIM and Semantic Information",
+      "secondary_categories": [
+        "Reviews, Frameworks and Standards"
+      ],
+      "keywords": [
+        "BOT",
+        "Building topology ontology",
+        "Linked Building Data",
+        "Ontology",
+        "Semantic Web",
+        "RDF"
+      ],
+      "review_status": "registered",
+      "full_text_checked": false,
+      "bibliography_type": "article",
+      "bibliography": {
+        "title": "BOT: The Building Topology Ontology of the W3C Linked Building Data Group",
+        "author": "Mads Holten Rasmussen and Maxime Lefrançois and Georg Ferdinand Schneider and Pieter Pauwels",
+        "journal": "Semantic Web",
+        "year": 2021,
+        "volume": "12",
+        "number": "1",
+        "pages": "143--161",
+        "doi": "10.3233/SW-200385"
+      },
+      "screening_review": {
+        "main_claim": "要検討",
+        "novelty": "要検討",
+        "positioning": "要検討"
+      },
+      "evidence": {
+        "bibliography": {
+          "title": {
+            "source": "https://doi.org/10.3233/SW-200385"
+          },
+          "author": {
+            "source": "https://doi.org/10.3233/SW-200385"
+          },
+          "journal": {
+            "source": "https://doi.org/10.3233/SW-200385"
+          },
+          "year": {
+            "source": "https://doi.org/10.3233/SW-200385"
+          },
+          "volume": {
+            "source": "https://doi.org/10.3233/SW-200385"
+          },
+          "number": {
+            "source": "https://doi.org/10.3233/SW-200385"
+          },
+          "pages": {
+            "source": "https://doi.org/10.3233/SW-200385"
+          },
+          "doi": {
+            "source": "https://doi.org/10.3233/SW-200385"
+          }
+        },
+        "review": {},
+        "classification": {
+          "source": "https://doi.org/10.3233/SW-200385",
+          "rationale": "The paper defines a building-topology ontology for Linked Building Data and therefore primarily concerns semantic representation of building information."
+        }
+      },
+      "paper_id": "P017",
+      "paper_file": "papers/P017.tex"
+    },
+    {
+      "title": "Semantic model-based large-scale deployment of AI-driven building management applications",
+      "authors": [
+        "Kan Xu",
+        "Zhe Chen",
+        "Fu Xiao",
+        "Jing Zhang",
+        "Hanbei Zhang",
+        "Tianyou Ma"
+      ],
+      "year": 2024,
+      "doi": "10.1016/j.autcon.2024.105579",
+      "arxiv_id": null,
+      "bibtex_key": "Xu:2024SemanticAI",
+      "source_url": null,
+      "primary_category": "BIM and Semantic Information",
+      "secondary_categories": [
+        "AI and Machine Learning for Buildings",
+        "BMS, BAS, BACS and Building Automation"
+      ],
+      "keywords": [
+        "Semantic model",
+        "Brick Schema",
+        "AI applications",
+        "Building management",
+        "Data interoperability",
+        "Large-scale deployment"
+      ],
+      "review_status": "registered",
+      "full_text_checked": false,
+      "bibliography_type": "article",
+      "bibliography": {
+        "title": "Semantic model-based large-scale deployment of AI-driven building management applications",
+        "author": "Kan Xu and Zhe Chen and Fu Xiao and Jing Zhang and Hanbei Zhang and Tianyou Ma",
+        "journal": "Automation in Construction",
+        "year": 2024,
+        "volume": "165",
+        "pages": "105579",
+        "doi": "10.1016/j.autcon.2024.105579"
+      },
+      "screening_review": {
+        "main_claim": "要検討",
+        "novelty": "要検討",
+        "positioning": "要検討"
+      },
+      "evidence": {
+        "bibliography": {
+          "title": {
+            "source": "https://doi.org/10.1016/j.autcon.2024.105579"
+          },
+          "author": {
+            "source": "https://doi.org/10.1016/j.autcon.2024.105579"
+          },
+          "journal": {
+            "source": "https://doi.org/10.1016/j.autcon.2024.105579"
+          },
+          "year": {
+            "source": "https://doi.org/10.1016/j.autcon.2024.105579"
+          },
+          "volume": {
+            "source": "https://doi.org/10.1016/j.autcon.2024.105579"
+          },
+          "pages": {
+            "source": "https://doi.org/10.1016/j.autcon.2024.105579"
+          },
+          "doi": {
+            "source": "https://doi.org/10.1016/j.autcon.2024.105579"
+          }
+        },
+        "review": {},
+        "classification": {
+          "source": "https://doi.org/10.1016/j.autcon.2024.105579",
+          "rationale": "The framework uses a semantic model to integrate heterogeneous building data and support deployment of AI-driven building-management applications."
+        }
+      },
+      "paper_id": "P018",
+      "paper_file": "papers/P018.tex"
+    },
+    {
+      "title": "A framework for integrating BIM, building automation systems, and IoT: an application in design and operation using open standards",
+      "authors": [
+        "Shu Tang",
+        "Dennis R. Shelden",
+        "Xinghua Gao",
+        "Cheng Zhang",
+        "Jianli Hao",
+        "Fangyu Guo",
+        "Haoyu Zhang"
+      ],
+      "year": 2025,
+      "doi": "10.1016/j.jobe.2025.114092",
+      "arxiv_id": null,
+      "bibtex_key": "Tang:2025BIMBASIoT",
+      "source_url": null,
+      "primary_category": "BIM and Semantic Information",
+      "secondary_categories": [
+        "BMS, BAS, BACS and Building Automation",
+        "Sensors, IoT and Data Integration"
+      ],
+      "keywords": [
+        "BIM",
+        "BAS",
+        "IoT",
+        "BOT",
+        "Brick Schema",
+        "Semantic Web",
+        "Open standards"
+      ],
+      "review_status": "registered",
+      "full_text_checked": false,
+      "bibliography_type": "article",
+      "bibliography": {
+        "title": "A framework for integrating BIM, building automation systems, and IoT: an application in design and operation using open standards",
+        "author": "Shu Tang and Dennis R. Shelden and Xinghua Gao and Cheng Zhang and Jianli Hao and Fangyu Guo and Haoyu Zhang",
+        "journal": "Journal of Building Engineering",
+        "year": 2025,
+        "volume": "113",
+        "pages": "114092",
+        "doi": "10.1016/j.jobe.2025.114092"
+      },
+      "screening_review": {
+        "main_claim": "要検討",
+        "novelty": "要検討",
+        "positioning": "要検討"
+      },
+      "evidence": {
+        "bibliography": {
+          "title": {
+            "source": "https://doi.org/10.1016/j.jobe.2025.114092"
+          },
+          "author": {
+            "source": "https://doi.org/10.1016/j.jobe.2025.114092"
+          },
+          "journal": {
+            "source": "https://doi.org/10.1016/j.jobe.2025.114092"
+          },
+          "year": {
+            "source": "https://doi.org/10.1016/j.jobe.2025.114092"
+          },
+          "volume": {
+            "source": "https://doi.org/10.1016/j.jobe.2025.114092"
+          },
+          "pages": {
+            "source": "https://doi.org/10.1016/j.jobe.2025.114092"
+          },
+          "doi": {
+            "source": "https://doi.org/10.1016/j.jobe.2025.114092"
+          }
+        },
+        "review": {},
+        "classification": {
+          "source": "https://doi.org/10.1016/j.jobe.2025.114092",
+          "rationale": "The study focuses on semantic and open-standard integration across BIM, building automation systems, and IoT."
+        }
+      },
+      "paper_id": "P019",
+      "paper_file": "papers/P019.tex"
+    },
+    {
+      "title": "Ontology-driven energy management in smart buildings: A comprehensive review of methodologies, tools, and challenges",
+      "authors": [
+        "Adamantios Bampoulas",
+        "Kaiwalya Raj",
+        "Anandhi Parthiban",
+        "Mohammad Saffari",
+        "Eleni Mangina"
+      ],
+      "year": 2026,
+      "doi": "10.1016/j.enbuild.2025.116817",
+      "arxiv_id": null,
+      "bibtex_key": "Bampoulas:2026OntologyEnergyReview",
+      "source_url": null,
+      "primary_category": "Reviews, Frameworks and Standards",
+      "secondary_categories": [
+        "BIM and Semantic Information",
+        "Building Energy and ZEB"
+      ],
+      "keywords": [
+        "Ontology",
+        "Building energy systems",
+        "Semantic interoperability",
+        "Knowledge representation",
+        "Brick",
+        "SAREF",
+        "Digital Twin"
+      ],
+      "review_status": "screened",
+      "full_text_checked": true,
+      "bibliography_type": "article",
+      "bibliography": {
+        "title": "Ontology-driven energy management in smart buildings: A comprehensive review of methodologies, tools, and challenges",
+        "author": "Adamantios Bampoulas and Kaiwalya Raj and Anandhi Parthiban and Mohammad Saffari and Eleni Mangina",
+        "journal": "Energy and Buildings",
+        "year": 2026,
+        "volume": "352",
+        "pages": "116817",
+        "doi": "10.1016/j.enbuild.2025.116817"
+      },
+      "screening_review": {
+        "main_claim": "81件のprimary studyを対象にontology-driven BESを横断整理し, ontologyはstandardised data flowsとmulti-agent coordinationを支援する一方, domain coverage, emerging industry standardsとのalignment, predictive modelling向けtime-series integrationにギャップが残ると示した.",
+        "novelty": "occupant behaviour, IoT sensor data, demand response等に限定されていた既往reviewに対し, DT integration, occupant-centric control, semantic interoperability, AI-driven optimisationを含むBES全体の統合的reviewを提示した.",
+        "positioning": "ontologyとAI/ML, Digital Twin, real-time energy managementの接続を俯瞰するreviewであり, semantic modelをprediction/controlへ接続する研究課題の上位背景として位置付ける."
+      },
+      "evidence": {
+        "bibliography": {
+          "title": {
+            "source": "https://doi.org/10.1016/j.enbuild.2025.116817"
+          },
+          "author": {
+            "source": "https://doi.org/10.1016/j.enbuild.2025.116817"
+          },
+          "journal": {
+            "source": "https://doi.org/10.1016/j.enbuild.2025.116817"
+          },
+          "year": {
+            "source": "https://doi.org/10.1016/j.enbuild.2025.116817"
+          },
+          "volume": {
+            "source": "https://doi.org/10.1016/j.enbuild.2025.116817"
+          },
+          "pages": {
+            "source": "https://doi.org/10.1016/j.enbuild.2025.116817"
+          },
+          "doi": {
+            "source": "https://doi.org/10.1016/j.enbuild.2025.116817"
+          }
+        },
+        "review": {
+          "main_claim": {
+            "source": "10.1016/j.enbuild.2025.116817",
+            "locator": "Abstract; Results of the review",
+            "kind": "author_claim"
+          },
+          "novelty": {
+            "source": "10.1016/j.enbuild.2025.116817",
+            "locator": "Section 1.3 Previous reviews; Section 1.4 Research scope and contributions",
+            "kind": "author_claim"
+          },
+          "positioning": {
+            "source": "10.1016/j.enbuild.2025.116817",
+            "locator": "Section 1.4 Research scope and contributions; Section 3.5 Advanced technologies and integrations",
+            "kind": "interpretation"
+          }
+        },
+        "classification": {
+          "source": "https://doi.org/10.1016/j.enbuild.2025.116817",
+          "rationale": "This is a comprehensive review of ontology-driven methodologies and tools for building energy management."
+        }
+      },
+      "paper_id": "P020",
+      "paper_file": "papers/P020.tex"
+    },
+    {
+      "title": "Metadata schema for virtual building models in digital twins: VB schema implemented in GPT-based applications",
+      "authors": [
+        "Jeyoon Lee",
+        "Sungmin Yoon"
+      ],
+      "year": 2025,
+      "doi": "10.1016/j.enbuild.2024.115039",
+      "arxiv_id": null,
+      "bibtex_key": "Lee:2025VBSchema",
+      "source_url": null,
+      "primary_category": "BIM and Semantic Information",
+      "secondary_categories": [
+        "Digital Twin",
+        "Retrieval, Query, LLM and Agent"
+      ],
+      "keywords": [
+        "VB schema",
+        "Virtual building models",
+        "Digital Twin",
+        "Ontology",
+        "Brick Schema",
+        "GPT",
+        "HVAC"
+      ],
+      "review_status": "registered",
+      "full_text_checked": false,
+      "bibliography_type": "article",
+      "bibliography": {
+        "title": "Metadata schema for virtual building models in digital twins: VB schema implemented in GPT-based applications",
+        "author": "Jeyoon Lee and Sungmin Yoon",
+        "journal": "Energy and Buildings",
+        "year": 2025,
+        "volume": "327",
+        "pages": "115039",
+        "doi": "10.1016/j.enbuild.2024.115039"
+      },
+      "screening_review": {
+        "main_claim": "要検討",
+        "novelty": "要検討",
+        "positioning": "要検討"
+      },
+      "evidence": {
+        "bibliography": {
+          "title": {
+            "source": "https://doi.org/10.1016/j.enbuild.2024.115039"
+          },
+          "author": {
+            "source": "https://doi.org/10.1016/j.enbuild.2024.115039"
+          },
+          "journal": {
+            "source": "https://doi.org/10.1016/j.enbuild.2024.115039"
+          },
+          "year": {
+            "source": "https://doi.org/10.1016/j.enbuild.2024.115039"
+          },
+          "volume": {
+            "source": "https://doi.org/10.1016/j.enbuild.2024.115039"
+          },
+          "pages": {
+            "source": "https://doi.org/10.1016/j.enbuild.2024.115039"
+          },
+          "doi": {
+            "source": "https://doi.org/10.1016/j.enbuild.2024.115039"
+          }
+        },
+        "review": {},
+        "classification": {
+          "source": "https://doi.org/10.1016/j.enbuild.2024.115039",
+          "rationale": "The main contribution is a metadata schema for virtual building models, extending semantic representation in digital-twin environments."
+        }
+      },
+      "paper_id": "P021",
+      "paper_file": "papers/P021.tex"
+    },
+    {
+      "title": "Ontology-enabled AI agent-driven intelligent digital twins for building operations and maintenance",
+      "authors": [
+        "Sungmin Yoon",
+        "Jihwan Song",
+        "Jiteng Li"
+      ],
+      "year": 2025,
+      "doi": "10.1016/j.jobe.2025.112802",
+      "arxiv_id": null,
+      "bibtex_key": "Yoon:2025OntologyAIDT",
+      "source_url": null,
+      "primary_category": "Digital Twin",
+      "secondary_categories": [
+        "Retrieval, Query, LLM and Agent",
+        "BIM and Semantic Information",
+        "Fault Detection, Diagnostics and Maintenance"
+      ],
+      "keywords": [
+        "Digital Twin",
+        "AI agent",
+        "Ontology",
+        "Building operations",
+        "Maintenance",
+        "OpenAI API",
+        "LangChain"
+      ],
+      "review_status": "registered",
+      "full_text_checked": false,
+      "bibliography_type": "article",
+      "bibliography": {
+        "title": "Ontology-enabled AI agent-driven intelligent digital twins for building operations and maintenance",
+        "author": "Sungmin Yoon and Jihwan Song and Jiteng Li",
+        "journal": "Journal of Building Engineering",
+        "year": 2025,
+        "volume": "108",
+        "pages": "112802",
+        "doi": "10.1016/j.jobe.2025.112802"
+      },
+      "screening_review": {
+        "main_claim": "要検討",
+        "novelty": "要検討",
+        "positioning": "要検討"
+      },
+      "evidence": {
+        "bibliography": {
+          "title": {
+            "source": "https://doi.org/10.1016/j.jobe.2025.112802"
+          },
+          "author": {
+            "source": "https://doi.org/10.1016/j.jobe.2025.112802"
+          },
+          "journal": {
+            "source": "https://doi.org/10.1016/j.jobe.2025.112802"
+          },
+          "year": {
+            "source": "https://doi.org/10.1016/j.jobe.2025.112802"
+          },
+          "volume": {
+            "source": "https://doi.org/10.1016/j.jobe.2025.112802"
+          },
+          "pages": {
+            "source": "https://doi.org/10.1016/j.jobe.2025.112802"
+          },
+          "doi": {
+            "source": "https://doi.org/10.1016/j.jobe.2025.112802"
+          }
+        },
+        "review": {},
+        "classification": {
+          "source": "https://doi.org/10.1016/j.jobe.2025.112802",
+          "rationale": "The study proposes an ontology-enabled AI-agent architecture explicitly framed as an intelligent digital twin for building O&M."
+        }
+      },
+      "paper_id": "P022",
+      "paper_file": "papers/P022.tex"
+    },
+    {
+      "title": "Metadata schema for virtual sensors in digital twin-enabled building systems using Brick schema",
+      "authors": [
+        "Syed Mostasim Hasnain Saif",
+        "Jeyoon Lee",
+        "Peng Wang",
+        "Sungmin Yoon"
+      ],
+      "year": 2026,
+      "doi": "10.1016/j.jobe.2026.115650",
+      "arxiv_id": null,
+      "bibtex_key": "Saif:2026VirtualSensorBrick",
+      "source_url": null,
+      "primary_category": "BIM and Semantic Information",
+      "secondary_categories": [
+        "Digital Twin",
+        "Sensors, IoT and Data Integration"
+      ],
+      "keywords": [
+        "Virtual sensors",
+        "Brick Schema",
+        "Metadata schema",
+        "Digital Twin",
+        "Ontology",
+        "Building systems"
+      ],
+      "review_status": "registered",
+      "full_text_checked": false,
+      "bibliography_type": "article",
+      "bibliography": {
+        "title": "Metadata schema for virtual sensors in digital twin-enabled building systems using Brick schema",
+        "author": "Syed Mostasim Hasnain Saif and Jeyoon Lee and Peng Wang and Sungmin Yoon",
+        "journal": "Journal of Building Engineering",
+        "year": 2026,
+        "volume": "121",
+        "pages": "115650",
+        "doi": "10.1016/j.jobe.2026.115650"
+      },
+      "screening_review": {
+        "main_claim": "要検討",
+        "novelty": "要検討",
+        "positioning": "要検討"
+      },
+      "evidence": {
+        "bibliography": {
+          "title": {
+            "source": "https://doi.org/10.1016/j.jobe.2026.115650"
+          },
+          "author": {
+            "source": "https://doi.org/10.1016/j.jobe.2026.115650"
+          },
+          "journal": {
+            "source": "https://doi.org/10.1016/j.jobe.2026.115650"
+          },
+          "year": {
+            "source": "https://doi.org/10.1016/j.jobe.2026.115650"
+          },
+          "volume": {
+            "source": "https://doi.org/10.1016/j.jobe.2026.115650"
+          },
+          "pages": {
+            "source": "https://doi.org/10.1016/j.jobe.2026.115650"
+          },
+          "doi": {
+            "source": "https://doi.org/10.1016/j.jobe.2026.115650"
+          }
+        },
+        "review": {},
+        "classification": {
+          "source": "https://doi.org/10.1016/j.jobe.2026.115650",
+          "rationale": "The paper extends Brick with classes, relationships, and properties for virtual sensors in digital-twin-enabled building systems."
+        }
+      },
+      "paper_id": "P023",
+      "paper_file": "papers/P023.tex"
+    },
+    {
+      "title": "Commercial building indoor environmental quality models: A critical review",
+      "authors": [
+        "Soheil Roumi",
+        "Fan Zhang",
+        "Rodney A. Stewart",
+        "Mattheos Santamouris"
+      ],
+      "year": 2022,
+      "doi": "10.1016/j.enbuild.2022.112033",
+      "arxiv_id": null,
+      "bibtex_key": "Roumi:2022IEQModelsReview",
+      "source_url": null,
+      "primary_category": "Reviews, Frameworks and Standards",
+      "secondary_categories": [
+        "Building Environment and IEQ"
+      ],
+      "keywords": [
+        "Indoor environmental quality",
+        "IEQ models",
+        "Commercial buildings",
+        "Critical review",
+        "Thermal comfort",
+        "Indoor air quality"
+      ],
+      "review_status": "registered",
+      "full_text_checked": false,
+      "bibliography_type": "article",
+      "bibliography": {
+        "title": "Commercial building indoor environmental quality models: A critical review",
+        "author": "Soheil Roumi and Fan Zhang and Rodney A. Stewart and Mattheos Santamouris",
+        "journal": "Energy and Buildings",
+        "year": 2022,
+        "volume": "263",
+        "pages": "112033",
+        "doi": "10.1016/j.enbuild.2022.112033"
+      },
+      "screening_review": {
+        "main_claim": "要検討",
+        "novelty": "要検討",
+        "positioning": "要検討"
+      },
+      "evidence": {
+        "bibliography": {
+          "title": {
+            "source": "https://doi.org/10.1016/j.enbuild.2022.112033"
+          },
+          "author": {
+            "source": "https://doi.org/10.1016/j.enbuild.2022.112033"
+          },
+          "journal": {
+            "source": "https://doi.org/10.1016/j.enbuild.2022.112033"
+          },
+          "year": {
+            "source": "https://doi.org/10.1016/j.enbuild.2022.112033"
+          },
+          "volume": {
+            "source": "https://doi.org/10.1016/j.enbuild.2022.112033"
+          },
+          "pages": {
+            "source": "https://doi.org/10.1016/j.enbuild.2022.112033"
+          },
+          "doi": {
+            "source": "https://doi.org/10.1016/j.enbuild.2022.112033"
+          }
+        },
+        "review": {},
+        "classification": {
+          "source": "https://doi.org/10.1016/j.enbuild.2022.112033",
+          "rationale": "This is a critical review of IEQ models in commercial buildings and their analytical and evaluation approaches."
+        }
+      },
+      "paper_id": "P024",
+      "paper_file": "papers/P024.tex"
+    },
+    {
+      "title": "Machine Learning and Deep Learning Methods for Enhancing Building Energy Efficiency and Indoor Environmental Quality - A Review",
+      "authors": [
+        "Paige Wenbin Tien",
+        "Shuangyu Wei",
+        "Jo Darkwa",
+        "Christopher Wood",
+        "John Kaiser Calautit"
+      ],
+      "year": 2022,
+      "doi": "10.1016/j.egyai.2022.100198",
+      "arxiv_id": null,
+      "bibtex_key": "Tien:2022MLDLEnergyIEQReview",
+      "source_url": null,
+      "primary_category": "Reviews, Frameworks and Standards",
+      "secondary_categories": [
+        "AI and Machine Learning for Buildings",
+        "Building Environment and IEQ",
+        "Building Energy and ZEB"
+      ],
+      "keywords": [
+        "Machine learning",
+        "Deep learning",
+        "Building energy efficiency",
+        "Indoor environmental quality",
+        "Thermal comfort",
+        "Indoor air quality"
+      ],
+      "review_status": "registered",
+      "full_text_checked": false,
+      "bibliography_type": "article",
+      "bibliography": {
+        "title": "Machine Learning and Deep Learning Methods for Enhancing Building Energy Efficiency and Indoor Environmental Quality - A Review",
+        "author": "Paige Wenbin Tien and Shuangyu Wei and Jo Darkwa and Christopher Wood and John Kaiser Calautit",
+        "journal": "Energy and AI",
+        "year": 2022,
+        "volume": "10",
+        "pages": "100198",
+        "doi": "10.1016/j.egyai.2022.100198"
+      },
+      "screening_review": {
+        "main_claim": "要検討",
+        "novelty": "要検討",
+        "positioning": "要検討"
+      },
+      "evidence": {
+        "bibliography": {
+          "title": {
+            "source": "https://doi.org/10.1016/j.egyai.2022.100198"
+          },
+          "author": {
+            "source": "https://doi.org/10.1016/j.egyai.2022.100198"
+          },
+          "journal": {
+            "source": "https://doi.org/10.1016/j.egyai.2022.100198"
+          },
+          "year": {
+            "source": "https://doi.org/10.1016/j.egyai.2022.100198"
+          },
+          "volume": {
+            "source": "https://doi.org/10.1016/j.egyai.2022.100198"
+          },
+          "pages": {
+            "source": "https://doi.org/10.1016/j.egyai.2022.100198"
+          },
+          "doi": {
+            "source": "https://doi.org/10.1016/j.egyai.2022.100198"
+          }
+        },
+        "review": {},
+        "classification": {
+          "source": "https://doi.org/10.1016/j.egyai.2022.100198",
+          "rationale": "This review synthesizes machine-learning and deep-learning applications for building energy efficiency and IEQ."
+        }
+      },
+      "paper_id": "P025",
+      "paper_file": "papers/P025.tex"
+    },
+    {
+      "title": "Modeling indoor thermal comfort in buildings using digital twin and machine learning",
+      "authors": [
+        "Ziad ElArwady",
+        "Ahmed Kandil",
+        "Mohanad Afiffy",
+        "Mohamed Marzouk"
+      ],
+      "year": 2024,
+      "doi": "10.1016/j.dibe.2024.100480",
+      "arxiv_id": null,
+      "bibtex_key": "ElArwady:2024ThermalComfortDT",
+      "source_url": null,
+      "primary_category": "Digital Twin",
+      "secondary_categories": [
+        "Building Environment and IEQ",
+        "AI and Machine Learning for Buildings",
+        "BIM and Semantic Information"
+      ],
+      "keywords": [
+        "Digital Twin",
+        "Thermal comfort",
+        "Machine learning",
+        "BIM",
+        "IoT",
+        "Indoor environment"
+      ],
+      "review_status": "registered",
+      "full_text_checked": false,
+      "bibliography_type": "article",
+      "bibliography": {
+        "title": "Modeling indoor thermal comfort in buildings using digital twin and machine learning",
+        "author": "Ziad ElArwady and Ahmed Kandil and Mohanad Afiffy and Mohamed Marzouk",
+        "journal": "Developments in the Built Environment",
+        "year": 2024,
+        "volume": "19",
+        "pages": "100480",
+        "doi": "10.1016/j.dibe.2024.100480"
+      },
+      "screening_review": {
+        "main_claim": "要検討",
+        "novelty": "要検討",
+        "positioning": "要検討"
+      },
+      "evidence": {
+        "bibliography": {
+          "title": {
+            "source": "https://doi.org/10.1016/j.dibe.2024.100480"
+          },
+          "author": {
+            "source": "https://doi.org/10.1016/j.dibe.2024.100480"
+          },
+          "journal": {
+            "source": "https://doi.org/10.1016/j.dibe.2024.100480"
+          },
+          "year": {
+            "source": "https://doi.org/10.1016/j.dibe.2024.100480"
+          },
+          "volume": {
+            "source": "https://doi.org/10.1016/j.dibe.2024.100480"
+          },
+          "pages": {
+            "source": "https://doi.org/10.1016/j.dibe.2024.100480"
+          },
+          "doi": {
+            "source": "https://doi.org/10.1016/j.dibe.2024.100480"
+          }
+        },
+        "review": {},
+        "classification": {
+          "source": "https://doi.org/10.1016/j.dibe.2024.100480",
+          "rationale": "The study develops a digital-twin platform integrating BIM, IoT, and machine learning for indoor thermal-comfort modeling."
+        }
+      },
+      "paper_id": "P026",
+      "paper_file": "papers/P026.tex"
+    },
+    {
+      "title": "Developing an integrative framework for digital twin applications in the building construction industry: A systematic literature review",
+      "authors": [
+        "Wuyan Long",
+        "Zhikang Bao",
+        "Ke Chen",
+        "S. Thomas Ng",
+        "Ibrahim Yahaya Wuni"
+      ],
+      "year": 2024,
+      "doi": "10.1016/j.aei.2023.102346",
+      "arxiv_id": null,
+      "bibtex_key": "Long:2024DTConstructionReview",
+      "source_url": null,
+      "primary_category": "Reviews, Frameworks and Standards",
+      "secondary_categories": [
+        "Digital Twin"
+      ],
+      "keywords": [
+        "Digital Twin",
+        "Building construction",
+        "Systematic literature review",
+        "Integrative framework",
+        "Construction",
+        "Operation and maintenance"
+      ],
+      "review_status": "registered",
+      "full_text_checked": false,
+      "bibliography_type": "article",
+      "bibliography": {
+        "title": "Developing an integrative framework for digital twin applications in the building construction industry: A systematic literature review",
+        "author": "Wuyan Long and Zhikang Bao and Ke Chen and S. Thomas Ng and Ibrahim Yahaya Wuni",
+        "journal": "Advanced Engineering Informatics",
+        "year": 2024,
+        "volume": "59",
+        "pages": "102346",
+        "doi": "10.1016/j.aei.2023.102346"
+      },
+      "screening_review": {
+        "main_claim": "要検討",
+        "novelty": "要検討",
+        "positioning": "要検討"
+      },
+      "evidence": {
+        "bibliography": {
+          "title": {
+            "source": "https://doi.org/10.1016/j.aei.2023.102346"
+          },
+          "author": {
+            "source": "https://doi.org/10.1016/j.aei.2023.102346"
+          },
+          "journal": {
+            "source": "https://doi.org/10.1016/j.aei.2023.102346"
+          },
+          "year": {
+            "source": "https://doi.org/10.1016/j.aei.2023.102346"
+          },
+          "volume": {
+            "source": "https://doi.org/10.1016/j.aei.2023.102346"
+          },
+          "pages": {
+            "source": "https://doi.org/10.1016/j.aei.2023.102346"
+          },
+          "doi": {
+            "source": "https://doi.org/10.1016/j.aei.2023.102346"
+          }
+        },
+        "review": {},
+        "classification": {
+          "source": "https://doi.org/10.1016/j.aei.2023.102346",
+          "rationale": "This systematic literature review develops an integrative framework for digital-twin applications in the building construction industry."
+        }
+      },
+      "paper_id": "P027",
+      "paper_file": "papers/P027.tex"
+    },
+    {
+      "title": "Semantic Web Technologies for Indoor Environmental Quality: A Review and Ontology Design",
+      "authors": [
+        "Alex Donkers",
+        "Dujuan Yang",
+        "Bauke de Vries",
+        "Nico Baken"
+      ],
+      "year": 2022,
+      "doi": "10.3390/buildings12101522",
+      "arxiv_id": null,
+      "bibtex_key": "Donkers:2022BOPIEQ",
+      "source_url": null,
+      "local_pdf": null,
+      "primary_category": "BIM and Semantic Information",
+      "secondary_categories": [
+        "Building Environment and IEQ",
+        "Reviews, Frameworks and Standards"
+      ],
+      "keywords": [
+        "Semantic web",
+        "Linked data",
+        "Ontology",
+        "Indoor environmental quality",
+        "Building Performance Ontology",
+        "BIM",
+        "IoT"
+      ],
+      "review_status": "screened",
+      "full_text_checked": true,
+      "bibliography_type": "article",
+      "bibliography": {
+        "title": "Semantic Web Technologies for Indoor Environmental Quality: A Review and Ontology Design",
+        "author": "Alex Donkers and Dujuan Yang and Bauke de Vries and Nico Baken",
+        "journal": "Buildings",
+        "year": "2022",
+        "volume": "12",
+        "number": "10",
+        "pages": "1522",
+        "doi": "10.3390/buildings12101522"
+      },
+      "screening_review": {
+        "main_claim": "IEQ modellingに必要なBIM/IoT由来の異種情報を扱うため, building topologyとstatic/dynamic propertiesを統合するBuilding Performance Ontologyを構築し, 複数levels of detailを備えた拡張可能なsemantic data modelを提示した.",
+        "novelty": "既存ontologyのsystematic reviewから共通design patternsを抽出し, topology, static properties, observations, actuationsをlightweight upper ontologyとlower-level ontologiesへ統合した点に新規性がある.",
+        "positioning": "IEQ向けsemantic integrationの基盤研究であり, BIM, IoT, BMSの異種情報をbuilding contextと結び付けるontology設計として位置付ける."
+      },
+      "evidence": {
+        "bibliography": {
+          "title": {
+            "source": "10.3390/buildings12101522"
+          },
+          "author": {
+            "source": "10.3390/buildings12101522"
+          },
+          "journal": {
+            "source": "10.3390/buildings12101522"
+          },
+          "year": {
+            "source": "10.3390/buildings12101522"
+          },
+          "volume": {
+            "source": "10.3390/buildings12101522"
+          },
+          "number": {
+            "source": "10.3390/buildings12101522"
+          },
+          "pages": {
+            "source": "10.3390/buildings12101522"
+          },
+          "doi": {
+            "source": "10.3390/buildings12101522"
+          }
+        },
+        "review": {
+          "main_claim": {
+            "source": "10.3390/buildings12101522",
+            "locator": "Abstract; Section 5 Conclusions",
+            "kind": "author_claim"
+          },
+          "novelty": {
+            "source": "10.3390/buildings12101522",
+            "locator": "Sections 2-4; Section 5 Conclusions",
+            "kind": "author_claim"
+          },
+          "positioning": {
+            "source": "10.3390/buildings12101522",
+            "locator": "Introduction; Section 4 Building Performance Ontology; Section 5 Conclusions",
+            "kind": "interpretation"
+          }
+        },
+        "classification": {
+          "source": "10.3390/buildings12101522",
+          "rationale": "Primary contribution is ontology design for integrating building topology with static and dynamic IEQ properties; IEQ and review/framework are secondary contexts."
+        }
+      },
+      "paper_id": "P028",
+      "paper_file": "papers/P028.tex"
+    }
+  ]
+}
