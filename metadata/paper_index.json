@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "next_paper_id": 29,
+  "next_paper_id": 30,
   "papers": [
     {
       "title": "Spatial-temporal CO2 concentration prediction in education facilities with dynamic layouts using BIM and multi-modal graph neural networks",
@@ -1615,8 +1615,8 @@
         "Data interoperability",
         "Large-scale deployment"
       ],
-      "review_status": "registered",
-      "full_text_checked": false,
+      "review_status": "screened",
+      "full_text_checked": true,
       "bibliography_type": "article",
       "bibliography": {
         "title": "Semantic model-based large-scale deployment of AI-driven building management applications",
@@ -1628,9 +1628,9 @@
         "doi": "10.1016/j.autcon.2024.105579"
       },
       "screening_review": {
-        "main_claim": "要検討",
-        "novelty": "要検討",
-        "positioning": "要検討"
+        "main_claim": "Brickに基づくsemantic modelでBIM, BMS, IoT由来のstatic dataとtemporal dataを統合し, SPARQLとFLUXによる標準化されたdata acquisitionを介して同一application workflowを3建物へ展開した. 24 h ahead cooling-load predictionのCV-RMSEはSite1 14.5%, Site2 19.5%, Site3 13.5%であった.",
+        "novelty": "既往のsemantic model-based building applicationsが単一建物またはopen dataset中心であったのに対し, graph databaseとtemporal databaseをsemantic identifierで接続するframeworkを構築し, educational, office, commercialの3実建物でdeploymentを実証した点に新規性がある.",
+        "positioning": "semantic informationを予測モデルへの追加featureとして扱う研究ではなく, heterogeneous building dataをbuilding-independentに取得するabstraction layerとして利用し, AI applicationのportabilityとlarge-scale deploymentを支援する研究として位置付ける."
       },
       "evidence": {
         "bibliography": {
@@ -1656,7 +1656,23 @@
             "source": "https://doi.org/10.1016/j.autcon.2024.105579"
           }
         },
-        "review": {},
+        "review": {
+          "main_claim": {
+            "source": "10.1016/j.autcon.2024.105579",
+            "locator": "Sections 3.2-3.3, 4.3, 5.1; Table 6",
+            "kind": "author_claim"
+          },
+          "novelty": {
+            "source": "10.1016/j.autcon.2024.105579",
+            "locator": "Section 2.3; Sections 3-4",
+            "kind": "author_claim"
+          },
+          "positioning": {
+            "source": "10.1016/j.autcon.2024.105579",
+            "locator": "Sections 3.3 and 6",
+            "kind": "interpretation"
+          }
+        },
         "classification": {
           "source": "https://doi.org/10.1016/j.autcon.2024.105579",
           "rationale": "The framework uses a semantic model to integrate heterogeneous building data and support deployment of AI-driven building-management applications."
@@ -2470,6 +2486,99 @@
       },
       "paper_id": "P028",
       "paper_file": "papers/P028.tex"
+    },
+    {
+      "title": "Operational digital twins in the built environment: A systematic review of semantic infrastructure and deployment practice",
+      "authors": [
+        "Chady Elias",
+        "Isabella Hutchins",
+        "Raja R. A. Issa"
+      ],
+      "year": 2026,
+      "doi": "10.36680/j.itcon.2026.043",
+      "arxiv_id": null,
+      "bibtex_key": "Elias:2026OperationalDTReview",
+      "source_url": null,
+      "local_pdf": null,
+      "primary_category": "Reviews, Frameworks and Standards",
+      "secondary_categories": [
+        "Digital Twin",
+        "BIM and Semantic Information",
+        "Retrieval, Query, LLM and Agent"
+      ],
+      "keywords": [
+        "Digital Twin",
+        "Semantic interoperability",
+        "Knowledge graphs",
+        "Facility management",
+        "Systematic literature review",
+        "AI agents"
+      ],
+      "review_status": "screened",
+      "full_text_checked": true,
+      "bibliography_type": "article",
+      "bibliography": {
+        "title": "Operational digital twins in the built environment: A systematic review of semantic infrastructure and deployment practice",
+        "author": "Chady Elias and Isabella Hutchins and Raja R. A. Issa",
+        "journal": "Journal of Information Technology in Construction",
+        "year": "2026",
+        "volume": "31",
+        "pages": "1015--1041",
+        "doi": "10.36680/j.itcon.2026.043"
+      },
+      "screening_review": {
+        "main_claim": "46件のoperational Digital Twin deploymentをsystematic reviewし, formal semantic modelは25件, semanticsをruntime system logicで使用したのは12件であった. Runtimeでsemanticsを用いるdeploymentではdiagnostic outputが最も多い一方, execute-level actionは主としてsite-specificなfixed mappingに依存していた.",
+        "novelty": "既往reviewがdefinition, application, analytics等を中心に整理してきたのに対し, semantic tier, actionability, workflow integrationを用いて実装済みoperational DTを分類し, semantic infrastructureのruntime利用とdeployment readinessをimplementation-centeredに評価した点に新規性がある.",
+        "positioning": "operational DTにおけるsemantic infrastructureをportable analyticsおよびagent-enabled workflowsの前提となるlifecycle information requirementとして整理したreviewであり, scalable and AI-ready building operationの研究ギャップを示す位置付けとなる."
+      },
+      "evidence": {
+        "bibliography": {
+          "title": {
+            "source": "10.36680/j.itcon.2026.043"
+          },
+          "author": {
+            "source": "10.36680/j.itcon.2026.043"
+          },
+          "journal": {
+            "source": "10.36680/j.itcon.2026.043"
+          },
+          "year": {
+            "source": "10.36680/j.itcon.2026.043"
+          },
+          "volume": {
+            "source": "10.36680/j.itcon.2026.043"
+          },
+          "pages": {
+            "source": "10.36680/j.itcon.2026.043"
+          },
+          "doi": {
+            "source": "10.36680/j.itcon.2026.043"
+          }
+        },
+        "review": {
+          "main_claim": {
+            "source": "10.36680/j.itcon.2026.043",
+            "locator": "Abstract; Sections 4.2-4.4; Section 6 Conclusion",
+            "kind": "author_claim"
+          },
+          "novelty": {
+            "source": "10.36680/j.itcon.2026.043",
+            "locator": "Sections 1, 3.4-3.5 and 6",
+            "kind": "author_claim"
+          },
+          "positioning": {
+            "source": "10.36680/j.itcon.2026.043",
+            "locator": "Sections 5.3-5.4; Section 6 Conclusion",
+            "kind": "interpretation"
+          }
+        },
+        "classification": {
+          "source": "10.36680/j.itcon.2026.043",
+          "rationale": "Primary contribution is a systematic review of operational digital-twin deployment practice, with semantic infrastructure and AI-agent readiness as major analytical dimensions."
+        }
+      },
+      "paper_id": "P029",
+      "paper_file": "papers/P029.tex"
     }
   ]
 }
