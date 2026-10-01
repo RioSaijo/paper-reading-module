@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "next_paper_id": 30,
+  "next_paper_id": 37,
   "papers": [
     {
       "title": "Spatial-temporal CO2 concentration prediction in education facilities with dynamic layouts using BIM and multi-modal graph neural networks",
@@ -2579,6 +2579,656 @@
       },
       "paper_id": "P029",
       "paper_file": "papers/P029.tex"
+    },
+    {
+      "paper_id": "P030",
+      "paper_file": "papers/P030.tex",
+      "title": "Semantic prediction assistant approach applied to energy efficiency in Tertiary buildings",
+      "authors": [
+        "Iker Esnaola-Gonzalez",
+        "Jesús Bermúdez",
+        "Izaskun Fernandez",
+        "Aitor Arnaiz"
+      ],
+      "year": 2018,
+      "doi": "10.3233/SW-180296",
+      "arxiv_id": null,
+      "bibtex_key": "EsnaolaGonzalez:2018SemanticPredictionAssistant",
+      "source_url": "https://doi.org/10.3233/SW-180296",
+      "local_pdf": null,
+      "primary_category": "BIM and Semantic Information",
+      "secondary_categories": [
+        "AI and Machine Learning for Buildings",
+        "Building Energy and ZEB"
+      ],
+      "keywords": [
+        "Semantic Web Technologies",
+        "Knowledge Discovery in Databases",
+        "Energy efficiency",
+        "Buildings",
+        "Ontology",
+        "Prediction"
+      ],
+      "review_status": "screened",
+      "full_text_checked": true,
+      "bibliography_type": "article",
+      "bibliography": {
+        "title": "Semantic prediction assistant approach applied to energy efficiency in Tertiary buildings",
+        "author": "Iker Esnaola-Gonzalez and Jesús Bermúdez and Izaskun Fernandez and Aitor Arnaiz",
+        "journal": "Semantic Web",
+        "year": "2018",
+        "volume": "9",
+        "number": "6",
+        "pages": "735--762",
+        "doi": "10.3233/SW-180296"
+      },
+      "screening_review": {
+        "main_claim": "EEPSAは, ontology-driven semantic annotation, query/inference, outlier handling, attribute generationをKDDのselection, preprocessing, transformationへ組み込み, 実建物の室温予測支援においてbaselineよりprediction errorを低減した.",
+        "novelty": "Semantic Webを単なるデータ統合に留めず, KDDの複数段階にdomain knowledgeを組み込み, 変数選定, データ品質処理, 特徴生成を一連のprediction workflowとして支援し, real-world use caseで評価した点に新規性がある.",
+        "positioning": "semantic informationがprediction workflowへ直接作用する先行例であり, ontology-driven data selection, preprocessing, feature generation, prediction supportを検討する際の比較基準として位置付ける."
+      },
+      "evidence": {
+        "bibliography": {
+          "title": {
+            "source": "https://doi.org/10.3233/SW-180296"
+          },
+          "author": {
+            "source": "https://doi.org/10.3233/SW-180296"
+          },
+          "journal": {
+            "source": "https://doi.org/10.3233/SW-180296"
+          },
+          "year": {
+            "source": "https://doi.org/10.3233/SW-180296"
+          },
+          "volume": {
+            "source": "https://doi.org/10.3233/SW-180296"
+          },
+          "number": {
+            "source": "https://doi.org/10.3233/SW-180296"
+          },
+          "pages": {
+            "source": "https://doi.org/10.3233/SW-180296"
+          },
+          "doi": {
+            "source": "https://doi.org/10.3233/SW-180296"
+          }
+        },
+        "review": {
+          "main_claim": {
+            "source": "https://journals.sagepub.com/doi/pdf/10.3233/SW-180296?download=true",
+            "locator": "Sections 1, 4 and 5; pp. 737, 758",
+            "kind": "author_claim"
+          },
+          "novelty": {
+            "source": "https://journals.sagepub.com/doi/pdf/10.3233/SW-180296?download=true",
+            "locator": "Section 1 main contributions; Section 5 conclusions",
+            "kind": "author_claim"
+          },
+          "positioning": {
+            "source": "https://journals.sagepub.com/doi/pdf/10.3233/SW-180296?download=true",
+            "locator": "Sections 3-5",
+            "kind": "interpretation"
+          }
+        },
+        "classification": {
+          "source": "https://doi.org/10.3233/SW-180296",
+          "rationale": "Primary contribution is ontology- and Semantic-Web-based assistance across KDD stages for building prediction; machine learning and energy efficiency are secondary application contexts."
+        }
+      }
+    },
+    {
+      "paper_id": "P031",
+      "paper_file": "papers/P031.tex",
+      "title": "Building energy performance assessment using linked data and cross-domain semantic reasoning",
+      "authors": [
+        "Shushan Hu",
+        "Jiale Wang",
+        "Cathal Hoare",
+        "Yehong Li",
+        "Pieter Pauwels",
+        "James O'Donnell"
+      ],
+      "year": 2021,
+      "doi": "10.1016/j.autcon.2021.103580",
+      "arxiv_id": null,
+      "bibtex_key": "Hu:2021CrossDomainSemanticReasoning",
+      "source_url": "https://doi.org/10.1016/j.autcon.2021.103580",
+      "local_pdf": null,
+      "primary_category": "BIM and Semantic Information",
+      "secondary_categories": [
+        "Building Energy and ZEB"
+      ],
+      "keywords": [
+        "Building energy performance",
+        "Cross-domain semantic reasoning",
+        "Semantic web",
+        "Data interoperability",
+        "Linked data",
+        "OWL",
+        "RDF"
+      ],
+      "review_status": "screened",
+      "full_text_checked": true,
+      "bibliography_type": "article",
+      "bibliography": {
+        "title": "Building energy performance assessment using linked data and cross-domain semantic reasoning",
+        "author": "Shushan Hu and Jiale Wang and Cathal Hoare and Yehong Li and Pieter Pauwels and James O'Donnell",
+        "journal": "Automation in Construction",
+        "year": "2021",
+        "volume": "124",
+        "pages": "103580",
+        "doi": "10.1016/j.autcon.2021.103580"
+      },
+      "screening_review": {
+        "main_claim": "RDF/OWLによるlinked dataspaceとcross-domain inference rulesを組み合わせ, sensor, weather, occupancy等にまたがるimplicit knowledgeを推論して, building energy performance metricsに必要な情報を半自動的に構成するframeworkを示した.",
+        "novelty": "BIM由来情報を中心とした既往のsemantic reasoningに対し, meteorological, occupancy, sensing dataを含むcross-domain informationへ推論対象を拡張し, performance assessmentに必要なhidden linksを生成した点に新規性がある.",
+        "positioning": "cross-domain semantic reasoningとimplicit knowledge generationの基礎文献であり, semanticsを予測featureそのものではなく, 評価に必要な情報関係を導出するknowledge layerとして用いる研究として位置付ける."
+      },
+      "evidence": {
+        "bibliography": {
+          "title": {
+            "source": "https://doi.org/10.1016/j.autcon.2021.103580"
+          },
+          "author": {
+            "source": "https://doi.org/10.1016/j.autcon.2021.103580"
+          },
+          "journal": {
+            "source": "https://doi.org/10.1016/j.autcon.2021.103580"
+          },
+          "year": {
+            "source": "https://doi.org/10.1016/j.autcon.2021.103580"
+          },
+          "volume": {
+            "source": "https://doi.org/10.1016/j.autcon.2021.103580"
+          },
+          "pages": {
+            "source": "https://doi.org/10.1016/j.autcon.2021.103580"
+          },
+          "doi": {
+            "source": "https://doi.org/10.1016/j.autcon.2021.103580"
+          }
+        },
+        "review": {
+          "main_claim": {
+            "source": "https://www.sciencedirect.com/science/article/pii/S0926580521000315",
+            "locator": "Abstract; Sections 3-7; Conclusions",
+            "kind": "author_claim"
+          },
+          "novelty": {
+            "source": "https://www.sciencedirect.com/science/article/pii/S0926580521000315",
+            "locator": "Introduction; related-work gap on BIM-sourced semantic reasoning",
+            "kind": "author_claim"
+          },
+          "positioning": {
+            "source": "https://www.sciencedirect.com/science/article/pii/S0926580521000315",
+            "locator": "Framework, Discussion and Conclusions",
+            "kind": "interpretation"
+          }
+        },
+        "classification": {
+          "source": "https://doi.org/10.1016/j.autcon.2021.103580",
+          "rationale": "Primary contribution is cross-domain linked-data and semantic-reasoning infrastructure for building energy performance assessment."
+        }
+      }
+    },
+    {
+      "paper_id": "P032",
+      "paper_file": "papers/P032.tex",
+      "title": "Graph neural network-based spatio-temporal indoor environment prediction and optimal control for central air-conditioning systems",
+      "authors": [
+        "Jing Zhang",
+        "Fu Xiao",
+        "Ao Li",
+        "Tianyou Ma",
+        "Kan Xu",
+        "Hanbei Zhang",
+        "Rui Yan",
+        "Xing Fang",
+        "Yuanyang Li",
+        "Dan Wang"
+      ],
+      "year": 2023,
+      "doi": "10.1016/j.buildenv.2023.110600",
+      "arxiv_id": null,
+      "bibtex_key": "Zhang:2023GNNIndoorControl",
+      "source_url": "https://doi.org/10.1016/j.buildenv.2023.110600",
+      "local_pdf": null,
+      "primary_category": "AI and Machine Learning for Buildings",
+      "secondary_categories": [
+        "Building Environment and IEQ",
+        "BIM and Semantic Information",
+        "BMS, BAS, BACS and Building Automation"
+      ],
+      "keywords": [
+        "Air conditioning system",
+        "Graph neural network",
+        "Indoor environment",
+        "Machine learning",
+        "Optimal control",
+        "BIM",
+        "BAS",
+        "IoT"
+      ],
+      "review_status": "screened",
+      "full_text_checked": true,
+      "bibliography_type": "article",
+      "bibliography": {
+        "title": "Graph neural network-based spatio-temporal indoor environment prediction and optimal control for central air-conditioning systems",
+        "author": "Jing Zhang and Fu Xiao and Ao Li and Tianyou Ma and Kan Xu and Hanbei Zhang and Rui Yan and Xing Fang and Yuanyang Li and Dan Wang",
+        "journal": "Building and Environment",
+        "year": "2023",
+        "volume": "242",
+        "pages": "110600",
+        "doi": "10.1016/j.buildenv.2023.110600"
+      },
+      "screening_review": {
+        "main_claim": "BAS, BIM, IoT由来のmulti-source dataをgraph structureとして統合し, GNN-RNNで室内温度分布を予測してonline optimal controlへ接続するspatio-temporal methodologyを実建物AHU-VAV systemで検証した.",
+        "novelty": "単一計測値または平均値で室内環境を代表させる従来のcontrol formulationに対し, built environmentとHVAC systemのspatial relationshipをgraphとして明示し, distributed indoor environmentを予測と制御に直接利用した点に新規性がある.",
+        "positioning": "BIM, BAS, IoTから構成したgraphをprediction modelの構造へ直接反映する例であり, semantic graphではないが, building informationをlearning architectureへ埋め込むspatio-temporal predictionの比較対象として位置付ける."
+      },
+      "evidence": {
+        "bibliography": {
+          "title": {
+            "source": "https://doi.org/10.1016/j.buildenv.2023.110600"
+          },
+          "author": {
+            "source": "https://doi.org/10.1016/j.buildenv.2023.110600"
+          },
+          "journal": {
+            "source": "https://doi.org/10.1016/j.buildenv.2023.110600"
+          },
+          "year": {
+            "source": "https://doi.org/10.1016/j.buildenv.2023.110600"
+          },
+          "volume": {
+            "source": "https://doi.org/10.1016/j.buildenv.2023.110600"
+          },
+          "pages": {
+            "source": "https://doi.org/10.1016/j.buildenv.2023.110600"
+          },
+          "doi": {
+            "source": "https://doi.org/10.1016/j.buildenv.2023.110600"
+          }
+        },
+        "review": {
+          "main_claim": {
+            "source": "https://ira.lib.polyu.edu.hk/bitstream/10397/108200/1/Zhang_Graph_Neural_Network-based.pdf",
+            "locator": "Sections 2-5; Conclusions",
+            "kind": "author_claim"
+          },
+          "novelty": {
+            "source": "https://ira.lib.polyu.edu.hk/bitstream/10397/108200/1/Zhang_Graph_Neural_Network-based.pdf",
+            "locator": "Introduction; Section 2; Section 5 Conclusions",
+            "kind": "author_claim"
+          },
+          "positioning": {
+            "source": "https://ira.lib.polyu.edu.hk/bitstream/10397/108200/1/Zhang_Graph_Neural_Network-based.pdf",
+            "locator": "Graph-based data structure and GNN-RNN methodology",
+            "kind": "interpretation"
+          }
+        },
+        "classification": {
+          "source": "https://doi.org/10.1016/j.buildenv.2023.110600",
+          "rationale": "Primary contribution is a graph-neural-network spatio-temporal prediction and control method; indoor environment, BIM-derived spatial context and BAS automation are secondary contexts."
+        }
+      }
+    },
+    {
+      "paper_id": "P033",
+      "paper_file": "papers/P033.tex",
+      "title": "Enabling scalable Model Predictive Control design for building HVAC systems using semantic data modelling",
+      "authors": [
+        "Lu Wan",
+        "Ferdinand Rossa",
+        "Torsten Welfonder",
+        "Ekaterina Petrova",
+        "Pieter Pauwels"
+      ],
+      "year": 2025,
+      "doi": "10.1016/j.autcon.2024.105929",
+      "arxiv_id": null,
+      "bibtex_key": "Wan:2025SemanticMPC",
+      "source_url": "https://doi.org/10.1016/j.autcon.2024.105929",
+      "local_pdf": null,
+      "primary_category": "BIM and Semantic Information",
+      "secondary_categories": [
+        "BMS, BAS, BACS and Building Automation",
+        "Building Energy and ZEB"
+      ],
+      "keywords": [
+        "Model Predictive Control",
+        "Semantic data modelling",
+        "Ontologies",
+        "Building Information Modelling",
+        "HVAC",
+        "RDF",
+        "System identification"
+      ],
+      "review_status": "screened",
+      "full_text_checked": true,
+      "bibliography_type": "article",
+      "bibliography": {
+        "title": "Enabling scalable Model Predictive Control design for building HVAC systems using semantic data modelling",
+        "author": "Lu Wan and Ferdinand Rossa and Torsten Welfonder and Ekaterina Petrova and Pieter Pauwels",
+        "journal": "Automation in Construction",
+        "year": "2025",
+        "volume": "170",
+        "pages": "105929",
+        "doi": "10.1016/j.autcon.2024.105929"
+      },
+      "screening_review": {
+        "main_claim": "既存ontologyを組み合わせたshareable semantic data modelとBIM-to-RDF toolingにより, MPC configurationに必要なmetadataを統合し, semantic graphからcontrol-oriented RC modelのsystem identificationを自動化できることを実建物で示した.",
+        "novelty": "semantic modellingをBMS pointのinteroperabilityに留めず, building physics, geometry, HVAC topology, sensor/actuator, MPC algorithm metadataまで統合し, control model configurationとparameterizationへ直接接続した点に新規性がある.",
+        "positioning": "semantic graphからsystem identificationとcontrol model configurationへ接続する代表例であり, semanticsをprediction/controlの前処理基盤からmodel-generation layerへ拡張する研究として位置付ける."
+      },
+      "evidence": {
+        "bibliography": {
+          "title": {
+            "source": "https://doi.org/10.1016/j.autcon.2024.105929"
+          },
+          "author": {
+            "source": "https://doi.org/10.1016/j.autcon.2024.105929"
+          },
+          "journal": {
+            "source": "https://doi.org/10.1016/j.autcon.2024.105929"
+          },
+          "year": {
+            "source": "https://doi.org/10.1016/j.autcon.2024.105929"
+          },
+          "volume": {
+            "source": "https://doi.org/10.1016/j.autcon.2024.105929"
+          },
+          "pages": {
+            "source": "https://doi.org/10.1016/j.autcon.2024.105929"
+          },
+          "doi": {
+            "source": "https://doi.org/10.1016/j.autcon.2024.105929"
+          }
+        },
+        "review": {
+          "main_claim": {
+            "source": "https://pure.tue.nl/ws/portalfiles/portal/351946521/1-s2.0-S0926580524006654-main.pdf",
+            "locator": "Sections 4-7; Conclusion",
+            "kind": "author_claim"
+          },
+          "novelty": {
+            "source": "https://pure.tue.nl/ws/portalfiles/portal/351946521/1-s2.0-S0926580524006654-main.pdf",
+            "locator": "Introduction; Sections 3-4; Conclusion",
+            "kind": "author_claim"
+          },
+          "positioning": {
+            "source": "https://pure.tue.nl/ws/portalfiles/portal/351946521/1-s2.0-S0926580524006654-main.pdf",
+            "locator": "Graph-based system identification and MPC configuration use case",
+            "kind": "interpretation"
+          }
+        },
+        "classification": {
+          "source": "https://doi.org/10.1016/j.autcon.2024.105929",
+          "rationale": "Primary contribution is semantic data modelling for scalable MPC configuration, with building automation and energy control as application contexts."
+        }
+      }
+    },
+    {
+      "paper_id": "P034",
+      "paper_file": "papers/P034.tex",
+      "title": "Automated model generation and parameter estimation of building energy models using an ontology-based framework",
+      "authors": [
+        "Jakob Bjørnskov",
+        "Muhyiddine Jradi",
+        "Michael Wetter"
+      ],
+      "year": 2025,
+      "doi": "10.1016/j.enbuild.2024.115228",
+      "arxiv_id": null,
+      "bibtex_key": "Bjornskov:2025OntologyModelGeneration",
+      "source_url": "https://doi.org/10.1016/j.enbuild.2024.115228",
+      "local_pdf": null,
+      "primary_category": "BIM and Semantic Information",
+      "secondary_categories": [
+        "Building Energy and ZEB",
+        "Digital Twin"
+      ],
+      "keywords": [
+        "Digital twin",
+        "Ontology",
+        "Data-driven",
+        "Building energy model",
+        "Building performance simulation",
+        "Bayesian estimation",
+        "Model generation"
+      ],
+      "review_status": "screened",
+      "full_text_checked": true,
+      "bibliography_type": "article",
+      "bibliography": {
+        "title": "Automated model generation and parameter estimation of building energy models using an ontology-based framework",
+        "author": "Jakob Bjørnskov and Muhyiddine Jradi and Michael Wetter",
+        "journal": "Energy and Buildings",
+        "year": "2025",
+        "volume": "329",
+        "pages": "115228",
+        "doi": "10.1016/j.enbuild.2024.115228"
+      },
+      "screening_review": {
+        "main_claim": "ontology上でcomponent model applicabilityを表すsignature patternsをgraph searchでsemantic modelへ照合してsimulation modelを自動生成し, operational dataを用いたBayesian parameter estimationまで一体化するworkflowをventilation systemで検証した.",
+        "novelty": "semantic modelからsimulation modelを生成するmappingと, operational dataによるprobabilistic calibrationを同一frameworkで統合し, ontology-driven model generationからparameter estimationまで自動化した点に新規性がある.",
+        "positioning": "ontology-driven model generationを理解する上で重要な先行例であり, semantic building informationをBPS modelの構成とcalibrationへ変換するmodel-generation layerとして位置付ける."
+      },
+      "evidence": {
+        "bibliography": {
+          "title": {
+            "source": "https://doi.org/10.1016/j.enbuild.2024.115228"
+          },
+          "author": {
+            "source": "https://doi.org/10.1016/j.enbuild.2024.115228"
+          },
+          "journal": {
+            "source": "https://doi.org/10.1016/j.enbuild.2024.115228"
+          },
+          "year": {
+            "source": "https://doi.org/10.1016/j.enbuild.2024.115228"
+          },
+          "volume": {
+            "source": "https://doi.org/10.1016/j.enbuild.2024.115228"
+          },
+          "pages": {
+            "source": "https://doi.org/10.1016/j.enbuild.2024.115228"
+          },
+          "doi": {
+            "source": "https://doi.org/10.1016/j.enbuild.2024.115228"
+          }
+        },
+        "review": {
+          "main_claim": {
+            "source": "https://escholarship.org/content/qt1471d0vr/qt1471d0vr_noSplash_7df46a4a5642d8d876a6bc3e6bc1590f.pdf",
+            "locator": "Sections 3-7; Conclusion",
+            "kind": "author_claim"
+          },
+          "novelty": {
+            "source": "https://escholarship.org/content/qt1471d0vr/qt1471d0vr_noSplash_7df46a4a5642d8d876a6bc3e6bc1590f.pdf",
+            "locator": "Introduction; Sections 3-4; Conclusion",
+            "kind": "author_claim"
+          },
+          "positioning": {
+            "source": "https://escholarship.org/content/qt1471d0vr/qt1471d0vr_noSplash_7df46a4a5642d8d876a6bc3e6bc1590f.pdf",
+            "locator": "Ontology-driven model generation and Bayesian calibration workflow",
+            "kind": "interpretation"
+          }
+        },
+        "classification": {
+          "source": "https://doi.org/10.1016/j.enbuild.2024.115228",
+          "rationale": "Primary contribution is ontology-driven automated generation and calibration of building energy models; energy simulation and digital-twin use are secondary contexts."
+        }
+      }
+    },
+    {
+      "paper_id": "P035",
+      "paper_file": "papers/P035.tex",
+      "title": "Forecasting building operation dynamics using a Physics-Informed Spatio-Temporal Graph Neural Network (PISTGNN) ensemble",
+      "authors": [
+        "Jongseo Lee",
+        "Sungzoon Cho"
+      ],
+      "year": 2025,
+      "doi": "10.1016/j.enbuild.2024.115085",
+      "arxiv_id": null,
+      "bibtex_key": "Lee:2025PISTGNN",
+      "source_url": "https://doi.org/10.1016/j.enbuild.2024.115085",
+      "local_pdf": null,
+      "primary_category": "AI and Machine Learning for Buildings",
+      "secondary_categories": [
+        "Building Energy and ZEB"
+      ],
+      "keywords": [
+        "Sustainable building management",
+        "Deep learning in building operation forecasting",
+        "Spatio-temporal graph neural network",
+        "Diffusion convolution recurrent neural network",
+        "Physics-informed neural network",
+        "Ensemble learning"
+      ],
+      "review_status": "registered",
+      "full_text_checked": false,
+      "bibliography_type": "article",
+      "bibliography": {
+        "title": "Forecasting building operation dynamics using a Physics-Informed Spatio-Temporal Graph Neural Network (PISTGNN) ensemble",
+        "author": "Jongseo Lee and Sungzoon Cho",
+        "journal": "Energy and Buildings",
+        "year": "2025",
+        "volume": "328",
+        "pages": "115085",
+        "doi": "10.1016/j.enbuild.2024.115085"
+      },
+      "screening_review": {
+        "main_claim": "要検討",
+        "novelty": "要検討",
+        "positioning": "要検討"
+      },
+      "evidence": {
+        "bibliography": {
+          "title": {
+            "source": "https://doi.org/10.1016/j.enbuild.2024.115085"
+          },
+          "author": {
+            "source": "https://doi.org/10.1016/j.enbuild.2024.115085"
+          },
+          "journal": {
+            "source": "https://doi.org/10.1016/j.enbuild.2024.115085"
+          },
+          "year": {
+            "source": "https://doi.org/10.1016/j.enbuild.2024.115085"
+          },
+          "volume": {
+            "source": "https://doi.org/10.1016/j.enbuild.2024.115085"
+          },
+          "pages": {
+            "source": "https://doi.org/10.1016/j.enbuild.2024.115085"
+          },
+          "doi": {
+            "source": "https://doi.org/10.1016/j.enbuild.2024.115085"
+          }
+        },
+        "review": {},
+        "classification": {
+          "source": "https://doi.org/10.1016/j.enbuild.2024.115085",
+          "rationale": "Primary contribution is physics-informed spatio-temporal graph learning for building operation forecasting; retained as a non-semantic comparison for knowledge-informed learning."
+        }
+      }
+    },
+    {
+      "paper_id": "P036",
+      "paper_file": "papers/P036.tex",
+      "title": "A semantic model-based fault detection approach for building energy systems",
+      "authors": [
+        "Tingting Li",
+        "Yang Zhao",
+        "Chaobo Zhang",
+        "Kai Zhou",
+        "Xuejun Zhang"
+      ],
+      "year": 2022,
+      "doi": "10.1016/j.buildenv.2021.108548",
+      "arxiv_id": null,
+      "bibtex_key": "Li:2022SemanticFDD",
+      "source_url": "https://doi.org/10.1016/j.buildenv.2021.108548",
+      "local_pdf": null,
+      "primary_category": "Fault Detection, Diagnostics and Maintenance",
+      "secondary_categories": [
+        "BIM and Semantic Information"
+      ],
+      "keywords": [
+        "Semantic model",
+        "Fault detection",
+        "Ontology",
+        "Knowledge graph",
+        "Semantic rules",
+        "Building energy systems",
+        "Inference"
+      ],
+      "review_status": "screened",
+      "full_text_checked": true,
+      "bibliography_type": "article",
+      "bibliography": {
+        "title": "A semantic model-based fault detection approach for building energy systems",
+        "author": "Tingting Li and Yang Zhao and Chaobo Zhang and Kai Zhou and Xuejun Zhang",
+        "journal": "Building and Environment",
+        "year": "2022",
+        "volume": "207",
+        "pages": "108548",
+        "doi": "10.1016/j.buildenv.2021.108548"
+      },
+      "screening_review": {
+        "main_claim": "building energy systemのdomain ontology, abstract semantic rules, target-system knowledge graphを組み合わせ, operation, control, equipment, sensorに関するfault detection solutionをsystem configurationに応じて生成し, inference chainとして診断根拠を提示するapproachを示した.",
+        "novelty": "equipment-specificなsemantic FDD modelに対し, reusableなabstract ruleとgeneric skeletal ontologyを用いて, 異なるbuilding energy systemsへcustomized fault detection logicを展開できる構成を提示した点に新規性がある.",
+        "positioning": "ontology, knowledge graph, reusable rulesによるsemantic reasoningをFDDへ適用する代表例であり, semantic modelをrule executionとdiagnostic inferenceへ接続する研究として位置付ける."
+      },
+      "evidence": {
+        "bibliography": {
+          "title": {
+            "source": "https://doi.org/10.1016/j.buildenv.2021.108548"
+          },
+          "author": {
+            "source": "https://doi.org/10.1016/j.buildenv.2021.108548"
+          },
+          "journal": {
+            "source": "https://doi.org/10.1016/j.buildenv.2021.108548"
+          },
+          "year": {
+            "source": "https://doi.org/10.1016/j.buildenv.2021.108548"
+          },
+          "volume": {
+            "source": "https://doi.org/10.1016/j.buildenv.2021.108548"
+          },
+          "pages": {
+            "source": "https://doi.org/10.1016/j.buildenv.2021.108548"
+          },
+          "doi": {
+            "source": "https://doi.org/10.1016/j.buildenv.2021.108548"
+          }
+        },
+        "review": {
+          "main_claim": {
+            "source": "https://www.sciencedirect.com/science/article/pii/S0360132321009410",
+            "locator": "Abstract; Methodology; Conclusions",
+            "kind": "author_claim"
+          },
+          "novelty": {
+            "source": "https://www.sciencedirect.com/science/article/pii/S0360132321009410",
+            "locator": "Introduction gap; Methodology; Conclusions",
+            "kind": "author_claim"
+          },
+          "positioning": {
+            "source": "https://www.sciencedirect.com/science/article/pii/S0360132321009410",
+            "locator": "Ontology, semantic rules, knowledge graph and inference-chain workflow",
+            "kind": "interpretation"
+          }
+        },
+        "classification": {
+          "source": "https://doi.org/10.1016/j.buildenv.2021.108548",
+          "rationale": "Primary contribution is reusable semantic rule-based fault detection for building energy systems; semantic information is the enabling representation."
+        }
+      }
     }
   ]
 }
